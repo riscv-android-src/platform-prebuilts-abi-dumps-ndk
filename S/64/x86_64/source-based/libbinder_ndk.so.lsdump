@@ -185,6 +185,9 @@
    "name" : "AIBinder_getCallingPid"
   },
   {
+   "name" : "AIBinder_getCallingSid"
+  },
+  {
    "name" : "AIBinder_getCallingUid"
   },
   {
@@ -229,6 +232,9 @@
   },
   {
    "name" : "AIBinder_setExtension"
+  },
+  {
+   "name" : "AIBinder_setRequestingSid"
   },
   {
    "name" : "AIBinder_toJavaBinder"
@@ -463,7 +469,7 @@
     }
    ],
    "linker_set_key" : "_ZTI12$FLAG_ONEWAY",
-   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h:47:1)",
+   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h:48:1)",
    "referenced_type" : "_ZTI12$FLAG_ONEWAY",
    "self_type" : "_ZTI12$FLAG_ONEWAY",
    "size" : 4,
@@ -549,7 +555,7 @@
     }
    ],
    "linker_set_key" : "_ZTI18$EX_BAD_PARCELABLE",
-   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h:65:1)",
+   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h:66:1)",
    "referenced_type" : "_ZTI18$EX_BAD_PARCELABLE",
    "self_type" : "_ZTI18$EX_BAD_PARCELABLE",
    "size" : 4,
@@ -672,7 +678,7 @@
     }
    ],
    "linker_set_key" : "_ZTI22$STATUS_ALREADY_EXISTS",
-   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h:35:1)",
+   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h:36:1)",
    "referenced_type" : "_ZTI22$STATUS_ALREADY_EXISTS",
    "self_type" : "_ZTI22$STATUS_ALREADY_EXISTS",
    "size" : 4,
@@ -693,7 +699,7 @@
     }
    ],
    "linker_set_key" : "_ZTI23$FIRST_CALL_TRANSACTION",
-   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h:59:1)",
+   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h:60:1)",
    "referenced_type" : "_ZTI23$FIRST_CALL_TRANSACTION",
    "self_type" : "_ZTI23$FIRST_CALL_TRANSACTION",
    "size" : 4,
@@ -6272,6 +6278,12 @@
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
+   "function_name" : "AIBinder_getCallingSid",
+   "linker_set_key" : "AIBinder_getCallingSid",
+   "return_type" : "_ZTIPKc",
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_platform/android/binder_ibinder_platform.h"
+  },
+  {
    "function_name" : "AIBinder_getCallingUid",
    "linker_set_key" : "AIBinder_getCallingUid",
    "return_type" : "_ZTIj",
@@ -6450,6 +6462,21 @@
    ],
    "return_type" : "_ZTIi",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
+   "function_name" : "AIBinder_setRequestingSid",
+   "linker_set_key" : "AIBinder_setRequestingSid",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP8AIBinder"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_platform/android/binder_ibinder_platform.h"
   },
   {
    "function_name" : "AIBinder_toJavaBinder",
