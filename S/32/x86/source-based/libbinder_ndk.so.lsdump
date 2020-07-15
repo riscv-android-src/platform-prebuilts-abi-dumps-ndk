@@ -454,6 +454,12 @@
   },
   {
    "name" : "AStatus_newOk"
+  },
+  {
+   "name" : "_Z25AIBinder_toPlatformBinderP8AIBinder"
+  },
+  {
+   "name" : "_Z27AIBinder_fromPlatformBinderRKN7android2spINS_7IBinderEEE"
   }
  ],
  "elf_objects" : [],
@@ -7617,10 +7623,45 @@
    "linker_set_key" : "AStatus_newOk",
    "return_type" : "_ZTIP7AStatus",
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_status.h"
+  },
+  {
+   "function_name" : "AIBinder_toPlatformBinder",
+   "linker_set_key" : "_Z25AIBinder_toPlatformBinderP8AIBinder",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP8AIBinder"
+    }
+   ],
+   "return_type" : "_ZTIN7android2spINS_7IBinderEEE",
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_platform/android/binder_ibinder_platform.h"
+  },
+  {
+   "function_name" : "AIBinder_fromPlatformBinder",
+   "linker_set_key" : "_Z27AIBinder_fromPlatformBinderRKN7android2spINS_7IBinderEEE",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIRKN7android2spINS_7IBinderEEE"
+    }
+   ],
+   "return_type" : "_ZTIP8AIBinder",
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_platform/android/binder_ibinder_platform.h"
   }
  ],
  "global_vars" : [],
- "lvalue_reference_types" : [],
+ "lvalue_reference_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android2spINS_7IBinderEEE",
+   "name" : "const android::sp<android::IBinder> &",
+   "referenced_type" : "_ZTIKN7android2spINS_7IBinderEEE",
+   "self_type" : "_ZTIRKN7android2spINS_7IBinderEEE",
+   "size" : 4,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_platform/android/binder_ibinder_platform.h"
+  }
+ ],
  "pointer_types" :
  [
   {
@@ -10532,6 +10573,16 @@
    "self_type" : "_ZTIKDs",
    "size" : 2,
    "source_file" : "/frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android2spINS_7IBinderEEE",
+   "name" : "const android::sp<android::IBinder>",
+   "referenced_type" : "_ZTIN7android2spINS_7IBinderEEE",
+   "self_type" : "_ZTIKN7android2spINS_7IBinderEEE",
+   "size" : 4,
+   "source_file" : "/frameworks/native/libs/binder/ndk/include_platform/android/binder_ibinder_platform.h"
   },
   {
    "alignment" : 1,
