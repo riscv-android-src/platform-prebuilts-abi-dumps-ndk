@@ -423,6 +423,15 @@
    "name" : "AServiceManager_getService"
   },
   {
+   "name" : "AServiceManager_isDeclared"
+  },
+  {
+   "name" : "AServiceManager_registerLazyService"
+  },
+  {
+   "name" : "AServiceManager_waitForService"
+  },
+  {
    "name" : "AStatus_delete"
   },
   {
@@ -7474,6 +7483,45 @@
   {
    "function_name" : "AServiceManager_getService",
    "linker_set_key" : "AServiceManager_getService",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIP8AIBinder",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_manager.h"
+  },
+  {
+   "function_name" : "AServiceManager_isDeclared",
+   "linker_set_key" : "AServiceManager_isDeclared",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_manager.h"
+  },
+  {
+   "function_name" : "AServiceManager_registerLazyService",
+   "linker_set_key" : "AServiceManager_registerLazyService",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP8AIBinder"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_manager.h"
+  },
+  {
+   "function_name" : "AServiceManager_waitForService",
+   "linker_set_key" : "AServiceManager_waitForService",
    "parameters" :
    [
     {
