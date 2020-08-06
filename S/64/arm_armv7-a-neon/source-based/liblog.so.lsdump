@@ -228,9 +228,6 @@
    "name" : "__android_log_write_log_message"
   },
   {
-   "name" : "__android_logger_get_buffer_size"
-  },
-  {
    "name" : "android_log_destroy"
   },
   {
@@ -1072,18 +1069,6 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "system/core/liblog/include/android/log.h"
-  },
-  {
-   "function_name" : "__android_logger_get_buffer_size",
-   "linker_set_key" : "__android_logger_get_buffer_size",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTI6log_id"
-    }
-   ],
-   "return_type" : "_ZTIm",
-   "source_file" : "system/core/liblog/include/private/android_logger.h"
   },
   {
    "function_name" : "android_log_destroy",
