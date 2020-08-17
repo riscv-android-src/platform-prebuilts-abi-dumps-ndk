@@ -301,9 +301,6 @@
    "name" : "android_logger_set_prune_list"
   },
   {
-   "name" : "android_lookupEventTagNum"
-  },
-  {
    "name" : "android_name_to_log_id"
   },
   {
@@ -1514,27 +1511,6 @@
    ],
    "return_type" : "_ZTIi",
    "source_file" : "system/core/liblog/include/log/log_read.h"
-  },
-  {
-   "function_name" : "android_lookupEventTagNum",
-   "linker_set_key" : "android_lookupEventTagNum",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP11EventTagMap"
-    },
-    {
-     "referenced_type" : "_ZTIPKc"
-    },
-    {
-     "referenced_type" : "_ZTIPKc"
-    },
-    {
-     "referenced_type" : "_ZTIi"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "system/core/liblog/include/log/event_tag_map.h"
   },
   {
    "function_name" : "android_name_to_log_id",
