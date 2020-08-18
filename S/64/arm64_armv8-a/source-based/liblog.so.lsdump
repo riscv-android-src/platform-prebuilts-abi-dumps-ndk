@@ -302,9 +302,6 @@
    "name" : "android_logger_set_prune_list"
   },
   {
-   "name" : "android_lookupEventTagNum"
-  },
-  {
    "name" : "android_name_to_log_id"
   },
   {
@@ -1517,27 +1514,6 @@
    "source_file" : "system/core/liblog/include/log/log_read.h"
   },
   {
-   "function_name" : "android_lookupEventTagNum",
-   "linker_set_key" : "android_lookupEventTagNum",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP11EventTagMap"
-    },
-    {
-     "referenced_type" : "_ZTIPKc"
-    },
-    {
-     "referenced_type" : "_ZTIPKc"
-    },
-    {
-     "referenced_type" : "_ZTIi"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "system/core/liblog/include/log/event_tag_map.h"
-  },
-  {
    "function_name" : "android_name_to_log_id",
    "linker_set_key" : "android_name_to_log_id",
    "parameters" :
@@ -1764,7 +1740,7 @@
    "referenced_type" : "_ZTIK11EventTagMap",
    "self_type" : "_ZTIPK11EventTagMap",
    "size" : 8,
-   "source_file" : "system/core/liblog/include/log/event_tag_map.h"
+   "source_file" : "system/core/liblog/include/log/logprint.h"
   },
   {
    "alignment" : 8,
@@ -1818,7 +1794,7 @@
    "referenced_type" : "_ZTIKc",
    "self_type" : "_ZTIPKc",
    "size" : 8,
-   "source_file" : "system/core/liblog/include/log/event_tag_map.h"
+   "source_file" : "system/core/liblog/include/android/log.h"
   },
   {
    "alignment" : 8,
@@ -1863,7 +1839,7 @@
    "referenced_type" : "_ZTIm",
    "self_type" : "_ZTIPm",
    "size" : 8,
-   "source_file" : "system/core/liblog/include/log/event_tag_map.h"
+   "source_file" : "system/core/liblog/include/log/logprint.h"
   },
   {
    "alignment" : 8,
@@ -1878,14 +1854,12 @@
  "qualified_types" :
  [
   {
-   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIK11EventTagMap",
    "name" : "const EventTagMap",
    "referenced_type" : "_ZTI11EventTagMap",
    "self_type" : "_ZTIK11EventTagMap",
-   "size" : 208,
-   "source_file" : "system/core/liblog/include/log/event_tag_map.h"
+   "source_file" : "system/core/liblog/include/log/logprint.h"
   },
   {
    "alignment" : 8,
@@ -1965,7 +1939,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIKc",
    "size" : 1,
-   "source_file" : "system/core/liblog/include/log/event_tag_map.h"
+   "source_file" : "system/core/liblog/include/android/log.h"
   },
   {
    "is_const" : true,
