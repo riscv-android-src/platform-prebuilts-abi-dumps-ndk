@@ -194,6 +194,7 @@
    "name" : "AIBinder_getCallingPid"
   },
   {
+   "binding" : "weak",
    "name" : "AIBinder_getCallingSid"
   },
   {
@@ -243,6 +244,7 @@
    "name" : "AIBinder_setExtension"
   },
   {
+   "binding" : "weak",
    "name" : "AIBinder_setRequestingSid"
   },
   {
@@ -255,6 +257,12 @@
    "name" : "AIBinder_unlinkToDeath"
   },
   {
+   "name" : "AParcel_appendFrom"
+  },
+  {
+   "name" : "AParcel_create"
+  },
+  {
    "name" : "AParcel_delete"
   },
   {
@@ -265,6 +273,9 @@
   },
   {
    "name" : "AParcel_getDataPosition"
+  },
+  {
+   "name" : "AParcel_getDataSize"
   },
   {
    "name" : "AParcel_readBool"
@@ -337,6 +348,9 @@
   },
   {
    "name" : "AParcel_readUint64Array"
+  },
+  {
+   "name" : "AParcel_reset"
   },
   {
    "name" : "AParcel_setDataPosition"
@@ -6323,7 +6337,7 @@
    "function_name" : "AIBinder_getCallingSid",
    "linker_set_key" : "AIBinder_getCallingSid",
    "return_type" : "_ZTIPKc",
-   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_ibinder_platform.h"
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_context.h"
   },
   {
    "function_name" : "AIBinder_getCallingUid",
@@ -6518,7 +6532,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_ibinder_platform.h"
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_context.h"
   },
   {
    "function_name" : "AIBinder_toJavaBinder",
@@ -6578,6 +6592,33 @@
    "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
+   "function_name" : "AParcel_appendFrom",
+   "linker_set_key" : "AParcel_appendFrom",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK7AParcel"
+    },
+    {
+     "referenced_type" : "_ZTIP7AParcel"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "function_name" : "AParcel_create",
+   "linker_set_key" : "AParcel_create",
+   "return_type" : "_ZTIP7AParcel",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
    "function_name" : "AParcel_delete",
    "linker_set_key" : "AParcel_delete",
    "parameters" :
@@ -6619,6 +6660,18 @@
   {
    "function_name" : "AParcel_getDataPosition",
    "linker_set_key" : "AParcel_getDataPosition",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK7AParcel"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "function_name" : "AParcel_getDataSize",
+   "linker_set_key" : "AParcel_getDataSize",
    "parameters" :
    [
     {
@@ -7028,6 +7081,18 @@
     },
     {
      "referenced_type" : "_ZTIPFbPviPPmE"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "function_name" : "AParcel_reset",
+   "linker_set_key" : "AParcel_reset",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP7AParcel"
     }
    ],
    "return_type" : "_ZTIi",
@@ -10636,7 +10701,7 @@
    "name" : "const AIBinder",
    "referenced_type" : "_ZTI8AIBinder",
    "self_type" : "_ZTIK8AIBinder",
-   "size" : 32,
+   "size" : 72,
    "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
