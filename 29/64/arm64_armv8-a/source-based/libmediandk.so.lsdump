@@ -14393,7 +14393,7 @@
    "referenced_type" : "type-1044",
    "self_type" : "type-1043",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -14402,7 +14402,7 @@
    "referenced_type" : "type-1376",
    "self_type" : "type-1375",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -14411,7 +14411,7 @@
    "referenced_type" : "type-1472",
    "self_type" : "type-1471",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -14420,7 +14420,7 @@
    "referenced_type" : "type-1654",
    "self_type" : "type-1653",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -14429,7 +14429,7 @@
    "referenced_type" : "type-1778",
    "self_type" : "type-1777",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -14438,7 +14438,7 @@
    "referenced_type" : "type-2143",
    "self_type" : "type-2142",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -14447,7 +14447,7 @@
    "referenced_type" : "type-2530",
    "self_type" : "type-2529",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -14456,7 +14456,7 @@
    "referenced_type" : "type-2757",
    "self_type" : "type-2756",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -14465,7 +14465,7 @@
    "referenced_type" : "type-391",
    "self_type" : "type-390",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -14474,7 +14474,7 @@
    "referenced_type" : "type-778",
    "self_type" : "type-777",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -14528,7 +14528,7 @@
    "referenced_type" : "type-1042",
    "self_type" : "type-1041",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -14537,7 +14537,7 @@
    "referenced_type" : "type-1374",
    "self_type" : "type-1373",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -14546,7 +14546,7 @@
    "referenced_type" : "type-1470",
    "self_type" : "type-1469",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -14555,7 +14555,7 @@
    "referenced_type" : "type-1652",
    "self_type" : "type-1651",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -14564,7 +14564,7 @@
    "referenced_type" : "type-1774",
    "self_type" : "type-1773",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -14573,7 +14573,7 @@
    "referenced_type" : "type-2141",
    "self_type" : "type-2140",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -14582,7 +14582,7 @@
    "referenced_type" : "type-2528",
    "self_type" : "type-2527",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -14591,7 +14591,7 @@
    "referenced_type" : "type-2754",
    "self_type" : "type-2753",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -14600,7 +14600,7 @@
    "referenced_type" : "type-389",
    "self_type" : "type-388",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -14609,7 +14609,7 @@
    "referenced_type" : "type-776",
    "self_type" : "type-775",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -17174,7 +17174,7 @@
    "referenced_type" : "type-362",
    "self_type" : "type-2749",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -19208,7 +19208,7 @@
    "referenced_type" : "type-2751",
    "self_type" : "type-2752",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -22439,7 +22439,7 @@
    "referenced_type" : "type-362",
    "self_type" : "type-2751",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -40974,7 +40974,7 @@
    "referenced_type" : "type-363",
    "self_type" : "type-363",
    "size" : 1,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h",
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h",
    "unique_id" : "_ZTSN7android4base13DefaultCloserE"
   },
   {
@@ -40993,7 +40993,7 @@
    "referenced_type" : "type-362",
    "self_type" : "type-362",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h",
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h",
    "template_args" : [ "type-363" ],
    "unique_id" : "_ZTSN7android4base14unique_fd_implINS0_13DefaultCloserEEE"
   },
@@ -49666,7 +49666,7 @@
    "referenced_type" : "type-362",
    "self_type" : "type-2755",
    "size" : 8,
-   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
+   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
