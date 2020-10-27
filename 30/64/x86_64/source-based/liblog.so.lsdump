@@ -8,14 +8,14 @@
    "referenced_type" : "_ZTIh",
    "self_type" : "_ZTIA5121_h",
    "size" : 5121,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "linker_set_key" : "_ZTIA_c",
    "name" : "char []",
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIA_c",
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   }
  ],
  "builtin_types" :
@@ -363,7 +363,7 @@
    "referenced_type" : "_ZTI19AndroidEventLogType",
    "self_type" : "_ZTI19AndroidEventLogType",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log.h",
+   "source_file" : "/system/logging/liblog/include/log/log.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -412,7 +412,7 @@
    "referenced_type" : "_ZTI19android_LogPriority",
    "self_type" : "_ZTI19android_LogPriority",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/android/log.h",
+   "source_file" : "/system/logging/liblog/include/android/log.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -501,7 +501,7 @@
    "referenced_type" : "_ZTI21AndroidLogPrintFormat",
    "self_type" : "_ZTI21AndroidLogPrintFormat",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/logprint.h",
+   "source_file" : "/system/logging/liblog/include/log/logprint.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -558,7 +558,7 @@
    "referenced_type" : "_ZTI6log_id",
    "self_type" : "_ZTI6log_id",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/android/log.h",
+   "source_file" : "/system/logging/liblog/include/android/log.h",
    "underlying_type" : "_ZTIj"
   }
  ],
@@ -592,7 +592,7 @@
    "referenced_type" : "_ZTIFl6log_idcPKcS1_mPvE",
    "return_type" : "_ZTIl",
    "self_type" : "_ZTIFl6log_idcPKcS1_mPvE",
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "alignment" : 4,
@@ -607,7 +607,7 @@
    "referenced_type" : "_ZTIFvPK21__android_log_messageE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvPK21__android_log_messageE",
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "alignment" : 4,
@@ -622,7 +622,7 @@
    "referenced_type" : "_ZTIFvPKcE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvPKcE",
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   }
  ],
  "functions" :
@@ -643,7 +643,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "function_name" : "__android_log_bswrite",
@@ -658,7 +658,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log.h"
+   "source_file" : "/system/logging/liblog/include/log/log.h"
   },
   {
    "function_name" : "__android_log_btwrite",
@@ -679,7 +679,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log.h"
+   "source_file" : "/system/logging/liblog/include/log/log.h"
   },
   {
    "function_name" : "__android_log_buf_print",
@@ -700,7 +700,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "function_name" : "__android_log_buf_write",
@@ -721,7 +721,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "function_name" : "__android_log_bwrite",
@@ -739,7 +739,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log.h"
+   "source_file" : "/system/logging/liblog/include/log/log.h"
   },
   {
    "function_name" : "__android_log_call_aborter",
@@ -751,13 +751,13 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "function_name" : "__android_log_close",
    "linker_set_key" : "__android_log_close",
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/liblog/include/log/log.h"
+   "source_file" : "/system/logging/liblog/include/log/log.h"
   },
   {
    "function_name" : "__android_log_default_aborter",
@@ -769,7 +769,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "function_name" : "__android_log_error_write",
@@ -793,19 +793,19 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log_safetynet.h"
+   "source_file" : "/system/logging/liblog/include/log/log_safetynet.h"
   },
   {
    "function_name" : "__android_log_get_minimum_priority",
    "linker_set_key" : "__android_log_get_minimum_priority",
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "function_name" : "__android_log_is_debuggable",
    "linker_set_key" : "__android_log_is_debuggable",
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log_properties.h"
+   "source_file" : "/system/logging/liblog/include/log/log_properties.h"
   },
   {
    "function_name" : "__android_log_is_loggable",
@@ -823,7 +823,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "function_name" : "__android_log_is_loggable_len",
@@ -844,7 +844,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "function_name" : "__android_log_logd_logger",
@@ -856,7 +856,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "function_name" : "__android_log_pmsg_file_read",
@@ -880,7 +880,7 @@
     }
    ],
    "return_type" : "_ZTIl",
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "function_name" : "__android_log_pmsg_file_write",
@@ -904,7 +904,7 @@
     }
    ],
    "return_type" : "_ZTIl",
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "function_name" : "__android_log_print",
@@ -922,13 +922,13 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "function_name" : "__android_log_security",
    "linker_set_key" : "__android_log_security",
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "function_name" : "__android_log_security_bswrite",
@@ -943,7 +943,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "function_name" : "__android_log_set_aborter",
@@ -955,7 +955,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "function_name" : "__android_log_set_default_tag",
@@ -967,7 +967,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "function_name" : "__android_log_set_logger",
@@ -979,7 +979,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "function_name" : "__android_log_set_minimum_priority",
@@ -991,7 +991,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "function_name" : "__android_log_stderr_logger",
@@ -1003,7 +1003,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "function_name" : "__android_log_vprint",
@@ -1024,7 +1024,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "function_name" : "__android_log_write",
@@ -1042,7 +1042,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "function_name" : "__android_log_write_log_message",
@@ -1054,7 +1054,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "function_name" : "__android_logger_get_buffer_size",
@@ -1066,7 +1066,7 @@
     }
    ],
    "return_type" : "_ZTIm",
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "function_name" : "__android_logger_property_get_bool",
@@ -1081,7 +1081,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "function_name" : "android_log_destroy",
@@ -1093,7 +1093,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "function_name" : "android_log_id_to_name",
@@ -1105,7 +1105,7 @@
     }
    ],
    "return_type" : "_ZTIPKc",
-   "source_file" : "/system/core/liblog/include/log/log_id.h"
+   "source_file" : "/system/logging/liblog/include/log/log_id.h"
   },
   {
    "function_name" : "android_log_parser_reset",
@@ -1123,7 +1123,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "function_name" : "android_log_processBinaryLogBuffer",
@@ -1147,7 +1147,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/logprint.h"
+   "source_file" : "/system/logging/liblog/include/log/logprint.h"
   },
   {
    "function_name" : "android_log_processLogBuffer",
@@ -1162,7 +1162,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/logprint.h"
+   "source_file" : "/system/logging/liblog/include/log/logprint.h"
   },
   {
    "function_name" : "android_log_read_next",
@@ -1174,7 +1174,7 @@
     }
    ],
    "return_type" : "_ZTI24android_log_list_element",
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "function_name" : "android_log_reset",
@@ -1186,7 +1186,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "function_name" : "android_log_write_float32",
@@ -1201,7 +1201,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "function_name" : "android_log_write_int32",
@@ -1216,7 +1216,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "function_name" : "android_log_write_int64",
@@ -1231,7 +1231,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "function_name" : "android_log_write_list",
@@ -1246,7 +1246,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "function_name" : "android_log_write_list_begin",
@@ -1258,7 +1258,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "function_name" : "android_log_write_list_buffer",
@@ -1273,7 +1273,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "function_name" : "android_log_write_list_end",
@@ -1285,7 +1285,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "function_name" : "android_log_write_string8",
@@ -1300,7 +1300,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "function_name" : "android_log_write_string8_len",
@@ -1318,7 +1318,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "function_name" : "android_logger_clear",
@@ -1330,7 +1330,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "function_name" : "android_logger_get_id",
@@ -1342,7 +1342,7 @@
     }
    ],
    "return_type" : "_ZTI6log_id",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "function_name" : "android_logger_get_log_readable_size",
@@ -1354,7 +1354,7 @@
     }
    ],
    "return_type" : "_ZTIl",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "function_name" : "android_logger_get_log_size",
@@ -1366,7 +1366,7 @@
     }
    ],
    "return_type" : "_ZTIl",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "function_name" : "android_logger_get_log_version",
@@ -1378,7 +1378,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "function_name" : "android_logger_get_prune_list",
@@ -1396,7 +1396,7 @@
     }
    ],
    "return_type" : "_ZTIl",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "function_name" : "android_logger_get_statistics",
@@ -1414,7 +1414,7 @@
     }
    ],
    "return_type" : "_ZTIl",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "function_name" : "android_logger_list_alloc",
@@ -1432,7 +1432,7 @@
     }
    ],
    "return_type" : "_ZTIP11logger_list",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "function_name" : "android_logger_list_alloc_time",
@@ -1450,7 +1450,7 @@
     }
    ],
    "return_type" : "_ZTIP11logger_list",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "function_name" : "android_logger_list_free",
@@ -1462,7 +1462,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "function_name" : "android_logger_list_open",
@@ -1483,7 +1483,7 @@
     }
    ],
    "return_type" : "_ZTIP11logger_list",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "function_name" : "android_logger_list_read",
@@ -1498,7 +1498,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "function_name" : "android_logger_open",
@@ -1513,7 +1513,7 @@
     }
    ],
    "return_type" : "_ZTIP6logger",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "function_name" : "android_logger_set_log_size",
@@ -1528,7 +1528,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "function_name" : "android_logger_set_prune_list",
@@ -1546,7 +1546,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "function_name" : "android_lookupEventTagNum",
@@ -1567,7 +1567,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/system/core/liblog/include/log/event_tag_map.h"
+   "source_file" : "/system/logging/liblog/include/log/event_tag_map.h"
   },
   {
    "function_name" : "android_name_to_log_id",
@@ -1579,7 +1579,7 @@
     }
    ],
    "return_type" : "_ZTI6log_id",
-   "source_file" : "/system/core/liblog/include/log/log_id.h"
+   "source_file" : "/system/logging/liblog/include/log/log_id.h"
   },
   {
    "function_name" : "android_openEventTagMap",
@@ -1591,7 +1591,7 @@
     }
    ],
    "return_type" : "_ZTIP11EventTagMap",
-   "source_file" : "/system/core/liblog/include/log/event_tag_map.h"
+   "source_file" : "/system/logging/liblog/include/log/event_tag_map.h"
   },
   {
    "function_name" : "create_android_log_parser",
@@ -1606,7 +1606,7 @@
     }
    ],
    "return_type" : "_ZTIP28android_log_context_internal",
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "function_name" : "create_android_logger",
@@ -1618,7 +1618,7 @@
     }
    ],
    "return_type" : "_ZTIP28android_log_context_internal",
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   }
  ],
  "global_vars" : [],
@@ -1631,7 +1631,7 @@
    "referenced_type" : "_ZTI22android_log_event_list",
    "self_type" : "_ZTIR22android_log_event_list",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "alignment" : 8,
@@ -1640,7 +1640,7 @@
    "referenced_type" : "_ZTIK7log_msg",
    "self_type" : "_ZTIRK7log_msg",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 8,
@@ -1649,7 +1649,7 @@
    "referenced_type" : "_ZTIK8log_time",
    "self_type" : "_ZTIRK8log_time",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -1658,7 +1658,7 @@
    "referenced_type" : "_ZTIK8timespec",
    "self_type" : "_ZTIRK8timespec",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -1667,7 +1667,7 @@
    "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   }
  ],
  "pointer_types" :
@@ -1679,7 +1679,7 @@
    "referenced_type" : "_ZTI11EventTagMap",
    "self_type" : "_ZTIP11EventTagMap",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/event_tag_map.h"
+   "source_file" : "/system/logging/liblog/include/log/event_tag_map.h"
   },
   {
    "alignment" : 8,
@@ -1688,7 +1688,7 @@
    "referenced_type" : "_ZTI11logger_list",
    "self_type" : "_ZTIP11logger_list",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 8,
@@ -1697,7 +1697,7 @@
    "referenced_type" : "_ZTI12logger_entry",
    "self_type" : "_ZTIP12logger_entry",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/logprint.h"
+   "source_file" : "/system/logging/liblog/include/log/logprint.h"
   },
   {
    "alignment" : 8,
@@ -1706,7 +1706,7 @@
    "referenced_type" : "_ZTI13__va_list_tag",
    "self_type" : "_ZTIP13__va_list_tag",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "alignment" : 8,
@@ -1715,7 +1715,7 @@
    "referenced_type" : "_ZTI17AndroidLogEntry_t",
    "self_type" : "_ZTIP17AndroidLogEntry_t",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/logprint.h"
+   "source_file" : "/system/logging/liblog/include/log/logprint.h"
   },
   {
    "alignment" : 8,
@@ -1724,7 +1724,7 @@
    "referenced_type" : "_ZTI18AndroidLogFormat_t",
    "self_type" : "_ZTIP18AndroidLogFormat_t",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/logprint.h"
+   "source_file" : "/system/logging/liblog/include/log/logprint.h"
   },
   {
    "alignment" : 8,
@@ -1733,7 +1733,7 @@
    "referenced_type" : "_ZTI21__android_log_message",
    "self_type" : "_ZTIP21__android_log_message",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "alignment" : 8,
@@ -1742,7 +1742,7 @@
    "referenced_type" : "_ZTI22android_log_event_list",
    "self_type" : "_ZTIP22android_log_event_list",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "alignment" : 8,
@@ -1751,7 +1751,7 @@
    "referenced_type" : "_ZTI28android_log_context_internal",
    "self_type" : "_ZTIP28android_log_context_internal",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "alignment" : 8,
@@ -1760,7 +1760,7 @@
    "referenced_type" : "_ZTI6logger",
    "self_type" : "_ZTIP6logger",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 8,
@@ -1769,7 +1769,7 @@
    "referenced_type" : "_ZTI7log_msg",
    "self_type" : "_ZTIP7log_msg",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 8,
@@ -1778,7 +1778,7 @@
    "referenced_type" : "_ZTI8log_time",
    "self_type" : "_ZTIP8log_time",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -1787,7 +1787,7 @@
    "referenced_type" : "_ZTIFl6log_idcPKcS1_mPvE",
    "self_type" : "_ZTIPFl6log_idcPKcS1_mPvE",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "alignment" : 8,
@@ -1796,7 +1796,7 @@
    "referenced_type" : "_ZTIFvPK21__android_log_messageE",
    "self_type" : "_ZTIPFvPK21__android_log_messageE",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "alignment" : 8,
@@ -1805,7 +1805,7 @@
    "referenced_type" : "_ZTIFvPKcE",
    "self_type" : "_ZTIPFvPKcE",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "alignment" : 8,
@@ -1814,7 +1814,7 @@
    "referenced_type" : "_ZTIK11EventTagMap",
    "self_type" : "_ZTIPK11EventTagMap",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/logprint.h"
+   "source_file" : "/system/logging/liblog/include/log/logprint.h"
   },
   {
    "alignment" : 8,
@@ -1823,7 +1823,7 @@
    "referenced_type" : "_ZTIK17AndroidLogEntry_t",
    "self_type" : "_ZTIPK17AndroidLogEntry_t",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/logprint.h"
+   "source_file" : "/system/logging/liblog/include/log/logprint.h"
   },
   {
    "alignment" : 8,
@@ -1832,7 +1832,7 @@
    "referenced_type" : "_ZTIK21__android_log_message",
    "self_type" : "_ZTIPK21__android_log_message",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "alignment" : 8,
@@ -1841,7 +1841,7 @@
    "referenced_type" : "_ZTIK22android_log_event_list",
    "self_type" : "_ZTIPK22android_log_event_list",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "alignment" : 8,
@@ -1850,7 +1850,7 @@
    "referenced_type" : "_ZTIK7log_msg",
    "self_type" : "_ZTIPK7log_msg",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 8,
@@ -1859,7 +1859,7 @@
    "referenced_type" : "_ZTIK8log_time",
    "self_type" : "_ZTIPK8log_time",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -1868,7 +1868,7 @@
    "referenced_type" : "_ZTIKc",
    "self_type" : "_ZTIPKc",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "alignment" : 8,
@@ -1877,7 +1877,7 @@
    "referenced_type" : "_ZTIKv",
    "self_type" : "_ZTIPKv",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log.h"
+   "source_file" : "/system/logging/liblog/include/log/log.h"
   },
   {
    "alignment" : 8,
@@ -1886,7 +1886,7 @@
    "referenced_type" : "_ZTIP28android_log_context_internal",
    "self_type" : "_ZTIPP28android_log_context_internal",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "alignment" : 8,
@@ -1895,7 +1895,7 @@
    "referenced_type" : "_ZTIPKc",
    "self_type" : "_ZTIPPKc",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "alignment" : 8,
@@ -1904,7 +1904,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIPc",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 8,
@@ -1913,7 +1913,7 @@
    "referenced_type" : "_ZTIm",
    "self_type" : "_ZTIPm",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/logprint.h"
+   "source_file" : "/system/logging/liblog/include/log/logprint.h"
   },
   {
    "alignment" : 8,
@@ -1922,7 +1922,7 @@
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIPv",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   }
  ],
  "qualified_types" :
@@ -1933,7 +1933,7 @@
    "name" : "char const[]",
    "referenced_type" : "_ZTIA_c",
    "self_type" : "_ZTIA_Kc",
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "is_const" : true,
@@ -1941,7 +1941,7 @@
    "name" : "const EventTagMap",
    "referenced_type" : "_ZTI11EventTagMap",
    "self_type" : "_ZTIK11EventTagMap",
-   "source_file" : "/system/core/liblog/include/log/logprint.h"
+   "source_file" : "/system/logging/liblog/include/log/logprint.h"
   },
   {
    "alignment" : 8,
@@ -1951,7 +1951,7 @@
    "referenced_type" : "_ZTI17AndroidLogEntry_t",
    "self_type" : "_ZTIK17AndroidLogEntry_t",
    "size" : 64,
-   "source_file" : "/system/core/liblog/include/log/logprint.h"
+   "source_file" : "/system/logging/liblog/include/log/logprint.h"
   },
   {
    "alignment" : 8,
@@ -1961,7 +1961,7 @@
    "referenced_type" : "_ZTI21__android_log_message",
    "self_type" : "_ZTIK21__android_log_message",
    "size" : 48,
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "alignment" : 8,
@@ -1971,7 +1971,7 @@
    "referenced_type" : "_ZTI22android_log_event_list",
    "self_type" : "_ZTIK22android_log_event_list",
    "size" : 16,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "alignment" : 4,
@@ -1981,7 +1981,7 @@
    "referenced_type" : "_ZTI7log_msg",
    "self_type" : "_ZTIK7log_msg",
    "size" : 5124,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 1,
@@ -1991,7 +1991,7 @@
    "referenced_type" : "_ZTI8log_time",
    "self_type" : "_ZTIK8log_time",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -2001,7 +2001,7 @@
    "referenced_type" : "_ZTI8timespec",
    "self_type" : "_ZTIK8timespec",
    "size" : 16,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -2011,7 +2011,7 @@
    "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "self_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
    "size" : 24,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "alignment" : 1,
@@ -2021,7 +2021,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIKc",
    "size" : 1,
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "alignment" : 4,
@@ -2031,7 +2031,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIKj",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "is_const" : true,
@@ -2039,7 +2039,7 @@
    "name" : "const void",
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIKv",
-   "source_file" : "/system/core/liblog/include/log/log.h"
+   "source_file" : "/system/logging/liblog/include/log/log.h"
   }
  ],
  "record_types" :
@@ -2093,7 +2093,7 @@
    "referenced_type" : "_ZTI12logger_entry",
    "self_type" : "_ZTI12logger_entry",
    "size" : 28,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 8,
@@ -2154,7 +2154,7 @@
    "referenced_type" : "_ZTI17AndroidLogEntry_t",
    "self_type" : "_ZTI17AndroidLogEntry_t",
    "size" : 64,
-   "source_file" : "/system/core/liblog/include/log/logprint.h"
+   "source_file" : "/system/logging/liblog/include/log/logprint.h"
   },
   {
    "alignment" : 1,
@@ -2175,7 +2175,7 @@
    "referenced_type" : "_ZTI19android_event_int_t",
    "self_type" : "_ZTI19android_event_int_t",
    "size" : 5,
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "alignment" : 1,
@@ -2196,7 +2196,7 @@
    "referenced_type" : "_ZTI20android_event_list_t",
    "self_type" : "_ZTI20android_event_list_t",
    "size" : 2,
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "alignment" : 1,
@@ -2217,7 +2217,7 @@
    "referenced_type" : "_ZTI20android_event_long_t",
    "self_type" : "_ZTI20android_event_long_t",
    "size" : 9,
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "alignment" : 1,
@@ -2243,7 +2243,7 @@
    "referenced_type" : "_ZTI20android_log_header_t",
    "self_type" : "_ZTI20android_log_header_t",
    "size" : 11,
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "alignment" : 8,
@@ -2289,7 +2289,7 @@
    "referenced_type" : "_ZTI21__android_log_message",
    "self_type" : "_ZTI21__android_log_message",
    "size" : 48,
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "alignment" : 1,
@@ -2310,7 +2310,7 @@
    "referenced_type" : "_ZTI21android_event_float_t",
    "self_type" : "_ZTI21android_event_float_t",
    "size" : 5,
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "alignment" : 1,
@@ -2326,7 +2326,7 @@
    "referenced_type" : "_ZTI22android_event_header_t",
    "self_type" : "_ZTI22android_event_header_t",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "alignment" : 1,
@@ -2352,7 +2352,7 @@
    "referenced_type" : "_ZTI22android_event_string_t",
    "self_type" : "_ZTI22android_event_string_t",
    "size" : 5,
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "alignment" : 8,
@@ -2376,7 +2376,7 @@
    "referenced_type" : "_ZTI22android_log_event_list",
    "self_type" : "_ZTI22android_log_event_list",
    "size" : 16,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "alignment" : 1,
@@ -2397,7 +2397,7 @@
    "referenced_type" : "_ZTI23android_log_event_int_t",
    "self_type" : "_ZTI23android_log_event_int_t",
    "size" : 9,
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "alignment" : 1,
@@ -2418,7 +2418,7 @@
    "referenced_type" : "_ZTI24android_log_event_long_t",
    "self_type" : "_ZTI24android_log_event_long_t",
    "size" : 13,
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "alignment" : 8,
@@ -2449,7 +2449,7 @@
    "referenced_type" : "_ZTI24android_log_list_element",
    "self_type" : "_ZTI24android_log_list_element",
    "size" : 16,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "alignment" : 1,
@@ -2480,7 +2480,7 @@
    "referenced_type" : "_ZTI25android_pmsg_log_header_t",
    "self_type" : "_ZTI25android_pmsg_log_header_t",
    "size" : 7,
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "alignment" : 1,
@@ -2511,7 +2511,7 @@
    "referenced_type" : "_ZTI26android_log_event_string_t",
    "self_type" : "_ZTI26android_log_event_string_t",
    "size" : 9,
-   "source_file" : "/system/core/liblog/include/private/android_logger.h"
+   "source_file" : "/system/logging/liblog/include/private/android_logger.h"
   },
   {
    "alignment" : 4,
@@ -2526,7 +2526,7 @@
    "referenced_type" : "_ZTI7log_msg",
    "self_type" : "_ZTI7log_msg",
    "size" : 5124,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 1,
@@ -2547,7 +2547,7 @@
    "referenced_type" : "_ZTI8log_time",
    "self_type" : "_ZTI8log_time",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -2572,12 +2572,12 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN24android_log_list_elementUt_E",
-   "name" : "android_log_list_element::(anonymous union at system/core/liblog/include/log/log_event_list.h:48:3)",
+   "name" : "android_log_list_element::(anonymous union at system/logging/liblog/include/log/log_event_list.h:48:3)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN24android_log_list_elementUt_E",
    "self_type" : "_ZTIN24android_log_list_elementUt_E",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_event_list.h"
+   "source_file" : "/system/logging/liblog/include/log/log_event_list.h"
   },
   {
    "alignment" : 4,
@@ -2594,12 +2594,12 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7log_msgUt_E",
-   "name" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:77:3)",
+   "name" : "log_msg::(anonymous union at system/logging/liblog/include/log/log_read.h:77:3)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7log_msgUt_E",
    "self_type" : "_ZTIN7log_msgUt_E",
    "size" : 5124,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   }
  ],
  "rvalue_reference_types" : []

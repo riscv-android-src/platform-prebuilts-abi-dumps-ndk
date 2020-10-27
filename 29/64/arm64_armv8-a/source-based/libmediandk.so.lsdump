@@ -203,7 +203,7 @@
    "name" : "char []",
    "referenced_type" : "type-49",
    "self_type" : "type-2720",
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 4,
@@ -317,7 +317,7 @@
    "referenced_type" : "type-29",
    "self_type" : "type-2793",
    "size" : 5121,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 1,
@@ -2049,7 +2049,7 @@
    "referenced_type" : "type-2851",
    "self_type" : "type-2851",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log.h",
+   "source_file" : "/system/logging/liblog/include/log/log.h",
    "underlying_type" : "type-14",
    "unique_id" : "AndroidEventLogType"
   },
@@ -4760,7 +4760,7 @@
    "referenced_type" : "type-2557",
    "self_type" : "type-2557",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/android/log.h",
+   "source_file" : "/system/logging/liblog/include/android/log.h",
    "underlying_type" : "type-14",
    "unique_id" : "android_LogPriority"
   },
@@ -7242,7 +7242,7 @@
    "referenced_type" : "type-2583",
    "self_type" : "type-2583",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/android/log.h",
+   "source_file" : "/system/logging/liblog/include/android/log.h",
    "underlying_type" : "type-14",
    "unique_id" : "log_id"
   },
@@ -13472,7 +13472,7 @@
    "referenced_type" : "type-2818",
    "self_type" : "type-2841",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 8,
@@ -13481,7 +13481,7 @@
    "referenced_type" : "type-2693",
    "self_type" : "type-2710",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -13589,7 +13589,7 @@
    "referenced_type" : "type-1077",
    "self_type" : "type-1079",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -13598,7 +13598,7 @@
    "referenced_type" : "type-1366",
    "self_type" : "type-1369",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -13607,7 +13607,7 @@
    "referenced_type" : "type-1478",
    "self_type" : "type-1480",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -13616,7 +13616,7 @@
    "referenced_type" : "type-1501",
    "self_type" : "type-1504",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -13625,7 +13625,7 @@
    "referenced_type" : "type-1646",
    "self_type" : "type-1655",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -13634,7 +13634,7 @@
    "referenced_type" : "type-1695",
    "self_type" : "type-1697",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -13643,7 +13643,7 @@
    "referenced_type" : "type-1740",
    "self_type" : "type-1742",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -13652,7 +13652,7 @@
    "referenced_type" : "type-1788",
    "self_type" : "type-1790",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -13661,7 +13661,7 @@
    "referenced_type" : "type-1878",
    "self_type" : "type-1877",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -13670,7 +13670,7 @@
    "referenced_type" : "type-2310",
    "self_type" : "type-2309",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -13679,7 +13679,7 @@
    "referenced_type" : "type-2659",
    "self_type" : "type-2680",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -13688,7 +13688,7 @@
    "referenced_type" : "type-394",
    "self_type" : "type-396",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -13697,7 +13697,7 @@
    "referenced_type" : "type-462",
    "self_type" : "type-464",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -13706,7 +13706,7 @@
    "referenced_type" : "type-773",
    "self_type" : "type-809",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -13715,7 +13715,7 @@
    "referenced_type" : "type-898",
    "self_type" : "type-900",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -13724,7 +13724,7 @@
    "referenced_type" : "type-959",
    "self_type" : "type-961",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -20144,7 +20144,7 @@
    "referenced_type" : "type-2818",
    "self_type" : "type-2819",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 8,
@@ -20153,7 +20153,7 @@
    "referenced_type" : "type-2693",
    "self_type" : "type-2700",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -20639,7 +20639,7 @@
    "referenced_type" : "type-2791",
    "self_type" : "type-2842",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 8,
@@ -20648,7 +20648,7 @@
    "referenced_type" : "type-2617",
    "self_type" : "type-2669",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -21301,7 +21301,7 @@
    "name" : "char const[]",
    "referenced_type" : "type-2720",
    "self_type" : "type-2731",
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -23881,7 +23881,7 @@
    "referenced_type" : "type-2791",
    "self_type" : "type-2818",
    "size" : 5124,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 1,
@@ -23891,7 +23891,7 @@
    "referenced_type" : "type-2617",
    "self_type" : "type-2693",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -25461,7 +25461,7 @@
    "referenced_type" : "type-1078",
    "self_type" : "type-1077",
    "size" : 16,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -25471,7 +25471,7 @@
    "referenced_type" : "type-1367",
    "self_type" : "type-1366",
    "size" : 16,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -25481,7 +25481,7 @@
    "referenced_type" : "type-1479",
    "self_type" : "type-1478",
    "size" : 16,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -25491,7 +25491,7 @@
    "referenced_type" : "type-1502",
    "self_type" : "type-1501",
    "size" : 16,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -25501,7 +25501,7 @@
    "referenced_type" : "type-1647",
    "self_type" : "type-1646",
    "size" : 16,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -25511,7 +25511,7 @@
    "referenced_type" : "type-1696",
    "self_type" : "type-1695",
    "size" : 16,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -25521,7 +25521,7 @@
    "referenced_type" : "type-1741",
    "self_type" : "type-1740",
    "size" : 16,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -25531,7 +25531,7 @@
    "referenced_type" : "type-1789",
    "self_type" : "type-1788",
    "size" : 16,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -25541,7 +25541,7 @@
    "referenced_type" : "type-1879",
    "self_type" : "type-1878",
    "size" : 16,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -25551,7 +25551,7 @@
    "referenced_type" : "type-2311",
    "self_type" : "type-2310",
    "size" : 16,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -25561,7 +25561,7 @@
    "referenced_type" : "type-2660",
    "self_type" : "type-2659",
    "size" : 16,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -25571,7 +25571,7 @@
    "referenced_type" : "type-395",
    "self_type" : "type-394",
    "size" : 16,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -25581,7 +25581,7 @@
    "referenced_type" : "type-463",
    "self_type" : "type-462",
    "size" : 16,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -25591,7 +25591,7 @@
    "referenced_type" : "type-774",
    "self_type" : "type-773",
    "size" : 16,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -25601,7 +25601,7 @@
    "referenced_type" : "type-899",
    "self_type" : "type-898",
    "size" : 16,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -25611,7 +25611,7 @@
    "referenced_type" : "type-960",
    "self_type" : "type-959",
    "size" : 16,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 1,
@@ -25631,7 +25631,7 @@
    "referenced_type" : "type-14",
    "self_type" : "type-205",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -49257,7 +49257,7 @@
    "referenced_type" : "type-2791",
    "self_type" : "type-2791",
    "size" : 5124,
-   "source_file" : "/system/core/liblog/include/log/log_read.h",
+   "source_file" : "/system/logging/liblog/include/log/log_read.h",
    "unique_id" : "log_msg"
   },
   {
@@ -49290,14 +49290,14 @@
     }
    ],
    "is_anonymous" : true,
-   "linker_set_key" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:139:3) at system/core/liblog/include/log/log_read.h:139:3",
-   "name" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:139:3) at system/core/liblog/include/log/log_read.h:139:3",
+   "linker_set_key" : "log_msg::(anonymous union at system/logging/liblog/include/log/log_read.h:139:3) at system/logging/liblog/include/log/log_read.h:139:3",
+   "name" : "log_msg::(anonymous union at system/logging/liblog/include/log/log_read.h:139:3) at system/logging/liblog/include/log/log_read.h:139:3",
    "record_kind" : "union",
    "referenced_type" : "type-2792",
    "self_type" : "type-2792",
    "size" : 5124,
-   "source_file" : "/system/core/liblog/include/log/log_read.h",
-   "unique_id" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:139:3)"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h",
+   "unique_id" : "log_msg::(anonymous union at system/logging/liblog/include/log/log_read.h:139:3)"
   },
   {
    "alignment" : 1,
@@ -49318,7 +49318,7 @@
    "referenced_type" : "type-2617",
    "self_type" : "type-2617",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h",
+   "source_file" : "/system/logging/liblog/include/log/log_time.h",
    "unique_id" : "log_time"
   },
   {
@@ -49365,7 +49365,7 @@
    "referenced_type" : "type-2747",
    "self_type" : "type-2747",
    "size" : 20,
-   "source_file" : "/system/core/liblog/include/log/log_read.h",
+   "source_file" : "/system/logging/liblog/include/log/log_read.h",
    "unique_id" : "logger_entry"
   },
   {
@@ -49417,7 +49417,7 @@
    "referenced_type" : "type-2769",
    "self_type" : "type-2769",
    "size" : 24,
-   "source_file" : "/system/core/liblog/include/log/log_read.h",
+   "source_file" : "/system/logging/liblog/include/log/log_read.h",
    "unique_id" : "logger_entry_v2"
   },
   {
@@ -49469,7 +49469,7 @@
    "referenced_type" : "type-2776",
    "self_type" : "type-2776",
    "size" : 24,
-   "source_file" : "/system/core/liblog/include/log/log_read.h",
+   "source_file" : "/system/logging/liblog/include/log/log_read.h",
    "unique_id" : "logger_entry_v3"
   },
   {
@@ -49526,7 +49526,7 @@
    "referenced_type" : "type-2788",
    "self_type" : "type-2788",
    "size" : 28,
-   "source_file" : "/system/core/liblog/include/log/log_read.h",
+   "source_file" : "/system/logging/liblog/include/log/log_read.h",
    "unique_id" : "logger_entry_v4"
   },
   {
