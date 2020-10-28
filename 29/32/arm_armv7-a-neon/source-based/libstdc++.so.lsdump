@@ -360,7 +360,7 @@
    "referenced_type" : "type-60",
    "self_type" : "type-60",
    "size" : 4,
-   "source_file" : "/system/logging/liblog/include/android/log.h",
+   "source_file" : "/system/core/liblog/include/android/log.h",
    "underlying_type" : "type-21",
    "unique_id" : "android_LogPriority"
   },
@@ -414,7 +414,7 @@
    "referenced_type" : "type-61",
    "self_type" : "type-61",
    "size" : 4,
-   "source_file" : "/system/logging/liblog/include/android/log.h",
+   "source_file" : "/system/core/liblog/include/android/log.h",
    "underlying_type" : "type-21",
    "unique_id" : "log_id"
   },
