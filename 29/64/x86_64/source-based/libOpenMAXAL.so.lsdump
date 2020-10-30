@@ -105,7 +105,7 @@
    "name" : "char []",
    "referenced_type" : "type-145",
    "self_type" : "type-816",
-   "source_file" : "/system/logging/liblog/include/log/log_time.h"
+   "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 4,
@@ -218,7 +218,7 @@
    "referenced_type" : "type-5",
    "self_type" : "type-2597",
    "size" : 5121,
-   "source_file" : "/system/logging/liblog/include/log/log_read.h"
+   "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 1,
@@ -1017,7 +1017,7 @@
    "referenced_type" : "type-2615",
    "self_type" : "type-2615",
    "size" : 4,
-   "source_file" : "/system/logging/liblog/include/log/log.h",
+   "source_file" : "/system/core/liblog/include/log/log.h",
    "underlying_type" : "type-2",
    "unique_id" : "AndroidEventLogType"
   },
@@ -2554,7 +2554,7 @@
    "referenced_type" : "type-2576",
    "self_type" : "type-2576",
    "size" : 4,
-   "source_file" : "/system/logging/liblog/include/android/log.h",
+   "source_file" : "/system/core/liblog/include/android/log.h",
    "underlying_type" : "type-2",
    "unique_id" : "android_LogPriority"
   },
@@ -5028,7 +5028,7 @@
    "referenced_type" : "type-2577",
    "self_type" : "type-2577",
    "size" : 4,
-   "source_file" : "/system/logging/liblog/include/android/log.h",
+   "source_file" : "/system/core/liblog/include/android/log.h",
    "underlying_type" : "type-2",
    "unique_id" : "log_id"
   },
@@ -15893,7 +15893,7 @@
    "referenced_type" : "type-2611",
    "self_type" : "type-2613",
    "size" : 8,
-   "source_file" : "/system/logging/liblog/include/log/log_read.h"
+   "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 8,
@@ -15902,7 +15902,7 @@
    "referenced_type" : "type-2583",
    "self_type" : "type-2585",
    "size" : 8,
-   "source_file" : "/system/logging/liblog/include/log/log_time.h"
+   "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -16010,7 +16010,7 @@
    "referenced_type" : "type-2176",
    "self_type" : "type-2178",
    "size" : 8,
-   "source_file" : "/system/logging/liblog/include/log/log_time.h"
+   "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -16019,7 +16019,7 @@
    "referenced_type" : "type-2361",
    "self_type" : "type-2360",
    "size" : 8,
-   "source_file" : "/system/logging/liblog/include/log/log_time.h"
+   "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -16028,7 +16028,7 @@
    "referenced_type" : "type-2579",
    "self_type" : "type-2582",
    "size" : 8,
-   "source_file" : "/system/logging/liblog/include/log/log_time.h"
+   "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -16148,7 +16148,7 @@
    "referenced_type" : "type-2190",
    "self_type" : "type-2189",
    "size" : 8,
-   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
+   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -16157,7 +16157,7 @@
    "referenced_type" : "type-257",
    "self_type" : "type-256",
    "size" : 8,
-   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
+   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -16463,7 +16463,7 @@
    "referenced_type" : "type-2188",
    "self_type" : "type-2187",
    "size" : 8,
-   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
+   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -16472,7 +16472,7 @@
    "referenced_type" : "type-254",
    "self_type" : "type-253",
    "size" : 8,
-   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
+   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -17678,7 +17678,7 @@
    "referenced_type" : "type-251",
    "self_type" : "type-252",
    "size" : 8,
-   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
+   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
@@ -18056,7 +18056,7 @@
    "referenced_type" : "type-145",
    "self_type" : "type-364",
    "size" : 8,
-   "source_file" : "/system/logging/liblog/include/log/log_read.h"
+   "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 8,
@@ -20531,7 +20531,7 @@
    "referenced_type" : "type-165",
    "self_type" : "type-164",
    "size" : 8,
-   "source_file" : "/system/logging/liblog/include/log/log_time.h"
+   "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -20576,7 +20576,7 @@
    "referenced_type" : "type-2611",
    "self_type" : "type-2612",
    "size" : 8,
-   "source_file" : "/system/logging/liblog/include/log/log_read.h"
+   "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 8,
@@ -20585,7 +20585,7 @@
    "referenced_type" : "type-2583",
    "self_type" : "type-2584",
    "size" : 8,
-   "source_file" : "/system/logging/liblog/include/log/log_time.h"
+   "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -20828,7 +20828,7 @@
    "referenced_type" : "type-2595",
    "self_type" : "type-2614",
    "size" : 8,
-   "source_file" : "/system/logging/liblog/include/log/log_read.h"
+   "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 8,
@@ -20837,7 +20837,7 @@
    "referenced_type" : "type-2578",
    "self_type" : "type-2581",
    "size" : 8,
-   "source_file" : "/system/logging/liblog/include/log/log_time.h"
+   "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -25108,7 +25108,7 @@
    "name" : "char const[]",
    "referenced_type" : "type-816",
    "self_type" : "type-2586",
-   "source_file" : "/system/logging/liblog/include/log/log_time.h"
+   "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -27994,7 +27994,7 @@
    "referenced_type" : "type-145",
    "self_type" : "type-165",
    "size" : 1,
-   "source_file" : "/system/logging/liblog/include/log/log_time.h"
+   "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -28064,7 +28064,7 @@
    "referenced_type" : "type-2595",
    "self_type" : "type-2611",
    "size" : 5124,
-   "source_file" : "/system/logging/liblog/include/log/log_read.h"
+   "source_file" : "/system/core/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 1,
@@ -28074,7 +28074,7 @@
    "referenced_type" : "type-2578",
    "self_type" : "type-2583",
    "size" : 8,
-   "source_file" : "/system/logging/liblog/include/log/log_time.h"
+   "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -28204,7 +28204,7 @@
    "referenced_type" : "type-2177",
    "self_type" : "type-2176",
    "size" : 16,
-   "source_file" : "/system/logging/liblog/include/log/log_time.h"
+   "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -28214,7 +28214,7 @@
    "referenced_type" : "type-2362",
    "self_type" : "type-2361",
    "size" : 16,
-   "source_file" : "/system/logging/liblog/include/log/log_time.h"
+   "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 8,
@@ -28224,7 +28224,7 @@
    "referenced_type" : "type-2580",
    "self_type" : "type-2579",
    "size" : 16,
-   "source_file" : "/system/logging/liblog/include/log/log_time.h"
+   "source_file" : "/system/core/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 1,
@@ -53966,7 +53966,7 @@
    "referenced_type" : "type-250",
    "self_type" : "type-250",
    "size" : 1,
-   "source_file" : "/system/libbase/include/android-base/unique_fd.h",
+   "source_file" : "/system/core/base/include/android-base/unique_fd.h",
    "unique_id" : "_ZTSN7android4base13DefaultCloserE"
   },
   {
@@ -53985,7 +53985,7 @@
    "referenced_type" : "type-251",
    "self_type" : "type-251",
    "size" : 4,
-   "source_file" : "/system/libbase/include/android-base/unique_fd.h",
+   "source_file" : "/system/core/base/include/android-base/unique_fd.h",
    "template_args" : [ "type-250" ],
    "unique_id" : "_ZTSN7android4base14unique_fd_implINS0_13DefaultCloserEEE"
   },
@@ -60171,7 +60171,7 @@
    "referenced_type" : "type-2595",
    "self_type" : "type-2595",
    "size" : 5124,
-   "source_file" : "/system/logging/liblog/include/log/log_read.h",
+   "source_file" : "/system/core/liblog/include/log/log_read.h",
    "unique_id" : "log_msg"
   },
   {
@@ -60204,14 +60204,14 @@
     }
    ],
    "is_anonymous" : true,
-   "linker_set_key" : "log_msg::(anonymous union at system/logging/liblog/include/log/log_read.h:139:3) at system/logging/liblog/include/log/log_read.h:139:3",
-   "name" : "log_msg::(anonymous union at system/logging/liblog/include/log/log_read.h:139:3) at system/logging/liblog/include/log/log_read.h:139:3",
+   "linker_set_key" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:139:3) at system/core/liblog/include/log/log_read.h:139:3",
+   "name" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:139:3) at system/core/liblog/include/log/log_read.h:139:3",
    "record_kind" : "union",
    "referenced_type" : "type-2596",
    "self_type" : "type-2596",
    "size" : 5124,
-   "source_file" : "/system/logging/liblog/include/log/log_read.h",
-   "unique_id" : "log_msg::(anonymous union at system/logging/liblog/include/log/log_read.h:139:3)"
+   "source_file" : "/system/core/liblog/include/log/log_read.h",
+   "unique_id" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:139:3)"
   },
   {
    "alignment" : 1,
@@ -60232,7 +60232,7 @@
    "referenced_type" : "type-2578",
    "self_type" : "type-2578",
    "size" : 8,
-   "source_file" : "/system/logging/liblog/include/log/log_time.h",
+   "source_file" : "/system/core/liblog/include/log/log_time.h",
    "unique_id" : "log_time"
   },
   {
@@ -60279,7 +60279,7 @@
    "referenced_type" : "type-2587",
    "self_type" : "type-2587",
    "size" : 20,
-   "source_file" : "/system/logging/liblog/include/log/log_read.h",
+   "source_file" : "/system/core/liblog/include/log/log_read.h",
    "unique_id" : "logger_entry"
   },
   {
@@ -60331,7 +60331,7 @@
    "referenced_type" : "type-2589",
    "self_type" : "type-2589",
    "size" : 24,
-   "source_file" : "/system/logging/liblog/include/log/log_read.h",
+   "source_file" : "/system/core/liblog/include/log/log_read.h",
    "unique_id" : "logger_entry_v2"
   },
   {
@@ -60383,7 +60383,7 @@
    "referenced_type" : "type-2591",
    "self_type" : "type-2591",
    "size" : 24,
-   "source_file" : "/system/logging/liblog/include/log/log_read.h",
+   "source_file" : "/system/core/liblog/include/log/log_read.h",
    "unique_id" : "logger_entry_v3"
   },
   {
@@ -60440,7 +60440,7 @@
    "referenced_type" : "type-2593",
    "self_type" : "type-2593",
    "size" : 28,
-   "source_file" : "/system/logging/liblog/include/log/log_read.h",
+   "source_file" : "/system/core/liblog/include/log/log_read.h",
    "unique_id" : "logger_entry_v4"
   },
   {
@@ -60665,7 +60665,7 @@
    "referenced_type" : "type-251",
    "self_type" : "type-255",
    "size" : 8,
-   "source_file" : "/system/libbase/include/android-base/unique_fd.h"
+   "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
   {
    "alignment" : 8,
