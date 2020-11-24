@@ -154,6 +154,9 @@
    "name" : "AIBinder_Class_define"
   },
   {
+   "name" : "AIBinder_Class_getDescriptor"
+  },
+  {
    "binding" : "weak",
    "name" : "AIBinder_Class_setHandleShellCommand"
   },
@@ -505,6 +508,23 @@
    "enum_fields" :
    [
     {
+     "enum_field_value" : 1,
+     "name" : "FLAG_ONEWAY"
+    }
+   ],
+   "linker_set_key" : "_ZTI12$FLAG_ONEWAY",
+   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h:47:1)",
+   "referenced_type" : "_ZTI12$FLAG_ONEWAY",
+   "self_type" : "_ZTI12$FLAG_ONEWAY",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
      "enum_field_value" : 0,
      "name" : "JNIInvalidRefType"
     },
@@ -534,20 +554,16 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 1,
-     "name" : "FLAG_ONEWAY"
-    },
-    {
      "enum_field_value" : 32,
      "name" : "FLAG_CLEAR_BUF"
     }
    ],
    "linker_set_key" : "_ZTI15$FLAG_CLEAR_BUF",
-   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h:48:1)",
+   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_platform/android/binder_ibinder_platform.h:24:1)",
    "referenced_type" : "_ZTI15$FLAG_CLEAR_BUF",
    "self_type" : "_ZTI15$FLAG_CLEAR_BUF",
    "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_ibinder_platform.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -744,7 +760,7 @@
     }
    ],
    "linker_set_key" : "_ZTI23$FIRST_CALL_TRANSACTION",
-   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h:70:1)",
+   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h:59:1)",
    "referenced_type" : "_ZTI23$FIRST_CALL_TRANSACTION",
    "self_type" : "_ZTI23$FIRST_CALL_TRANSACTION",
    "size" : 4,
@@ -6170,6 +6186,18 @@
    "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
+   "function_name" : "AIBinder_Class_getDescriptor",
+   "linker_set_key" : "AIBinder_Class_getDescriptor",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK14AIBinder_Class"
+    }
+   ],
+   "return_type" : "_ZTIPKc",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
    "function_name" : "AIBinder_Class_setHandleShellCommand",
    "linker_set_key" : "AIBinder_Class_setHandleShellCommand",
    "parameters" :
@@ -6344,7 +6372,7 @@
    "function_name" : "AIBinder_getCallingSid",
    "linker_set_key" : "AIBinder_getCallingSid",
    "return_type" : "_ZTIPKc",
-   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_context.h"
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_ibinder_platform.h"
   },
   {
    "function_name" : "AIBinder_getCallingUid",
@@ -6539,7 +6567,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_context.h"
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_ibinder_platform.h"
   },
   {
    "function_name" : "AIBinder_toJavaBinder",
@@ -6698,7 +6726,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_parcel_platform.h"
   },
   {
    "function_name" : "AParcel_readBool",
@@ -7793,7 +7821,7 @@
     }
    ],
    "return_type" : "_ZTIN7android2spINS_7IBinderEEE",
-   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_ibinder_platform.h"
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_libbinder.h"
   },
   {
    "function_name" : "AIBinder_fromPlatformBinder",
@@ -7805,7 +7833,7 @@
     }
    ],
    "return_type" : "_ZTIP8AIBinder",
-   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_ibinder_platform.h"
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_libbinder.h"
   }
  ],
  "global_vars" : [],
@@ -7818,7 +7846,7 @@
    "referenced_type" : "_ZTIKN7android2spINS_7IBinderEEE",
    "self_type" : "_ZTIRKN7android2spINS_7IBinderEEE",
    "size" : 8,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_ibinder_platform.h"
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_libbinder.h"
   }
  ],
  "pointer_types" :
@@ -10650,7 +10678,7 @@
    "name" : "const AIBinder_Class",
    "referenced_type" : "_ZTI14AIBinder_Class",
    "self_type" : "_ZTIK14AIBinder_Class",
-   "size" : 48,
+   "size" : 72,
    "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -10741,7 +10769,7 @@
    "referenced_type" : "_ZTIN7android2spINS_7IBinderEEE",
    "self_type" : "_ZTIKN7android2spINS_7IBinderEEE",
    "size" : 8,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_ibinder_platform.h"
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_libbinder.h"
   },
   {
    "alignment" : 1,
