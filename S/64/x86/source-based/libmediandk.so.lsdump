@@ -809,10 +809,19 @@
    "name" : "AMediaCodec_createCodecByName"
   },
   {
+   "name" : "AMediaCodec_createCodecByNameForClient"
+  },
+  {
    "name" : "AMediaCodec_createDecoderByType"
   },
   {
+   "name" : "AMediaCodec_createDecoderByTypeForClient"
+  },
+  {
    "name" : "AMediaCodec_createEncoderByType"
+  },
+  {
+   "name" : "AMediaCodec_createEncoderByTypeForClient"
   },
   {
    "name" : "AMediaCodec_createInputSurface"
@@ -1601,7 +1610,7 @@
     }
    ],
    "linker_set_key" : "_ZTI12$FLAG_ONEWAY",
-   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h:48:1)",
+   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h:47:1)",
    "referenced_type" : "_ZTI12$FLAG_ONEWAY",
    "self_type" : "_ZTI12$FLAG_ONEWAY",
    "size" : 4,
@@ -2648,7 +2657,7 @@
     },
     {
      "enum_field_value" : -2147483584,
-     "name" : "AUDIO_DEVICE_IN_VOICE_CALL"
+     "name" : "AUDIO_DEVICE_IN_TELEPHONY_RX"
     },
     {
      "enum_field_value" : -2147483520,
@@ -2744,7 +2753,7 @@
     },
     {
      "enum_field_value" : -2147483584,
-     "name" : "AUDIO_DEVICE_IN_TELEPHONY_RX"
+     "name" : "AUDIO_DEVICE_IN_VOICE_CALL"
     },
     {
      "enum_field_value" : -2147483616,
@@ -5394,7 +5403,7 @@
     }
    ],
    "linker_set_key" : "_ZTI23$FIRST_CALL_TRANSACTION",
-   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h:60:1)",
+   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h:59:1)",
    "referenced_type" : "_ZTI23$FIRST_CALL_TRANSACTION",
    "self_type" : "_ZTI23$FIRST_CALL_TRANSACTION",
    "size" : 4,
@@ -7841,7 +7850,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN7android11IMemoryHeap10$READ_ONLYE",
-   "name" : "android::IMemoryHeap::(anonymous enum at frameworks/native/libs/binder/include/binder/IMemory.h:38:5)",
+   "name" : "android::IMemoryHeap::(anonymous enum at frameworks/native/libs/binder/include/binder/IMemory.h:37:5)",
    "referenced_type" : "_ZTIN7android11IMemoryHeap10$READ_ONLYE",
    "self_type" : "_ZTIN7android11IMemoryHeap10$READ_ONLYE",
    "size" : 4,
@@ -8238,7 +8247,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN7android14MemoryHeapBase17$DONT_MAP_LOCALLYE",
-   "name" : "android::MemoryHeapBase::(anonymous enum at frameworks/native/libs/binder/include/binder/MemoryHeapBase.h:33:5)",
+   "name" : "android::MemoryHeapBase::(anonymous enum at frameworks/native/libs/binder/include/binder/MemoryHeapBase.h:32:5)",
    "referenced_type" : "_ZTIN7android14MemoryHeapBase17$DONT_MAP_LOCALLYE",
    "self_type" : "_ZTIN7android14MemoryHeapBase17$DONT_MAP_LOCALLYE",
    "size" : 4,
@@ -10614,12 +10623,16 @@
      "name" : "android::IBinder::FLAG_ONEWAY"
     },
     {
+     "enum_field_value" : 32,
+     "name" : "android::IBinder::FLAG_CLEAR_BUF"
+    },
+    {
      "enum_field_value" : 268435456,
      "name" : "android::IBinder::FLAG_PRIVATE_VENDOR"
     }
    ],
    "linker_set_key" : "_ZTIN7android7IBinder22$DEBUG_PID_TRANSACTIONE",
-   "name" : "android::IBinder::(anonymous enum at frameworks/native/libs/binder/include/binder/IBinder.h:52:5)",
+   "name" : "android::IBinder::(anonymous enum at frameworks/native/libs/binder/include/binder/IBinder.h:51:5)",
    "referenced_type" : "_ZTIN7android7IBinder22$DEBUG_PID_TRANSACTIONE",
    "self_type" : "_ZTIN7android7IBinder22$DEBUG_PID_TRANSACTIONE",
    "size" : 4,
@@ -19001,8 +19014,8 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIFvPN7android6ParcelEPKhjPKyjPvE",
-   "name" : "void (android::Parcel *, const unsigned char *, unsigned int, const unsigned long long *, unsigned int, void *)",
+   "linker_set_key" : "_ZTIFvPN7android6ParcelEPKhjPKyjE",
+   "name" : "void (android::Parcel *, const unsigned char *, unsigned int, const unsigned long long *, unsigned int)",
    "parameters" :
    [
     {
@@ -19019,14 +19032,11 @@
     },
     {
      "referenced_type" : "_ZTIj"
-    },
-    {
-     "referenced_type" : "_ZTIPv"
     }
    ],
-   "referenced_type" : "_ZTIFvPN7android6ParcelEPKhjPKyjPvE",
+   "referenced_type" : "_ZTIFvPN7android6ParcelEPKhjPKyjE",
    "return_type" : "_ZTIv",
-   "self_type" : "_ZTIFvPN7android6ParcelEPKhjPKyjPvE",
+   "self_type" : "_ZTIFvPN7android6ParcelEPKhjPKyjE",
    "source_file" : "frameworks/native/libs/binder/include/binder/Parcel.h"
   },
   {
@@ -19999,6 +20009,24 @@
    "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
+   "function_name" : "AMediaCodec_createCodecByNameForClient",
+   "linker_set_key" : "AMediaCodec_createCodecByNameForClient",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIP11AMediaCodec",
+   "source_file" : "frameworks/av/media/ndk/include_platform/media/NdkMediaCodecPlatform.h"
+  },
+  {
    "function_name" : "AMediaCodec_createDecoderByType",
    "linker_set_key" : "AMediaCodec_createDecoderByType",
    "parameters" :
@@ -20011,6 +20039,24 @@
    "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
   },
   {
+   "function_name" : "AMediaCodec_createDecoderByTypeForClient",
+   "linker_set_key" : "AMediaCodec_createDecoderByTypeForClient",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIP11AMediaCodec",
+   "source_file" : "frameworks/av/media/ndk/include_platform/media/NdkMediaCodecPlatform.h"
+  },
+  {
    "function_name" : "AMediaCodec_createEncoderByType",
    "linker_set_key" : "AMediaCodec_createEncoderByType",
    "parameters" :
@@ -20021,6 +20067,24 @@
    ],
    "return_type" : "_ZTIP11AMediaCodec",
    "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaCodec.h"
+  },
+  {
+   "function_name" : "AMediaCodec_createEncoderByTypeForClient",
+   "linker_set_key" : "AMediaCodec_createEncoderByTypeForClient",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIP11AMediaCodec",
+   "source_file" : "frameworks/av/media/ndk/include_platform/media/NdkMediaCodecPlatform.h"
   },
   {
    "function_name" : "AMediaCodec_createInputSurface",
@@ -27591,10 +27655,10 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPFvPN7android6ParcelEPKhjPKyjPvE",
-   "name" : "void (*)(android::Parcel *, const unsigned char *, unsigned int, const unsigned long long *, unsigned int, void *)",
-   "referenced_type" : "_ZTIFvPN7android6ParcelEPKhjPKyjPvE",
-   "self_type" : "_ZTIPFvPN7android6ParcelEPKhjPKyjPvE",
+   "linker_set_key" : "_ZTIPFvPN7android6ParcelEPKhjPKyjE",
+   "name" : "void (*)(android::Parcel *, const unsigned char *, unsigned int, const unsigned long long *, unsigned int)",
+   "referenced_type" : "_ZTIFvPN7android6ParcelEPKhjPKyjE",
+   "self_type" : "_ZTIPFvPN7android6ParcelEPKhjPKyjE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/include/binder/Parcel.h"
   },
@@ -54779,13 +54843,19 @@
     },
     {
      "access" : "private",
-     "field_name" : "mOwner",
-     "field_offset" : 384,
-     "referenced_type" : "_ZTIPFvPN7android6ParcelEPKhjPKyjPvE"
+     "field_name" : "mDeallocZero",
+     "field_offset" : 376,
+     "referenced_type" : "_ZTIb"
     },
     {
      "access" : "private",
-     "field_name" : "mOwnerCookie",
+     "field_name" : "mOwner",
+     "field_offset" : 384,
+     "referenced_type" : "_ZTIPFvPN7android6ParcelEPKhjPKyjE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mReserved",
      "field_offset" : 416,
      "referenced_type" : "_ZTIPv"
     },
@@ -55778,7 +55848,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android7BBinderUt_E",
-   "name" : "android::BBinder::(anonymous union at frameworks/native/libs/binder/include/binder/Binder.h:113:5)",
+   "name" : "android::BBinder::(anonymous union at frameworks/native/libs/binder/include/binder/Binder.h:112:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android7BBinderUt_E",
    "self_type" : "_ZTIN7android7BBinderUt_E",
