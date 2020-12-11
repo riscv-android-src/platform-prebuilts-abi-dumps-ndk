@@ -1539,6 +1539,12 @@
    "name" : "AMEDIAFORMAT_KEY_WIDTH"
   },
   {
+   "name" : "AMEDIAFORMAT_KEY_XMP_OFFSET"
+  },
+  {
+   "name" : "AMEDIAFORMAT_KEY_XMP_SIZE"
+  },
+  {
    "name" : "AMEDIAFORMAT_KEY_YEAR"
   }
  ],
@@ -5445,6 +5451,27 @@
    "enum_fields" :
    [
     {
+     "enum_field_value" : -1,
+     "name" : "AMEDIACODEC_CALLING_UID"
+    },
+    {
+     "enum_field_value" : -1,
+     "name" : "AMEDIACODEC_CALLING_PID"
+    }
+   ],
+   "linker_set_key" : "_ZTI24$AMEDIACODEC_CALLING_PID",
+   "name" : "(anonymous enum at frameworks/av/media/ndk/include_platform/media/NdkMediaCodecPlatform.h:33:1)",
+   "referenced_type" : "_ZTI24$AMEDIACODEC_CALLING_PID",
+   "self_type" : "_ZTI24$AMEDIACODEC_CALLING_PID",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/ndk/include_platform/media/NdkMediaCodecPlatform.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
      "enum_field_value" : 30,
      "name" : "AUDIO_CHANNEL_COUNT_MAX"
     },
@@ -7525,7 +7552,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN4aidl7android8hardware8graphics6common11PlaneLayout13_has_toStringINS3_20PlaneLayoutComponentEE6$valueE",
-   "name" : "aidl::android::hardware::graphics::common::PlaneLayout::_has_toString<PlaneLayoutComponent>::(anonymous enum at out/soong/.intermediates/hardware/interfaces/graphics/common/aidl/android.hardware.graphics.common-unstable-ndk_platform-source/gen/include/aidl/android/hardware/graphics/common/PlaneLayout.h:42:13)",
+   "name" : "aidl::android::hardware::graphics::common::PlaneLayout::_has_toString<PlaneLayoutComponent>::(anonymous enum at out/soong/.intermediates/hardware/interfaces/graphics/common/aidl/android.hardware.graphics.common-unstable-ndk_platform-source/gen/include/aidl/android/hardware/graphics/common/PlaneLayout.h:62:13)",
    "referenced_type" : "_ZTIN4aidl7android8hardware8graphics6common11PlaneLayout13_has_toStringINS3_20PlaneLayoutComponentEE6$valueE",
    "self_type" : "_ZTIN4aidl7android8hardware8graphics6common11PlaneLayout13_has_toStringINS3_20PlaneLayoutComponentEE6$valueE",
    "size" : 4,
@@ -7571,7 +7598,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN4aidl7android8hardware8graphics6common20PlaneLayoutComponent13_has_toStringINS3_14ExtendableTypeEE6$valueE",
-   "name" : "aidl::android::hardware::graphics::common::PlaneLayoutComponent::_has_toString<ExtendableType>::(anonymous enum at out/soong/.intermediates/hardware/interfaces/graphics/common/aidl/android.hardware.graphics.common-unstable-ndk_platform-source/gen/include/aidl/android/hardware/graphics/common/PlaneLayoutComponent.h:36:13)",
+   "name" : "aidl::android::hardware::graphics::common::PlaneLayoutComponent::_has_toString<ExtendableType>::(anonymous enum at out/soong/.intermediates/hardware/interfaces/graphics/common/aidl/android.hardware.graphics.common-unstable-ndk_platform-source/gen/include/aidl/android/hardware/graphics/common/PlaneLayoutComponent.h:56:13)",
    "referenced_type" : "_ZTIN4aidl7android8hardware8graphics6common20PlaneLayoutComponent13_has_toStringINS3_14ExtendableTypeEE6$valueE",
    "self_type" : "_ZTIN4aidl7android8hardware8graphics6common20PlaneLayoutComponent13_has_toStringINS3_14ExtendableTypeEE6$valueE",
    "size" : 4,
@@ -7617,7 +7644,7 @@
     }
    ],
    "linker_set_key" : "_ZTIN4aidl7android8hardware8graphics6common9Smpte208613_has_toStringINS3_7XyColorEE6$valueE",
-   "name" : "aidl::android::hardware::graphics::common::Smpte2086::_has_toString<XyColor>::(anonymous enum at out/soong/.intermediates/hardware/interfaces/graphics/common/aidl/android.hardware.graphics.common-unstable-ndk_platform-source/gen/include/aidl/android/hardware/graphics/common/Smpte2086.h:39:13)",
+   "name" : "aidl::android::hardware::graphics::common::Smpte2086::_has_toString<XyColor>::(anonymous enum at out/soong/.intermediates/hardware/interfaces/graphics/common/aidl/android.hardware.graphics.common-unstable-ndk_platform-source/gen/include/aidl/android/hardware/graphics/common/Smpte2086.h:59:13)",
    "referenced_type" : "_ZTIN4aidl7android8hardware8graphics6common9Smpte208613_has_toStringINS3_7XyColorEE6$valueE",
    "self_type" : "_ZTIN4aidl7android8hardware8graphics6common9Smpte208613_has_toStringINS3_7XyColorEE6$valueE",
    "size" : 4,
@@ -22686,6 +22713,18 @@
    "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
   },
   {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_XMP_OFFSET",
+   "name" : "AMEDIAFORMAT_KEY_XMP_OFFSET",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
+   "linker_set_key" : "AMEDIAFORMAT_KEY_XMP_SIZE",
+   "name" : "AMEDIAFORMAT_KEY_XMP_SIZE",
+   "referenced_type" : "_ZTIPKc",
+   "source_file" : "frameworks/av/media/ndk/include/media/NdkMediaFormat.h"
+  },
+  {
    "linker_set_key" : "AMEDIAFORMAT_KEY_YEAR",
    "name" : "AMEDIAFORMAT_KEY_YEAR",
    "referenced_type" : "_ZTIPKc",
@@ -22831,12 +22870,48 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN3ndk13ScopedAParcelE",
+   "name" : "const ndk::ScopedAParcel &",
+   "referenced_type" : "_ZTIKN3ndk13ScopedAParcelE",
+   "self_type" : "_ZTIRKN3ndk13ScopedAParcelE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN3ndk17AParcelableHolderE",
+   "name" : "const ndk::AParcelableHolder &",
+   "referenced_type" : "_ZTIKN3ndk17AParcelableHolderE",
+   "self_type" : "_ZTIRKN3ndk17AParcelableHolderE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcelable_utils.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN3ndk20ScopedFileDescriptorE",
+   "name" : "const ndk::ScopedFileDescriptor &",
+   "referenced_type" : "_ZTIKN3ndk20ScopedFileDescriptorE",
+   "self_type" : "_ZTIRKN3ndk20ScopedFileDescriptorE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN4aidl7android8hardware8graphics6common11PlaneLayoutE",
+   "name" : "const aidl::android::hardware::graphics::common::PlaneLayout &",
+   "referenced_type" : "_ZTIKN4aidl7android8hardware8graphics6common11PlaneLayoutE",
+   "self_type" : "_ZTIRKN4aidl7android8hardware8graphics6common11PlaneLayoutE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/graphics/common/aidl/android.hardware.graphics.common-unstable-ndk_platform-source/gen/include/aidl/android/hardware/graphics/common/PlaneLayout.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRKN4aidl7android8hardware8graphics6common14ExtendableTypeE",
    "name" : "const aidl::android::hardware::graphics::common::ExtendableType &",
    "referenced_type" : "_ZTIKN4aidl7android8hardware8graphics6common14ExtendableTypeE",
    "self_type" : "_ZTIRKN4aidl7android8hardware8graphics6common14ExtendableTypeE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/graphics/common/aidl/android.hardware.graphics.common-unstable-ndk_platform-source/gen/include/aidl/android/hardware/graphics/common/PlaneLayoutComponent.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/graphics/common/aidl/android.hardware.graphics.common-unstable-ndk_platform-source/gen/include/aidl/android/hardware/graphics/common/ExtendableType.h"
   },
   {
    "alignment" : 4,
@@ -22845,7 +22920,7 @@
    "referenced_type" : "_ZTIKN4aidl7android8hardware8graphics6common20PlaneLayoutComponentE",
    "self_type" : "_ZTIRKN4aidl7android8hardware8graphics6common20PlaneLayoutComponentE",
    "size" : 4,
-   "source_file" : "out/soong/.intermediates/hardware/interfaces/graphics/common/aidl/android.hardware.graphics.common-unstable-ndk_platform-source/gen/include/aidl/android/hardware/graphics/common/PlaneLayout.h"
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/graphics/common/aidl/android.hardware.graphics.common-unstable-ndk_platform-source/gen/include/aidl/android/hardware/graphics/common/PlaneLayoutComponent.h"
   },
   {
    "alignment" : 4,
@@ -22853,6 +22928,24 @@
    "name" : "const aidl::android::hardware::graphics::common::XyColor &",
    "referenced_type" : "_ZTIKN4aidl7android8hardware8graphics6common7XyColorE",
    "self_type" : "_ZTIRKN4aidl7android8hardware8graphics6common7XyColorE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/graphics/common/aidl/android.hardware.graphics.common-unstable-ndk_platform-source/gen/include/aidl/android/hardware/graphics/common/XyColor.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN4aidl7android8hardware8graphics6common8Cta861_3E",
+   "name" : "const aidl::android::hardware::graphics::common::Cta861_3 &",
+   "referenced_type" : "_ZTIKN4aidl7android8hardware8graphics6common8Cta861_3E",
+   "self_type" : "_ZTIRKN4aidl7android8hardware8graphics6common8Cta861_3E",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/hardware/interfaces/graphics/common/aidl/android.hardware.graphics.common-unstable-ndk_platform-source/gen/include/aidl/android/hardware/graphics/common/Cta861_3.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN4aidl7android8hardware8graphics6common9Smpte2086E",
+   "name" : "const aidl::android::hardware::graphics::common::Smpte2086 &",
+   "referenced_type" : "_ZTIKN4aidl7android8hardware8graphics6common9Smpte2086E",
+   "self_type" : "_ZTIRKN4aidl7android8hardware8graphics6common9Smpte2086E",
    "size" : 4,
    "source_file" : "out/soong/.intermediates/hardware/interfaces/graphics/common/aidl/android.hardware.graphics.common-unstable-ndk_platform-source/gen/include/aidl/android/hardware/graphics/common/Smpte2086.h"
   },
@@ -28097,6 +28190,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN3ndk13ScopedAParcelE",
+   "name" : "const ndk::ScopedAParcel *",
+   "referenced_type" : "_ZTIKN3ndk13ScopedAParcelE",
+   "self_type" : "_ZTIPKN3ndk13ScopedAParcelE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPKN3ndk13ScopedAStatusE",
    "name" : "const ndk::ScopedAStatus *",
    "referenced_type" : "_ZTIKN3ndk13ScopedAStatusE",
@@ -28112,6 +28214,24 @@
    "self_type" : "_ZTIPKN3ndk17AParcelableHolderE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcelable_utils.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN3ndk20ScopedFileDescriptorE",
+   "name" : "const ndk::ScopedFileDescriptor *",
+   "referenced_type" : "_ZTIKN3ndk20ScopedFileDescriptorE",
+   "self_type" : "_ZTIPKN3ndk20ScopedFileDescriptorE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN3ndk4impl15ScopedAResourceIP7AParcelvXadL_Z14AParcel_deleteEELS3_0EEE",
+   "name" : "const ndk::impl::ScopedAResource<AParcel *, void, &AParcel_delete, nullptr> *",
+   "referenced_type" : "_ZTIKN3ndk4impl15ScopedAResourceIP7AParcelvXadL_Z14AParcel_deleteEELS3_0EEE",
+   "self_type" : "_ZTIPKN3ndk4impl15ScopedAResourceIP7AParcelvXadL_Z14AParcel_deleteEELS3_0EEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
    "alignment" : 4,
@@ -32788,6 +32908,16 @@
   {
    "alignment" : 4,
    "is_const" : true,
+   "linker_set_key" : "_ZTIKN3ndk13ScopedAParcelE",
+   "name" : "const ndk::ScopedAParcel",
+   "referenced_type" : "_ZTIN3ndk13ScopedAParcelE",
+   "self_type" : "_ZTIKN3ndk13ScopedAParcelE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
    "linker_set_key" : "_ZTIKN3ndk13ScopedAStatusE",
    "name" : "const ndk::ScopedAStatus",
    "referenced_type" : "_ZTIN3ndk13ScopedAStatusE",
@@ -32804,6 +32934,26 @@
    "self_type" : "_ZTIKN3ndk17AParcelableHolderE",
    "size" : 12,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcelable_utils.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN3ndk20ScopedFileDescriptorE",
+   "name" : "const ndk::ScopedFileDescriptor",
+   "referenced_type" : "_ZTIN3ndk20ScopedFileDescriptorE",
+   "self_type" : "_ZTIKN3ndk20ScopedFileDescriptorE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN3ndk4impl15ScopedAResourceIP7AParcelvXadL_Z14AParcel_deleteEELS3_0EEE",
+   "name" : "const ndk::impl::ScopedAResource<AParcel *, void, &AParcel_delete, nullptr>",
+   "referenced_type" : "_ZTIN3ndk4impl15ScopedAResourceIP7AParcelvXadL_Z14AParcel_deleteEELS3_0EEE",
+   "self_type" : "_ZTIKN3ndk4impl15ScopedAResourceIP7AParcelvXadL_Z14AParcel_deleteEELS3_0EEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
    "alignment" : 4,
@@ -35100,6 +35250,16 @@
    "self_type" : "_ZTIKP6AImage",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/List.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKP7AParcel",
+   "name" : "AParcel *const",
+   "referenced_type" : "_ZTIP7AParcel",
+   "self_type" : "_ZTIKP7AParcel",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_auto_utils.h"
   },
   {
    "alignment" : 4,
@@ -55849,7 +56009,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android7BBinderUt_E",
-   "name" : "android::BBinder::(anonymous union at frameworks/native/libs/binder/include/binder/Binder.h:112:5)",
+   "name" : "android::BBinder::(anonymous union at frameworks/native/libs/binder/include/binder/Binder.h:117:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android7BBinderUt_E",
    "self_type" : "_ZTIN7android7BBinderUt_E",
@@ -56891,7 +57051,7 @@
      "mangled_component_name" : "_ZN7android7Surface15allocateBuffersEv"
     },
     {
-     "mangled_component_name" : "_ZN7android7Surface12setFrameRateEfa"
+     "mangled_component_name" : "_ZN7android7Surface12setFrameRateEfab"
     },
     {
      "mangled_component_name" : "_ZN7android7Surface21setFrameTimelineVsyncEx"
