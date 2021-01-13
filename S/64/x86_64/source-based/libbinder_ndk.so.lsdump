@@ -169,7 +169,13 @@
    "name" : "AIBinder_DeathRecipient_new"
   },
   {
+   "name" : "AIBinder_Weak_clone"
+  },
+  {
    "name" : "AIBinder_Weak_delete"
+  },
+  {
+   "name" : "AIBinder_Weak_lt"
   },
   {
    "name" : "AIBinder_Weak_new"
@@ -222,6 +228,9 @@
   },
   {
    "name" : "AIBinder_linkToDeath"
+  },
+  {
+   "name" : "AIBinder_lt"
   },
   {
    "binding" : "weak",
@@ -6251,6 +6260,18 @@
    "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
+   "function_name" : "AIBinder_Weak_clone",
+   "linker_set_key" : "AIBinder_Weak_clone",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK13AIBinder_Weak"
+    }
+   ],
+   "return_type" : "_ZTIP13AIBinder_Weak",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
    "function_name" : "AIBinder_Weak_delete",
    "linker_set_key" : "AIBinder_Weak_delete",
    "parameters" :
@@ -6260,6 +6281,21 @@
     }
    ],
    "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
+   "function_name" : "AIBinder_Weak_lt",
+   "linker_set_key" : "AIBinder_Weak_lt",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK13AIBinder_Weak"
+    },
+    {
+     "referenced_type" : "_ZTIPK13AIBinder_Weak"
+    }
+   ],
+   "return_type" : "_ZTIb",
    "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -6470,6 +6506,21 @@
     }
    ],
    "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
+   "function_name" : "AIBinder_lt",
+   "linker_set_key" : "AIBinder_lt",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK8AIBinder"
+    },
+    {
+     "referenced_type" : "_ZTIPK8AIBinder"
+    }
+   ],
+   "return_type" : "_ZTIb",
    "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
@@ -10228,6 +10279,15 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIPK13AIBinder_Weak",
+   "name" : "const AIBinder_Weak *",
+   "referenced_type" : "_ZTIK13AIBinder_Weak",
+   "self_type" : "_ZTIPK13AIBinder_Weak",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK14AIBinder_Class",
    "name" : "const AIBinder_Class *",
    "referenced_type" : "_ZTIK14AIBinder_Class",
@@ -10679,6 +10739,16 @@
  ],
  "qualified_types" :
  [
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK13AIBinder_Weak",
+   "name" : "const AIBinder_Weak",
+   "referenced_type" : "_ZTI13AIBinder_Weak",
+   "self_type" : "_ZTIK13AIBinder_Weak",
+   "size" : 16,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
+  },
   {
    "alignment" : 8,
    "is_const" : true,
