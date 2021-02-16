@@ -449,13 +449,25 @@
    "name" : "AServiceManager_checkService"
   },
   {
+   "name" : "AServiceManager_forceLazyServicesPersist"
+  },
+  {
    "name" : "AServiceManager_getService"
   },
   {
    "name" : "AServiceManager_isDeclared"
   },
   {
+   "name" : "AServiceManager_reRegister"
+  },
+  {
    "name" : "AServiceManager_registerLazyService"
+  },
+  {
+   "name" : "AServiceManager_setActiveServicesCallback"
+  },
+  {
+   "name" : "AServiceManager_tryUnregister"
   },
   {
    "name" : "AServiceManager_waitForService"
@@ -2359,6 +2371,24 @@
    "return_type" : "_ZTIb",
    "self_type" : "_ZTIFbPvmiPPcE",
    "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFbbPvE",
+   "name" : "bool (bool, void *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "referenced_type" : "_ZTIFbbPvE",
+   "return_type" : "_ZTIb",
+   "self_type" : "_ZTIFbbPvE",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_manager.h"
   },
   {
    "alignment" : 4,
@@ -7644,6 +7674,18 @@
    "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_manager.h"
   },
   {
+   "function_name" : "AServiceManager_forceLazyServicesPersist",
+   "linker_set_key" : "AServiceManager_forceLazyServicesPersist",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_manager.h"
+  },
+  {
    "function_name" : "AServiceManager_getService",
    "linker_set_key" : "AServiceManager_getService",
    "parameters" :
@@ -7668,6 +7710,12 @@
    "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_manager.h"
   },
   {
+   "function_name" : "AServiceManager_reRegister",
+   "linker_set_key" : "AServiceManager_reRegister",
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_manager.h"
+  },
+  {
    "function_name" : "AServiceManager_registerLazyService",
    "linker_set_key" : "AServiceManager_registerLazyService",
    "parameters" :
@@ -7680,6 +7728,27 @@
     }
    ],
    "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_manager.h"
+  },
+  {
+   "function_name" : "AServiceManager_setActiveServicesCallback",
+   "linker_set_key" : "AServiceManager_setActiveServicesCallback",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPFbbPvE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_manager.h"
+  },
+  {
+   "function_name" : "AServiceManager_tryUnregister",
+   "linker_set_key" : "AServiceManager_tryUnregister",
+   "return_type" : "_ZTIb",
    "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_manager.h"
   },
   {
@@ -8810,6 +8879,15 @@
    "self_type" : "_ZTIPFbPvmiPPcE",
    "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_parcel.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFbbPvE",
+   "name" : "bool (*)(bool, void *)",
+   "referenced_type" : "_ZTIFbbPvE",
+   "self_type" : "_ZTIPFbbPvE",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_manager.h"
   },
   {
    "alignment" : 8,
