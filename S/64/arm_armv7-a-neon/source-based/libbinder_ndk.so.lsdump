@@ -467,6 +467,9 @@
    "name" : "AServiceManager_isDeclared"
   },
   {
+   "name" : "AServiceManager_isUpdatableViaApex"
+  },
+  {
    "name" : "AServiceManager_reRegister"
   },
   {
@@ -543,7 +546,7 @@
     }
    ],
    "linker_set_key" : "_ZTI12$FLAG_ONEWAY",
-   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h:40:1)",
+   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h:43:1)",
    "referenced_type" : "_ZTI12$FLAG_ONEWAY",
    "self_type" : "_ZTI12$FLAG_ONEWAY",
    "size" : 4,
@@ -663,7 +666,7 @@
     }
    ],
    "linker_set_key" : "_ZTI19$FLAG_PRIVATE_LOCAL",
-   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_platform/android/binder_stability.h:59:1)",
+   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_platform/android/binder_stability.h:62:1)",
    "referenced_type" : "_ZTI19$FLAG_PRIVATE_LOCAL",
    "self_type" : "_ZTI19$FLAG_PRIVATE_LOCAL",
    "size" : 4,
@@ -790,7 +793,7 @@
     }
    ],
    "linker_set_key" : "_ZTI23$FIRST_CALL_TRANSACTION",
-   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h:52:1)",
+   "name" : "(anonymous enum at frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h:58:1)",
    "referenced_type" : "_ZTI23$FIRST_CALL_TRANSACTION",
    "self_type" : "_ZTI23$FIRST_CALL_TRANSACTION",
    "size" : 4,
@@ -7757,6 +7760,18 @@
   {
    "function_name" : "AServiceManager_isDeclared",
    "linker_set_key" : "AServiceManager_isDeclared",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_manager.h"
+  },
+  {
+   "function_name" : "AServiceManager_isUpdatableViaApex",
+   "linker_set_key" : "AServiceManager_isUpdatableViaApex",
    "parameters" :
    [
     {
