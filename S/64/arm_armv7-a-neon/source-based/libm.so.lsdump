@@ -8,7 +8,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIA10_c",
    "size" : 10,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_modf.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/s_modf.c"
   },
   {
    "alignment" : 8,
@@ -17,7 +17,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIA10_d",
    "size" : 80,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 4,
@@ -26,7 +26,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIA10_i",
    "size" : 40,
-   "source_file" : "/bionic/libc/include/bits/pthread_types.h"
+   "source_file" : "bionic/libc/include/bits/pthread_types.h"
   },
   {
    "alignment" : 8,
@@ -35,25 +35,25 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIA11_d",
    "size" : 88,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/s_atan.c"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIA128_N12pow_log_dataUt_E",
-   "name" : "pow_log_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:416:3) [128]",
+   "name" : "pow_log_data::(anonymous struct at external/arm-optimized-routines/math/math_config.h:434:3) [128]",
    "referenced_type" : "_ZTIN12pow_log_dataUt_E",
    "self_type" : "_ZTIA128_N12pow_log_dataUt_E",
    "size" : 4096,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIA128_N8log_dataUt_E",
-   "name" : "log_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:387:3) [128]",
+   "name" : "log_data::(anonymous struct at external/arm-optimized-routines/math/math_config.h:405:3) [128]",
    "referenced_type" : "_ZTIN8log_dataUt_E",
    "self_type" : "_ZTIA128_N8log_dataUt_E",
    "size" : 2048,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -62,34 +62,43 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIA129_d",
    "size" : 1032,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/bsdsrc/b_log.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/bsdsrc/b_log.c"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIA14_d",
+   "name" : "double [14]",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTIA14_d",
+   "size" : 112,
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIA16_N10log2f_dataUt_E",
-   "name" : "log2f_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:331:3) [16]",
+   "name" : "log2f_data::(anonymous struct at external/arm-optimized-routines/math/math_config.h:349:3) [16]",
    "referenced_type" : "_ZTIN10log2f_dataUt_E",
    "self_type" : "_ZTIA16_N10log2f_dataUt_E",
    "size" : 256,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIA16_N14powf_log2_dataUt_E",
-   "name" : "powf_log2_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:348:3) [16]",
+   "name" : "powf_log2_data::(anonymous struct at external/arm-optimized-routines/math/math_config.h:366:3) [16]",
    "referenced_type" : "_ZTIN14powf_log2_dataUt_E",
    "self_type" : "_ZTIA16_N14powf_log2_dataUt_E",
    "size" : 256,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIA16_N9logf_dataUt_E",
-   "name" : "logf_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:319:3) [16]",
+   "name" : "logf_data::(anonymous struct at external/arm-optimized-routines/math/math_config.h:337:3) [16]",
    "referenced_type" : "_ZTIN9logf_dataUt_E",
    "self_type" : "_ZTIA16_N9logf_dataUt_E",
    "size" : 256,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -98,7 +107,25 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIA16_d",
    "size" : 128,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_tan.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/k_tan.c"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIA17_d",
+   "name" : "double [17]",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTIA17_d",
+   "size" : 136,
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIA18_d",
+   "name" : "double [18]",
+   "referenced_type" : "_ZTId",
+   "self_type" : "_ZTIA18_d",
+   "size" : 144,
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 4,
@@ -107,7 +134,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIA1_i",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/bits/pthread_types.h"
+   "source_file" : "bionic/libc/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -116,7 +143,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIA24_j",
    "size" : 96,
-   "source_file" : "/external/arm-optimized-routines/math/sincosf_data.c"
+   "source_file" : "external/arm-optimized-routines/math/sincosf_data.c"
   },
   {
    "alignment" : 8,
@@ -125,7 +152,7 @@
    "referenced_type" : "_ZTIy",
    "self_type" : "_ZTIA256_y",
    "size" : 2048,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -134,7 +161,7 @@
    "referenced_type" : "_ZTI8sincos_t",
    "self_type" : "_ZTIA2_8sincos_t",
    "size" : 224,
-   "source_file" : "/external/arm-optimized-routines/math/sincosf.h"
+   "source_file" : "external/arm-optimized-routines/math/sincosf.h"
   },
   {
    "alignment" : 8,
@@ -143,7 +170,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIA2_d",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
   {
    "alignment" : 8,
@@ -152,7 +179,7 @@
    "referenced_type" : "_ZTIe",
    "self_type" : "_ZTIA2_e",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
   {
    "alignment" : 4,
@@ -161,7 +188,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIA2_f",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
   {
    "alignment" : 4,
@@ -170,7 +197,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIA2_i",
    "size" : 8,
-   "source_file" : "/bionic/libc/kernel/uapi/asm-generic/posix_types.h"
+   "source_file" : "bionic/libc/kernel/uapi/asm-generic/posix_types.h"
   },
   {
    "alignment" : 4,
@@ -179,7 +206,7 @@
    "referenced_type" : "_ZTIm",
    "self_type" : "_ZTIA32_m",
    "size" : 128,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/posix_types.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/posix_types.h"
   },
   {
    "alignment" : 8,
@@ -188,7 +215,7 @@
    "referenced_type" : "_ZTIy",
    "self_type" : "_ZTIA32_y",
    "size" : 256,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -197,7 +224,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIA3_d",
    "size" : 24,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -206,7 +233,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIA4_d",
    "size" : 32,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/s_atan.c"
   },
   {
    "alignment" : 4,
@@ -215,7 +242,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIA4_f",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_atanf.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/s_atanf.c"
   },
   {
    "alignment" : 4,
@@ -224,7 +251,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIA4_i",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_rem_pio2.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/k_rem_pio2.c"
   },
   {
    "alignment" : 8,
@@ -233,7 +260,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIA5_d",
    "size" : 40,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/e_j0.c"
   },
   {
    "alignment" : 4,
@@ -242,16 +269,16 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIA5_f",
    "size" : 20,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0f.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/e_j0f.c"
   },
   {
    "alignment" : 8,
    "linker_set_key" : "_ZTIA64_N9log2_dataUt_E",
-   "name" : "log2_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:402:3) [64]",
+   "name" : "log2_data::(anonymous struct at external/arm-optimized-routines/math/math_config.h:420:3) [64]",
    "referenced_type" : "_ZTIN9log2_dataUt_E",
    "self_type" : "_ZTIA64_N9log2_dataUt_E",
    "size" : 1024,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 4,
@@ -260,7 +287,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIA66_i",
    "size" : 264,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_rem_pio2.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/k_rem_pio2.c"
   },
   {
    "alignment" : 8,
@@ -269,7 +296,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIA6_d",
    "size" : 48,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_tanf.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/e_j0.c"
   },
   {
    "alignment" : 4,
@@ -278,7 +305,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIA6_f",
    "size" : 24,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0f.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/e_j0f.c"
   },
   {
    "alignment" : 8,
@@ -287,7 +314,16 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIA7_d",
    "size" : 56,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIA7_f",
+   "name" : "float [7]",
+   "referenced_type" : "_ZTIf",
+   "self_type" : "_ZTIA7_f",
+   "size" : 28,
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -296,7 +332,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIA8_d",
    "size" : 64,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_rem_pio2.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/k_rem_pio2.c"
   },
   {
    "alignment" : 4,
@@ -305,14 +341,14 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIA8_i",
    "size" : 32,
-   "source_file" : "/bionic/libc/include/bits/pthread_types.h"
+   "source_file" : "bionic/libc/include/bits/pthread_types.h"
   },
   {
    "linker_set_key" : "_ZTIA_j",
    "name" : "unsigned int []",
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIA_j",
-   "source_file" : "/external/arm-optimized-routines/math/sincosf.h"
+   "source_file" : "external/arm-optimized-routines/math/sincosf.h"
   }
  ],
  "builtin_types" :
@@ -1367,7 +1403,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libm/signbit.cpp"
+   "source_file" : "bionic/libm/signbit.cpp"
   },
   {
    "function_name" : "__signbitf",
@@ -1379,7 +1415,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libm/signbit.cpp"
+   "source_file" : "bionic/libm/signbit.cpp"
   },
   {
    "function_name" : "__signbitl",
@@ -1391,7 +1427,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libm/signbit.cpp"
+   "source_file" : "bionic/libm/signbit.cpp"
   },
   {
    "function_name" : "acos",
@@ -1403,7 +1439,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "acosf",
@@ -1415,7 +1451,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "acosh",
@@ -1427,7 +1463,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "acoshf",
@@ -1439,7 +1475,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "asin",
@@ -1451,7 +1487,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "asinf",
@@ -1463,7 +1499,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "asinh",
@@ -1475,7 +1511,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "asinhf",
@@ -1487,7 +1523,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "atan",
@@ -1499,7 +1535,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "atan2",
@@ -1514,7 +1550,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "atan2f",
@@ -1529,7 +1565,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "atanf",
@@ -1541,7 +1577,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "atanh",
@@ -1553,7 +1589,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "atanhf",
@@ -1565,7 +1601,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "cabs",
@@ -1577,7 +1613,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "cabsf",
@@ -1589,7 +1625,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "cabsl",
@@ -1601,7 +1637,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "cacos",
@@ -1613,7 +1649,7 @@
     }
    ],
    "return_type" : "_ZTICd",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "cacosf",
@@ -1625,7 +1661,7 @@
     }
    ],
    "return_type" : "_ZTICf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "cacosh",
@@ -1637,7 +1673,7 @@
     }
    ],
    "return_type" : "_ZTICd",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "cacoshf",
@@ -1649,7 +1685,7 @@
     }
    ],
    "return_type" : "_ZTICf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "carg",
@@ -1661,7 +1697,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "cargf",
@@ -1673,7 +1709,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "cargl",
@@ -1685,7 +1721,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "casin",
@@ -1697,7 +1733,7 @@
     }
    ],
    "return_type" : "_ZTICd",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "casinf",
@@ -1709,7 +1745,7 @@
     }
    ],
    "return_type" : "_ZTICf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "casinh",
@@ -1721,7 +1757,7 @@
     }
    ],
    "return_type" : "_ZTICd",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "casinhf",
@@ -1733,7 +1769,7 @@
     }
    ],
    "return_type" : "_ZTICf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "catan",
@@ -1745,7 +1781,7 @@
     }
    ],
    "return_type" : "_ZTICd",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "catanf",
@@ -1757,7 +1793,7 @@
     }
    ],
    "return_type" : "_ZTICf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "catanh",
@@ -1769,7 +1805,7 @@
     }
    ],
    "return_type" : "_ZTICd",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "catanhf",
@@ -1781,7 +1817,7 @@
     }
    ],
    "return_type" : "_ZTICf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "cbrt",
@@ -1793,7 +1829,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "cbrtf",
@@ -1805,7 +1841,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "ccos",
@@ -1817,7 +1853,7 @@
     }
    ],
    "return_type" : "_ZTICd",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "ccosf",
@@ -1829,7 +1865,7 @@
     }
    ],
    "return_type" : "_ZTICf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "ccosh",
@@ -1841,7 +1877,7 @@
     }
    ],
    "return_type" : "_ZTICd",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "ccoshf",
@@ -1853,7 +1889,7 @@
     }
    ],
    "return_type" : "_ZTICf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "ccoshl",
@@ -1865,7 +1901,7 @@
     }
    ],
    "return_type" : "_ZTICe",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "ccosl",
@@ -1877,7 +1913,7 @@
     }
    ],
    "return_type" : "_ZTICe",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "ceil",
@@ -1889,7 +1925,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "ceilf",
@@ -1901,7 +1937,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "cexp",
@@ -1913,7 +1949,7 @@
     }
    ],
    "return_type" : "_ZTICd",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "cexpf",
@@ -1925,7 +1961,7 @@
     }
    ],
    "return_type" : "_ZTICf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "cexpl",
@@ -1937,7 +1973,7 @@
     }
    ],
    "return_type" : "_ZTICe",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "cimag",
@@ -1949,7 +1985,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "cimagf",
@@ -1961,7 +1997,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "cimagl",
@@ -1973,7 +2009,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "clog",
@@ -1985,7 +2021,7 @@
     }
    ],
    "return_type" : "_ZTICd",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "clogf",
@@ -1997,7 +2033,7 @@
     }
    ],
    "return_type" : "_ZTICf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "conj",
@@ -2009,7 +2045,7 @@
     }
    ],
    "return_type" : "_ZTICd",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "conjf",
@@ -2021,7 +2057,7 @@
     }
    ],
    "return_type" : "_ZTICf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "conjl",
@@ -2033,7 +2069,7 @@
     }
    ],
    "return_type" : "_ZTICe",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "copysign",
@@ -2048,7 +2084,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "copysignf",
@@ -2063,7 +2099,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "copysignl",
@@ -2078,7 +2114,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "cos",
@@ -2090,7 +2126,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "cosf",
@@ -2102,7 +2138,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "cosh",
@@ -2114,7 +2150,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "coshf",
@@ -2126,7 +2162,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "cpow",
@@ -2141,7 +2177,7 @@
     }
    ],
    "return_type" : "_ZTICd",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "cpowf",
@@ -2156,7 +2192,7 @@
     }
    ],
    "return_type" : "_ZTICf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "cpowl",
@@ -2171,7 +2207,7 @@
     }
    ],
    "return_type" : "_ZTICe",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "cproj",
@@ -2183,7 +2219,7 @@
     }
    ],
    "return_type" : "_ZTICd",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "cprojf",
@@ -2195,7 +2231,7 @@
     }
    ],
    "return_type" : "_ZTICf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "cprojl",
@@ -2207,7 +2243,7 @@
     }
    ],
    "return_type" : "_ZTICe",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "creal",
@@ -2219,7 +2255,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "crealf",
@@ -2231,7 +2267,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "creall",
@@ -2243,7 +2279,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "csin",
@@ -2255,7 +2291,7 @@
     }
    ],
    "return_type" : "_ZTICd",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "csinf",
@@ -2267,7 +2303,7 @@
     }
    ],
    "return_type" : "_ZTICf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "csinh",
@@ -2279,7 +2315,7 @@
     }
    ],
    "return_type" : "_ZTICd",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "csinhf",
@@ -2291,7 +2327,7 @@
     }
    ],
    "return_type" : "_ZTICf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "csinhl",
@@ -2303,7 +2339,7 @@
     }
    ],
    "return_type" : "_ZTICe",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "csinl",
@@ -2315,7 +2351,7 @@
     }
    ],
    "return_type" : "_ZTICe",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "csqrt",
@@ -2327,7 +2363,7 @@
     }
    ],
    "return_type" : "_ZTICd",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "csqrtf",
@@ -2339,7 +2375,7 @@
     }
    ],
    "return_type" : "_ZTICf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "ctan",
@@ -2351,7 +2387,7 @@
     }
    ],
    "return_type" : "_ZTICd",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "ctanf",
@@ -2363,7 +2399,7 @@
     }
    ],
    "return_type" : "_ZTICf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "ctanh",
@@ -2375,7 +2411,7 @@
     }
    ],
    "return_type" : "_ZTICd",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "ctanhf",
@@ -2387,7 +2423,7 @@
     }
    ],
    "return_type" : "_ZTICf",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "ctanhl",
@@ -2399,7 +2435,7 @@
     }
    ],
    "return_type" : "_ZTICe",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "ctanl",
@@ -2411,7 +2447,7 @@
     }
    ],
    "return_type" : "_ZTICe",
-   "source_file" : "/bionic/libc/include/complex.h"
+   "source_file" : "bionic/libc/include/complex.h"
   },
   {
    "function_name" : "drem",
@@ -2426,7 +2462,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "dremf",
@@ -2441,7 +2477,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "erf",
@@ -2453,7 +2489,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "erfc",
@@ -2465,7 +2501,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "erfcf",
@@ -2477,7 +2513,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "erff",
@@ -2489,7 +2525,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "exp",
@@ -2501,7 +2537,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "exp2",
@@ -2513,7 +2549,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "exp2f",
@@ -2525,7 +2561,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "exp2l",
@@ -2537,7 +2573,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "expf",
@@ -2549,7 +2585,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "expl",
@@ -2561,7 +2597,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "expm1",
@@ -2573,7 +2609,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "expm1f",
@@ -2585,7 +2621,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "fabs",
@@ -2597,7 +2633,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "fabsf",
@@ -2609,7 +2645,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "fabsl",
@@ -2621,7 +2657,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "fdim",
@@ -2636,7 +2672,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "fdimf",
@@ -2651,7 +2687,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "fdiml",
@@ -2666,7 +2702,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "feclearexcept",
@@ -2678,7 +2714,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libc/include/fenv.h"
+   "source_file" : "bionic/libc/include/fenv.h"
   },
   {
    "function_name" : "fedisableexcept",
@@ -2690,7 +2726,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libc/include/fenv.h"
+   "source_file" : "bionic/libc/include/fenv.h"
   },
   {
    "function_name" : "feenableexcept",
@@ -2702,7 +2738,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libc/include/fenv.h"
+   "source_file" : "bionic/libc/include/fenv.h"
   },
   {
    "function_name" : "fegetenv",
@@ -2714,13 +2750,13 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libc/include/fenv.h"
+   "source_file" : "bionic/libc/include/fenv.h"
   },
   {
    "function_name" : "fegetexcept",
    "linker_set_key" : "fegetexcept",
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libc/include/fenv.h"
+   "source_file" : "bionic/libc/include/fenv.h"
   },
   {
    "function_name" : "fegetexceptflag",
@@ -2735,13 +2771,13 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libc/include/fenv.h"
+   "source_file" : "bionic/libc/include/fenv.h"
   },
   {
    "function_name" : "fegetround",
    "linker_set_key" : "fegetround",
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libc/include/fenv.h"
+   "source_file" : "bionic/libc/include/fenv.h"
   },
   {
    "function_name" : "feholdexcept",
@@ -2753,7 +2789,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libc/include/fenv.h"
+   "source_file" : "bionic/libc/include/fenv.h"
   },
   {
    "function_name" : "feraiseexcept",
@@ -2765,7 +2801,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libc/include/fenv.h"
+   "source_file" : "bionic/libc/include/fenv.h"
   },
   {
    "function_name" : "fesetenv",
@@ -2777,7 +2813,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libc/include/fenv.h"
+   "source_file" : "bionic/libc/include/fenv.h"
   },
   {
    "function_name" : "fesetexceptflag",
@@ -2792,7 +2828,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libc/include/fenv.h"
+   "source_file" : "bionic/libc/include/fenv.h"
   },
   {
    "function_name" : "fesetround",
@@ -2804,7 +2840,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libc/include/fenv.h"
+   "source_file" : "bionic/libc/include/fenv.h"
   },
   {
    "function_name" : "fetestexcept",
@@ -2816,7 +2852,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libc/include/fenv.h"
+   "source_file" : "bionic/libc/include/fenv.h"
   },
   {
    "function_name" : "feupdateenv",
@@ -2828,7 +2864,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libc/include/fenv.h"
+   "source_file" : "bionic/libc/include/fenv.h"
   },
   {
    "function_name" : "finite",
@@ -2840,7 +2876,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "finitef",
@@ -2852,7 +2888,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "floorf",
@@ -2864,7 +2900,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "fma",
@@ -2882,7 +2918,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "fmaf",
@@ -2900,7 +2936,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "fmax",
@@ -2915,7 +2951,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "fmaxf",
@@ -2930,7 +2966,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "fmaxl",
@@ -2945,7 +2981,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "fmin",
@@ -2960,7 +2996,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "fminf",
@@ -2975,7 +3011,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "fminl",
@@ -2990,7 +3026,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "fmod",
@@ -3005,7 +3041,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "fmodf",
@@ -3020,7 +3056,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "fmodl",
@@ -3035,7 +3071,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "frexp",
@@ -3050,7 +3086,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "frexpf",
@@ -3065,7 +3101,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "gamma",
@@ -3077,7 +3113,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "gamma_r",
@@ -3092,7 +3128,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "gammaf",
@@ -3104,7 +3140,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "gammaf_r",
@@ -3119,7 +3155,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "hypot",
@@ -3134,7 +3170,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "hypotf",
@@ -3149,7 +3185,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "ilogb",
@@ -3161,7 +3197,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "ilogbf",
@@ -3173,7 +3209,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "ilogbl",
@@ -3185,7 +3221,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "j0",
@@ -3197,7 +3233,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "j0f",
@@ -3209,7 +3245,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "j1",
@@ -3221,7 +3257,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "j1f",
@@ -3233,7 +3269,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "jn",
@@ -3248,7 +3284,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "jnf",
@@ -3263,7 +3299,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "ldexpf",
@@ -3278,7 +3314,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "lgamma",
@@ -3290,7 +3326,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "lgamma_r",
@@ -3305,7 +3341,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "lgammaf",
@@ -3317,7 +3353,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "lgammaf_r",
@@ -3332,7 +3368,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "llrint",
@@ -3344,7 +3380,7 @@
     }
    ],
    "return_type" : "_ZTIx",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "llrintf",
@@ -3356,7 +3392,7 @@
     }
    ],
    "return_type" : "_ZTIx",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "llrintl",
@@ -3368,7 +3404,7 @@
     }
    ],
    "return_type" : "_ZTIx",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "llround",
@@ -3380,7 +3416,7 @@
     }
    ],
    "return_type" : "_ZTIx",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "llroundf",
@@ -3392,7 +3428,7 @@
     }
    ],
    "return_type" : "_ZTIx",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "llroundl",
@@ -3404,7 +3440,7 @@
     }
    ],
    "return_type" : "_ZTIx",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "log",
@@ -3416,7 +3452,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "log10",
@@ -3428,7 +3464,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "log10f",
@@ -3440,7 +3476,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "log1p",
@@ -3452,7 +3488,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "log1pf",
@@ -3464,7 +3500,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "log2",
@@ -3476,7 +3512,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "log2f",
@@ -3488,7 +3524,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "log2l",
@@ -3500,7 +3536,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "logb",
@@ -3512,7 +3548,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "logbf",
@@ -3524,7 +3560,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "logf",
@@ -3536,7 +3572,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "logl",
@@ -3548,7 +3584,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "lrint",
@@ -3560,7 +3596,7 @@
     }
    ],
    "return_type" : "_ZTIl",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "lrintf",
@@ -3572,7 +3608,7 @@
     }
    ],
    "return_type" : "_ZTIl",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "lrintl",
@@ -3584,7 +3620,7 @@
     }
    ],
    "return_type" : "_ZTIl",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "lround",
@@ -3596,7 +3632,7 @@
     }
    ],
    "return_type" : "_ZTIl",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "lroundf",
@@ -3608,7 +3644,7 @@
     }
    ],
    "return_type" : "_ZTIl",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "lroundl",
@@ -3620,7 +3656,7 @@
     }
    ],
    "return_type" : "_ZTIl",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "modf",
@@ -3635,7 +3671,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "modff",
@@ -3650,7 +3686,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "modfl",
@@ -3665,7 +3701,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "nan",
@@ -3677,7 +3713,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "nanf",
@@ -3689,7 +3725,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "nearbyint",
@@ -3701,7 +3737,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "nearbyintf",
@@ -3713,7 +3749,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "nearbyintl",
@@ -3725,7 +3761,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "nextafter",
@@ -3740,7 +3776,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "nextafterf",
@@ -3755,7 +3791,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "nexttowardf",
@@ -3770,7 +3806,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "pow",
@@ -3785,7 +3821,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "powf",
@@ -3800,7 +3836,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "powl",
@@ -3815,7 +3851,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "remainder",
@@ -3830,7 +3866,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "remainderf",
@@ -3845,7 +3881,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "remquo",
@@ -3863,7 +3899,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "remquof",
@@ -3881,7 +3917,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "rint",
@@ -3893,7 +3929,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "rintf",
@@ -3905,7 +3941,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "round",
@@ -3917,7 +3953,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "roundf",
@@ -3929,7 +3965,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "roundl",
@@ -3941,7 +3977,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "scalb",
@@ -3956,7 +3992,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "scalbf",
@@ -3971,7 +4007,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "scalbln",
@@ -3986,7 +4022,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "scalblnf",
@@ -4001,7 +4037,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "scalblnl",
@@ -4016,7 +4052,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "scalbn",
@@ -4031,7 +4067,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "scalbnf",
@@ -4046,7 +4082,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "significand",
@@ -4058,7 +4094,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "significandf",
@@ -4070,7 +4106,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "significandl",
@@ -4082,7 +4118,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "sin",
@@ -4094,7 +4130,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "sincos",
@@ -4112,7 +4148,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "sincosf",
@@ -4130,7 +4166,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/external/arm-optimized-routines/math/sincosf.c"
+   "source_file" : "external/arm-optimized-routines/math/sincosf.c"
   },
   {
    "function_name" : "sincosl",
@@ -4148,7 +4184,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "sinf",
@@ -4160,7 +4196,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "sinh",
@@ -4172,7 +4208,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "sinhf",
@@ -4184,7 +4220,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "tan",
@@ -4196,7 +4232,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "tanf",
@@ -4208,7 +4244,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "tanh",
@@ -4220,7 +4256,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "tanhf",
@@ -4232,7 +4268,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "tgamma",
@@ -4244,7 +4280,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "tgammaf",
@@ -4256,7 +4292,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "tgammal",
@@ -4268,7 +4304,7 @@
     }
    ],
    "return_type" : "_ZTIe",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "trunc",
@@ -4280,7 +4316,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "truncf",
@@ -4292,7 +4328,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "y0",
@@ -4304,7 +4340,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "y0f",
@@ -4316,7 +4352,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "y1",
@@ -4328,7 +4364,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "y1f",
@@ -4340,7 +4376,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "yn",
@@ -4355,7 +4391,7 @@
     }
    ],
    "return_type" : "_ZTId",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "function_name" : "ynf",
@@ -4370,7 +4406,7 @@
     }
    ],
    "return_type" : "_ZTIf",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   }
  ],
  "global_vars" :
@@ -4379,13 +4415,13 @@
    "linker_set_key" : "__fe_dfl_env",
    "name" : "__fe_dfl_env",
    "referenced_type" : "_ZTIKj",
-   "source_file" : "/bionic/libc/include/fenv.h"
+   "source_file" : "bionic/libc/include/fenv.h"
   },
   {
    "linker_set_key" : "signgam",
    "name" : "signgam",
    "referenced_type" : "_ZTIi",
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   }
  ],
  "lvalue_reference_types" : [],
@@ -4398,7 +4434,7 @@
    "referenced_type" : "_ZTIKc",
    "self_type" : "_ZTIPKc",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "alignment" : 4,
@@ -4407,7 +4443,7 @@
    "referenced_type" : "_ZTIKj",
    "self_type" : "_ZTIPKj",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/fenv.h"
+   "source_file" : "bionic/libc/include/fenv.h"
   },
   {
    "alignment" : 4,
@@ -4416,7 +4452,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIPd",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
   {
    "alignment" : 4,
@@ -4425,7 +4461,7 @@
    "referenced_type" : "_ZTIe",
    "self_type" : "_ZTIPe",
    "size" : 4,
-   "source_file" : "/bionic/libm/upstream-netbsd/lib/libm/complex/cephes_subrl.h"
+   "source_file" : "bionic/libm/upstream-netbsd/lib/libm/complex/cephes_subrl.h"
   },
   {
    "alignment" : 4,
@@ -4434,7 +4470,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIPf",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "alignment" : 4,
@@ -4443,7 +4479,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIPi",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "alignment" : 4,
@@ -4452,7 +4488,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIPj",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/fenv.h"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
   {
    "alignment" : 4,
@@ -4461,7 +4497,7 @@
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIPv",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/bits/pthread_types.h"
+   "source_file" : "bionic/libc/include/bits/pthread_types.h"
   }
  ],
  "qualified_types" :
@@ -4474,7 +4510,7 @@
    "referenced_type" : "_ZTIA10_c",
    "self_type" : "_ZTIA10_Kc",
    "size" : 10,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/w_cabsf.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/w_cabsf.c"
   },
   {
    "alignment" : 8,
@@ -4484,7 +4520,7 @@
    "referenced_type" : "_ZTIA11_d",
    "self_type" : "_ZTIA11_Kd",
    "size" : 88,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_atan.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/s_atan.c"
   },
   {
    "alignment" : 8,
@@ -4494,7 +4530,7 @@
    "referenced_type" : "_ZTIA16_d",
    "self_type" : "_ZTIA16_Kd",
    "size" : 128,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_tan.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/k_tan.c"
   },
   {
    "alignment" : 4,
@@ -4504,7 +4540,7 @@
    "referenced_type" : "_ZTIA24_j",
    "self_type" : "_ZTIA24_Kj",
    "size" : 96,
-   "source_file" : "/external/arm-optimized-routines/math/sincosf_data.c"
+   "source_file" : "external/arm-optimized-routines/math/sincosf_data.c"
   },
   {
    "alignment" : 8,
@@ -4514,7 +4550,7 @@
    "referenced_type" : "_ZTIA2_8sincos_t",
    "self_type" : "_ZTIA2_K8sincos_t",
    "size" : 224,
-   "source_file" : "/external/arm-optimized-routines/math/sincosf.h"
+   "source_file" : "external/arm-optimized-routines/math/sincosf.h"
   },
   {
    "alignment" : 8,
@@ -4524,7 +4560,7 @@
    "referenced_type" : "_ZTIA2_d",
    "self_type" : "_ZTIA2_Kd",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_fmod.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/e_fmod.c"
   },
   {
    "alignment" : 4,
@@ -4534,7 +4570,7 @@
    "referenced_type" : "_ZTIA2_f",
    "self_type" : "_ZTIA2_Kf",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_fmodf.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/e_fmodf.c"
   },
   {
    "alignment" : 8,
@@ -4544,7 +4580,7 @@
    "referenced_type" : "_ZTIA4_d",
    "self_type" : "_ZTIA4_Kd",
    "size" : 32,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_atan.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/s_atan.c"
   },
   {
    "alignment" : 4,
@@ -4554,7 +4590,7 @@
    "referenced_type" : "_ZTIA4_f",
    "self_type" : "_ZTIA4_Kf",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_atanf.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/s_atanf.c"
   },
   {
    "alignment" : 4,
@@ -4564,7 +4600,7 @@
    "referenced_type" : "_ZTIA4_i",
    "self_type" : "_ZTIA4_Ki",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_rem_pio2.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/k_rem_pio2.c"
   },
   {
    "alignment" : 8,
@@ -4574,7 +4610,7 @@
    "referenced_type" : "_ZTIA5_d",
    "self_type" : "_ZTIA5_Kd",
    "size" : 40,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/e_j0.c"
   },
   {
    "alignment" : 4,
@@ -4584,7 +4620,7 @@
    "referenced_type" : "_ZTIA5_f",
    "self_type" : "_ZTIA5_Kf",
    "size" : 20,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0f.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/e_j0f.c"
   },
   {
    "alignment" : 4,
@@ -4594,7 +4630,7 @@
    "referenced_type" : "_ZTIA66_i",
    "self_type" : "_ZTIA66_Ki",
    "size" : 264,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_rem_pio2.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/k_rem_pio2.c"
   },
   {
    "alignment" : 8,
@@ -4604,7 +4640,7 @@
    "referenced_type" : "_ZTIA6_d",
    "self_type" : "_ZTIA6_Kd",
    "size" : 48,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_tanf.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/e_j0.c"
   },
   {
    "alignment" : 4,
@@ -4614,7 +4650,7 @@
    "referenced_type" : "_ZTIA6_f",
    "self_type" : "_ZTIA6_Kf",
    "size" : 24,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_j0f.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/e_j0f.c"
   },
   {
    "alignment" : 8,
@@ -4624,7 +4660,7 @@
    "referenced_type" : "_ZTIA8_d",
    "self_type" : "_ZTIA8_Kd",
    "size" : 64,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/k_rem_pio2.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/k_rem_pio2.c"
   },
   {
    "is_const" : true,
@@ -4632,7 +4668,7 @@
    "name" : "unsigned int const[]",
    "referenced_type" : "_ZTIA_j",
    "self_type" : "_ZTIA_Kj",
-   "source_file" : "/external/arm-optimized-routines/math/sincosf.h"
+   "source_file" : "external/arm-optimized-routines/math/sincosf.h"
   },
   {
    "alignment" : 8,
@@ -4642,7 +4678,7 @@
    "referenced_type" : "_ZTI10exp2f_data",
    "self_type" : "_ZTIK10exp2f_data",
    "size" : 328,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -4652,7 +4688,7 @@
    "referenced_type" : "_ZTI10log2f_data",
    "self_type" : "_ZTIK10log2f_data",
    "size" : 288,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -4662,7 +4698,7 @@
    "referenced_type" : "_ZTI12pow_log_data",
    "self_type" : "_ZTIK12pow_log_data",
    "size" : 4168,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -4672,7 +4708,17 @@
    "referenced_type" : "_ZTI14powf_log2_data",
    "self_type" : "_ZTIK14powf_log2_data",
    "size" : 296,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK8erf_data",
+   "name" : "const erf_data",
+   "referenced_type" : "_ZTI8erf_data",
+   "self_type" : "_ZTIK8erf_data",
+   "size" : 784,
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -4682,7 +4728,7 @@
    "referenced_type" : "_ZTI8exp_data",
    "self_type" : "_ZTIK8exp_data",
    "size" : 2160,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -4692,7 +4738,17 @@
    "referenced_type" : "_ZTI8log_data",
    "self_type" : "_ZTIK8log_data",
    "size" : 4240,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK9erff_data",
+   "name" : "const erff_data",
+   "referenced_type" : "_ZTI9erff_data",
+   "self_type" : "_ZTIK9erff_data",
+   "size" : 52,
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -4702,7 +4758,7 @@
    "referenced_type" : "_ZTI9log2_data",
    "self_type" : "_ZTIK9log2_data",
    "size" : 2192,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -4712,7 +4768,7 @@
    "referenced_type" : "_ZTI9logf_data",
    "self_type" : "_ZTIK9logf_data",
    "size" : 288,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 1,
@@ -4722,7 +4778,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIKc",
    "size" : 1,
-   "source_file" : "/bionic/libc/include/math.h"
+   "source_file" : "bionic/libc/include/math.h"
   },
   {
    "alignment" : 8,
@@ -4732,7 +4788,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIKd",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_logb.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/bsdsrc/b_exp.c"
   },
   {
    "alignment" : 8,
@@ -4742,7 +4798,7 @@
    "referenced_type" : "_ZTIe",
    "self_type" : "_ZTIKe",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-netbsd/lib/libm/complex/cephes_subrl.c"
+   "source_file" : "bionic/libm/upstream-netbsd/lib/libm/complex/cephes_subrl.c"
   },
   {
    "alignment" : 4,
@@ -4752,7 +4808,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIKf",
    "size" : 4,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_logbf.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/catrigf.c"
   },
   {
    "alignment" : 4,
@@ -4762,7 +4818,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIKj",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/fenv.h"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/k_exp.c"
   },
   {
    "alignment" : 8,
@@ -4773,7 +4829,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIVKd",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_erf.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/catrig.c"
   },
   {
    "alignment" : 4,
@@ -4784,7 +4840,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIVKf",
    "size" : 4,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_erff.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/catrig.c"
   },
   {
    "alignment" : 8,
@@ -4794,7 +4850,7 @@
    "referenced_type" : "_ZTId",
    "self_type" : "_ZTIVd",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_log10.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/e_acos.c"
   },
   {
    "alignment" : 4,
@@ -4804,7 +4860,7 @@
    "referenced_type" : "_ZTIf",
    "self_type" : "_ZTIVf",
    "size" : 4,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/e_log10f.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/e_acosf.c"
   }
  ],
  "record_types" :
@@ -4828,7 +4884,7 @@
    "referenced_type" : "_ZTI10IEEEd2bits",
    "self_type" : "_ZTI10IEEEd2bits",
    "size" : 8,
-   "source_file" : "/bionic/libm/fpmath.h"
+   "source_file" : "bionic/libm/fpmath.h"
   },
   {
    "alignment" : 4,
@@ -4849,7 +4905,7 @@
    "referenced_type" : "_ZTI10IEEEf2bits",
    "self_type" : "_ZTI10IEEEf2bits",
    "size" : 4,
-   "source_file" : "/bionic/libm/fpmath.h"
+   "source_file" : "bionic/libm/fpmath.h"
   },
   {
    "alignment" : 8,
@@ -4890,7 +4946,7 @@
    "referenced_type" : "_ZTI10exp2f_data",
    "self_type" : "_ZTI10exp2f_data",
    "size" : 328,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -4911,7 +4967,7 @@
    "referenced_type" : "_ZTI10log2f_data",
    "self_type" : "_ZTI10log2f_data",
    "size" : 288,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -4932,7 +4988,7 @@
    "referenced_type" : "_ZTI11max_align_t",
    "self_type" : "_ZTI11max_align_t",
    "size" : 16,
-   "source_file" : "/prebuilts/clang-tools/linux-x86/lib64/clang/11.0.1/include/__stddef_max_align_t.h"
+   "source_file" : "prebuilts/clang-tools/linux-x86/clang-headers/__stddef_max_align_t.h"
   },
   {
    "alignment" : 8,
@@ -4963,7 +5019,7 @@
    "referenced_type" : "_ZTI12pow_log_data",
    "self_type" : "_ZTI12pow_log_data",
    "size" : 4168,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 4,
@@ -4984,7 +5040,7 @@
    "referenced_type" : "_ZTI13float_complex",
    "self_type" : "_ZTI13float_complex",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
   {
    "alignment" : 8,
@@ -5005,7 +5061,7 @@
    "referenced_type" : "_ZTI14double_complex",
    "self_type" : "_ZTI14double_complex",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
   {
    "alignment" : 8,
@@ -5026,7 +5082,7 @@
    "referenced_type" : "_ZTI14powf_log2_data",
    "self_type" : "_ZTI14powf_log2_data",
    "size" : 296,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 4,
@@ -5067,7 +5123,7 @@
    "referenced_type" : "_ZTI14pthread_attr_t",
    "self_type" : "_ZTI14pthread_attr_t",
    "size" : 24,
-   "source_file" : "/bionic/libc/include/bits/pthread_types.h"
+   "source_file" : "bionic/libc/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -5083,7 +5139,7 @@
    "referenced_type" : "_ZTI14pthread_cond_t",
    "self_type" : "_ZTI14pthread_cond_t",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/bits/pthread_types.h"
+   "source_file" : "bionic/libc/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -5099,7 +5155,7 @@
    "referenced_type" : "_ZTI15__kernel_fd_set",
    "self_type" : "_ZTI15__kernel_fd_set",
    "size" : 128,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/posix_types.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/posix_types.h"
   },
   {
    "alignment" : 4,
@@ -5115,7 +5171,7 @@
    "referenced_type" : "_ZTI15__kernel_fsid_t",
    "self_type" : "_ZTI15__kernel_fsid_t",
    "size" : 8,
-   "source_file" : "/bionic/libc/kernel/uapi/asm-generic/posix_types.h"
+   "source_file" : "bionic/libc/kernel/uapi/asm-generic/posix_types.h"
   },
   {
    "alignment" : 4,
@@ -5131,7 +5187,7 @@
    "referenced_type" : "_ZTI15pthread_mutex_t",
    "self_type" : "_ZTI15pthread_mutex_t",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/bits/pthread_types.h"
+   "source_file" : "bionic/libc/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -5147,7 +5203,7 @@
    "referenced_type" : "_ZTI16pthread_rwlock_t",
    "self_type" : "_ZTI16pthread_rwlock_t",
    "size" : 40,
-   "source_file" : "/bionic/libc/include/bits/pthread_types.h"
+   "source_file" : "bionic/libc/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -5163,7 +5219,7 @@
    "referenced_type" : "_ZTI17pthread_barrier_t",
    "self_type" : "_ZTI17pthread_barrier_t",
    "size" : 32,
-   "source_file" : "/bionic/libc/include/bits/pthread_types.h"
+   "source_file" : "bionic/libc/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -5179,7 +5235,7 @@
    "referenced_type" : "_ZTI18pthread_spinlock_t",
    "self_type" : "_ZTI18pthread_spinlock_t",
    "size" : 8,
-   "source_file" : "/bionic/libc/include/bits/pthread_types.h"
+   "source_file" : "bionic/libc/include/bits/pthread_types.h"
   },
   {
    "alignment" : 8,
@@ -5200,7 +5256,7 @@
    "referenced_type" : "_ZTI19long_double_complex",
    "self_type" : "_ZTI19long_double_complex",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
   {
    "alignment" : 8,
@@ -5225,7 +5281,7 @@
    "referenced_type" : "_ZTI20ieee_quad_shape_type",
    "self_type" : "_ZTI20ieee_quad_shape_type",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
   {
    "alignment" : 4,
@@ -5246,7 +5302,7 @@
    "referenced_type" : "_ZTI21ieee_float_shape_type",
    "self_type" : "_ZTI21ieee_float_shape_type",
    "size" : 4,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
   {
    "alignment" : 8,
@@ -5271,7 +5327,7 @@
    "referenced_type" : "_ZTI22ieee_double_shape_type",
    "self_type" : "_ZTI22ieee_double_shape_type",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
   {
    "alignment" : 8,
@@ -5292,7 +5348,7 @@
    "referenced_type" : "_ZTI2dd",
    "self_type" : "_ZTI2dd",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/s_fma.c"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/s_fma.c"
   },
   {
    "alignment" : 8,
@@ -5313,7 +5369,63 @@
    "referenced_type" : "_ZTI6Double",
    "self_type" : "_ZTI6Double",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/bsdsrc/mathimpl.h"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/bsdsrc/mathimpl.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "erf_poly_A",
+     "referenced_type" : "_ZTIA10_d"
+    },
+    {
+     "field_name" : "erf_ratio_N_A",
+     "field_offset" : 640,
+     "referenced_type" : "_ZTIA5_d"
+    },
+    {
+     "field_name" : "erf_ratio_D_A",
+     "field_offset" : 960,
+     "referenced_type" : "_ZTIA5_d"
+    },
+    {
+     "field_name" : "erf_ratio_N_B",
+     "field_offset" : 1280,
+     "referenced_type" : "_ZTIA7_d"
+    },
+    {
+     "field_name" : "erf_ratio_D_B",
+     "field_offset" : 1728,
+     "referenced_type" : "_ZTIA6_d"
+    },
+    {
+     "field_name" : "erfc_poly_C",
+     "field_offset" : 2112,
+     "referenced_type" : "_ZTIA16_d"
+    },
+    {
+     "field_name" : "erfc_poly_D",
+     "field_offset" : 3136,
+     "referenced_type" : "_ZTIA18_d"
+    },
+    {
+     "field_name" : "erfc_poly_E",
+     "field_offset" : 4288,
+     "referenced_type" : "_ZTIA14_d"
+    },
+    {
+     "field_name" : "erfc_poly_F",
+     "field_offset" : 5184,
+     "referenced_type" : "_ZTIA17_d"
+    }
+   ],
+   "linker_set_key" : "_ZTI8erf_data",
+   "name" : "erf_data",
+   "referenced_type" : "_ZTI8erf_data",
+   "self_type" : "_ZTI8erf_data",
+   "size" : 784,
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -5364,7 +5476,7 @@
    "referenced_type" : "_ZTI8exp_data",
    "self_type" : "_ZTI8exp_data",
    "size" : 2160,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -5405,7 +5517,7 @@
    "referenced_type" : "_ZTI8log_data",
    "self_type" : "_ZTI8log_data",
    "size" : 4240,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -5471,7 +5583,28 @@
    "referenced_type" : "_ZTI8sincos_t",
    "self_type" : "_ZTI8sincos_t",
    "size" : 112,
-   "source_file" : "/external/arm-optimized-routines/math/sincosf.h"
+   "source_file" : "external/arm-optimized-routines/math/sincosf.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "erff_poly_A",
+     "referenced_type" : "_ZTIA6_f"
+    },
+    {
+     "field_name" : "erff_poly_B",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIA7_f"
+    }
+   ],
+   "linker_set_key" : "_ZTI9erff_data",
+   "name" : "erff_data",
+   "referenced_type" : "_ZTI9erff_data",
+   "self_type" : "_ZTI9erff_data",
+   "size" : 52,
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -5512,7 +5645,7 @@
    "referenced_type" : "_ZTI9log2_data",
    "self_type" : "_ZTI9log2_data",
    "size" : 2192,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -5538,7 +5671,7 @@
    "referenced_type" : "_ZTI9logf_data",
    "self_type" : "_ZTI9logf_data",
    "size" : 288,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 4,
@@ -5570,7 +5703,7 @@
    "referenced_type" : "_ZTIN10IEEEd2bitsUt_E",
    "self_type" : "_ZTIN10IEEEd2bitsUt_E",
    "size" : 8,
-   "source_file" : "/bionic/libm/fpmath.h"
+   "source_file" : "bionic/libm/fpmath.h"
   },
   {
    "alignment" : 4,
@@ -5597,7 +5730,7 @@
    "referenced_type" : "_ZTIN10IEEEf2bitsUt_E",
    "self_type" : "_ZTIN10IEEEf2bitsUt_E",
    "size" : 4,
-   "source_file" : "/bionic/libm/fpmath.h"
+   "source_file" : "bionic/libm/fpmath.h"
   },
   {
    "alignment" : 8,
@@ -5615,11 +5748,11 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN10log2f_dataUt_E",
-   "name" : "log2f_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:331:3)",
+   "name" : "log2f_data::(anonymous struct at external/arm-optimized-routines/math/math_config.h:349:3)",
    "referenced_type" : "_ZTIN10log2f_dataUt_E",
    "self_type" : "_ZTIN10log2f_dataUt_E",
    "size" : 16,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -5647,11 +5780,11 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN12pow_log_dataUt_E",
-   "name" : "pow_log_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:416:3)",
+   "name" : "pow_log_data::(anonymous struct at external/arm-optimized-routines/math/math_config.h:434:3)",
    "referenced_type" : "_ZTIN12pow_log_dataUt_E",
    "self_type" : "_ZTIN12pow_log_dataUt_E",
    "size" : 32,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -5669,11 +5802,11 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN14powf_log2_dataUt_E",
-   "name" : "powf_log2_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:348:3)",
+   "name" : "powf_log2_data::(anonymous struct at external/arm-optimized-routines/math/math_config.h:366:3)",
    "referenced_type" : "_ZTIN14powf_log2_dataUt_E",
    "self_type" : "_ZTIN14powf_log2_dataUt_E",
    "size" : 16,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 4,
@@ -5705,7 +5838,7 @@
    "referenced_type" : "_ZTIN20ieee_quad_shape_typeUt_E",
    "self_type" : "_ZTIN20ieee_quad_shape_typeUt_E",
    "size" : 16,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
   {
    "alignment" : 4,
@@ -5727,7 +5860,7 @@
    "referenced_type" : "_ZTIN22ieee_double_shape_typeUt_E",
    "self_type" : "_ZTIN22ieee_double_shape_typeUt_E",
    "size" : 8,
-   "source_file" : "/bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
+   "source_file" : "bionic/libm/upstream-freebsd/lib/msun/src/math_private.h"
   },
   {
    "alignment" : 8,
@@ -5745,11 +5878,11 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN8log_dataUt_E",
-   "name" : "log_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:387:3)",
+   "name" : "log_data::(anonymous struct at external/arm-optimized-routines/math/math_config.h:405:3)",
    "referenced_type" : "_ZTIN8log_dataUt_E",
    "self_type" : "_ZTIN8log_dataUt_E",
    "size" : 16,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -5767,11 +5900,11 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN9log2_dataUt_E",
-   "name" : "log2_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:402:3)",
+   "name" : "log2_data::(anonymous struct at external/arm-optimized-routines/math/math_config.h:420:3)",
    "referenced_type" : "_ZTIN9log2_dataUt_E",
    "self_type" : "_ZTIN9log2_dataUt_E",
    "size" : 16,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   },
   {
    "alignment" : 8,
@@ -5789,11 +5922,11 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN9logf_dataUt_E",
-   "name" : "logf_data::(anonymous struct at /external/arm-optimized-routines/math/math_config.h:319:3)",
+   "name" : "logf_data::(anonymous struct at external/arm-optimized-routines/math/math_config.h:337:3)",
    "referenced_type" : "_ZTIN9logf_dataUt_E",
    "self_type" : "_ZTIN9logf_dataUt_E",
    "size" : 16,
-   "source_file" : "/external/arm-optimized-routines/math/math_config.h"
+   "source_file" : "external/arm-optimized-routines/math/math_config.h"
   }
  ],
  "rvalue_reference_types" : []

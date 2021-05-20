@@ -1,0 +1,200 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "AAudioStreamBuilder_delete"
+  },
+  {
+   "name" : "AAudioStreamBuilder_openStream"
+  },
+  {
+   "name" : "AAudioStreamBuilder_setAllowedCapturePolicy"
+  },
+  {
+   "name" : "AAudioStreamBuilder_setAttributionTag"
+  },
+  {
+   "name" : "AAudioStreamBuilder_setBufferCapacityInFrames"
+  },
+  {
+   "name" : "AAudioStreamBuilder_setChannelCount"
+  },
+  {
+   "name" : "AAudioStreamBuilder_setContentType"
+  },
+  {
+   "name" : "AAudioStreamBuilder_setDataCallback"
+  },
+  {
+   "name" : "AAudioStreamBuilder_setDeviceId"
+  },
+  {
+   "name" : "AAudioStreamBuilder_setDirection"
+  },
+  {
+   "name" : "AAudioStreamBuilder_setErrorCallback"
+  },
+  {
+   "name" : "AAudioStreamBuilder_setFormat"
+  },
+  {
+   "name" : "AAudioStreamBuilder_setFramesPerDataCallback"
+  },
+  {
+   "name" : "AAudioStreamBuilder_setInputPreset"
+  },
+  {
+   "name" : "AAudioStreamBuilder_setPackageName"
+  },
+  {
+   "name" : "AAudioStreamBuilder_setPerformanceMode"
+  },
+  {
+   "name" : "AAudioStreamBuilder_setPrivacySensitive"
+  },
+  {
+   "name" : "AAudioStreamBuilder_setSampleRate"
+  },
+  {
+   "name" : "AAudioStreamBuilder_setSamplesPerFrame"
+  },
+  {
+   "name" : "AAudioStreamBuilder_setSessionId"
+  },
+  {
+   "name" : "AAudioStreamBuilder_setSharingMode"
+  },
+  {
+   "name" : "AAudioStreamBuilder_setUsage"
+  },
+  {
+   "name" : "AAudioStream_close"
+  },
+  {
+   "name" : "AAudioStream_getAllowedCapturePolicy"
+  },
+  {
+   "name" : "AAudioStream_getBufferCapacityInFrames"
+  },
+  {
+   "name" : "AAudioStream_getBufferSizeInFrames"
+  },
+  {
+   "name" : "AAudioStream_getChannelCount"
+  },
+  {
+   "name" : "AAudioStream_getContentType"
+  },
+  {
+   "name" : "AAudioStream_getDeviceId"
+  },
+  {
+   "name" : "AAudioStream_getDirection"
+  },
+  {
+   "name" : "AAudioStream_getFormat"
+  },
+  {
+   "name" : "AAudioStream_getFramesPerBurst"
+  },
+  {
+   "name" : "AAudioStream_getFramesPerDataCallback"
+  },
+  {
+   "name" : "AAudioStream_getFramesRead"
+  },
+  {
+   "name" : "AAudioStream_getFramesWritten"
+  },
+  {
+   "name" : "AAudioStream_getInputPreset"
+  },
+  {
+   "name" : "AAudioStream_getPerformanceMode"
+  },
+  {
+   "name" : "AAudioStream_getSampleRate"
+  },
+  {
+   "name" : "AAudioStream_getSamplesPerFrame"
+  },
+  {
+   "name" : "AAudioStream_getSessionId"
+  },
+  {
+   "name" : "AAudioStream_getSharingMode"
+  },
+  {
+   "name" : "AAudioStream_getState"
+  },
+  {
+   "name" : "AAudioStream_getTimestamp"
+  },
+  {
+   "name" : "AAudioStream_getUsage"
+  },
+  {
+   "name" : "AAudioStream_getXRunCount"
+  },
+  {
+   "name" : "AAudioStream_isMMapUsed"
+  },
+  {
+   "name" : "AAudioStream_isPrivacySensitive"
+  },
+  {
+   "name" : "AAudioStream_read"
+  },
+  {
+   "name" : "AAudioStream_release"
+  },
+  {
+   "name" : "AAudioStream_requestFlush"
+  },
+  {
+   "name" : "AAudioStream_requestPause"
+  },
+  {
+   "name" : "AAudioStream_requestStart"
+  },
+  {
+   "name" : "AAudioStream_requestStop"
+  },
+  {
+   "name" : "AAudioStream_setBufferSizeInFrames"
+  },
+  {
+   "name" : "AAudioStream_waitForStateChange"
+  },
+  {
+   "name" : "AAudioStream_write"
+  },
+  {
+   "name" : "AAudio_convertResultToText"
+  },
+  {
+   "name" : "AAudio_convertStreamStateToText"
+  },
+  {
+   "name" : "AAudio_createStreamBuilder"
+  },
+  {
+   "name" : "AAudio_getMMapPolicy"
+  },
+  {
+   "name" : "AAudio_setMMapPolicy"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}
