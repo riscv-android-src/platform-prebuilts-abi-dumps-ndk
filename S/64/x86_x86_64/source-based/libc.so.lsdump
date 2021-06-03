@@ -7,7 +7,7 @@
    "name" : "char [0]",
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIA0_c",
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 1,
@@ -16,7 +16,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIA1024_c",
    "size" : 1024,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/system_properties.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/system_properties.h"
   },
   {
    "alignment" : 4,
@@ -25,7 +25,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIA28_j",
    "size" : 112,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_area.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_area.h"
   },
   {
    "alignment" : 1,
@@ -34,7 +34,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIA32_c",
    "size" : 32,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/system_properties.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/system_properties.h"
   },
   {
    "alignment" : 1,
@@ -43,7 +43,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIA56_c",
    "size" : 56,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_info.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_info.h"
   },
   {
    "alignment" : 1,
@@ -52,7 +52,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIA92_c",
    "size" : 92,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_info.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_info.h"
   }
  ],
  "builtin_types" :
@@ -325,7 +325,6 @@
    "name" : "__cxa_finalize"
   },
   {
-   "binding" : "weak",
    "name" : "__cxa_thread_atexit_impl"
   },
   {
@@ -506,7 +505,19 @@
    "name" : "__libc_current_sigrtmin"
   },
   {
+   "name" : "__libc_get_static_tls_bounds"
+  },
+  {
    "name" : "__libc_init"
+  },
+  {
+   "name" : "__libc_iterate_dynamic_tls"
+  },
+  {
+   "name" : "__libc_register_dynamic_tls_listeners"
+  },
+  {
+   "name" : "__libc_register_thread_exit_callback"
   },
   {
    "name" : "__llseek"
@@ -674,11 +685,9 @@
    "name" : "__pselect6"
   },
   {
-   "binding" : "weak",
    "name" : "__pthread_cleanup_pop"
   },
   {
-   "binding" : "weak",
    "name" : "__pthread_cleanup_push"
   },
   {
@@ -928,67 +937,51 @@
    "name" : "__sym_ston"
   },
   {
-   "binding" : "weak",
    "name" : "__system_properties_init"
   },
   {
-   "binding" : "weak",
    "name" : "__system_property_add"
   },
   {
-   "binding" : "weak",
    "name" : "__system_property_area_init"
   },
   {
-   "binding" : "weak",
    "name" : "__system_property_area_serial"
   },
   {
-   "binding" : "weak",
    "name" : "__system_property_find"
   },
   {
-   "binding" : "weak",
    "name" : "__system_property_find_nth"
   },
   {
-   "binding" : "weak",
    "name" : "__system_property_foreach"
   },
   {
-   "binding" : "weak",
    "name" : "__system_property_get"
   },
   {
-   "binding" : "weak",
    "name" : "__system_property_read"
   },
   {
-   "binding" : "weak",
    "name" : "__system_property_read_callback"
   },
   {
-   "binding" : "weak",
    "name" : "__system_property_serial"
   },
   {
-   "binding" : "weak",
    "name" : "__system_property_set"
   },
   {
-   "binding" : "weak",
    "name" : "__system_property_set_filename"
   },
   {
-   "binding" : "weak",
    "name" : "__system_property_update"
   },
   {
-   "binding" : "weak",
    "name" : "__system_property_wait"
   },
   {
-   "binding" : "weak",
    "name" : "__system_property_wait_any"
   },
   {
@@ -1143,14 +1136,15 @@
    "name" : "android_fdtrack_set_enabled"
   },
   {
+   "name" : "android_fdtrack_set_globally_enabled"
+  },
+  {
    "name" : "android_get_device_api_level"
   },
   {
-   "binding" : "weak",
    "name" : "android_getaddrinfofornet"
   },
   {
-   "binding" : "weak",
    "name" : "android_getaddrinfofornetcontext"
   },
   {
@@ -1166,7 +1160,6 @@
    "name" : "android_gethostbynamefornetcontext"
   },
   {
-   "binding" : "weak",
    "name" : "android_mallopt"
   },
   {
@@ -1179,7 +1172,12 @@
    "name" : "android_net_res_stats_get_usable_servers"
   },
   {
-   "binding" : "weak",
+   "name" : "android_reset_stack_guards"
+  },
+  {
+   "name" : "android_run_on_all_threads"
+  },
+  {
    "name" : "android_set_abort_message"
   },
   {
@@ -1348,7 +1346,6 @@
    "name" : "clock_settime"
   },
   {
-   "binding" : "weak",
    "name" : "clone"
   },
   {
@@ -1556,7 +1553,6 @@
    "name" : "execvpe"
   },
   {
-   "binding" : "weak",
    "name" : "exit"
   },
   {
@@ -1689,7 +1685,6 @@
    "name" : "fopen64"
   },
   {
-   "binding" : "weak",
    "name" : "fork"
   },
   {
@@ -1732,7 +1727,6 @@
    "name" : "free"
   },
   {
-   "binding" : "weak",
    "name" : "freeaddrinfo"
   },
   {
@@ -1877,7 +1871,6 @@
    "name" : "fwscanf"
   },
   {
-   "binding" : "weak",
    "name" : "gai_strerror"
   },
   {
@@ -1893,7 +1886,6 @@
    "name" : "get_phys_pages"
   },
   {
-   "binding" : "weak",
    "name" : "getaddrinfo"
   },
   {
@@ -2891,6 +2883,15 @@
    "name" : "personality"
   },
   {
+   "name" : "pidfd_getfd"
+  },
+  {
+   "name" : "pidfd_open"
+  },
+  {
+   "name" : "pidfd_send_signal"
+  },
+  {
    "name" : "pipe"
   },
   {
@@ -3029,6 +3030,9 @@
    "name" : "prlimit64"
   },
   {
+   "name" : "process_madvise"
+  },
+  {
    "name" : "process_vm_readv"
   },
   {
@@ -3050,81 +3054,63 @@
    "name" : "pthread_atfork"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_attr_destroy"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_attr_getdetachstate"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_attr_getguardsize"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_attr_getinheritsched"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_attr_getschedparam"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_attr_getschedpolicy"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_attr_getscope"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_attr_getstack"
   },
   {
    "name" : "pthread_attr_getstackaddr"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_attr_getstacksize"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_attr_init"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_attr_setdetachstate"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_attr_setguardsize"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_attr_setinheritsched"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_attr_setschedparam"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_attr_setschedpolicy"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_attr_setscope"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_attr_setstack"
   },
   {
    "name" : "pthread_attr_setstackaddr"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_attr_setstacksize"
   },
   {
@@ -3200,58 +3186,45 @@
    "name" : "pthread_condattr_setpshared"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_create"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_detach"
   },
   {
    "name" : "pthread_equal"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_exit"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_getattr_np"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_getcpuclockid"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_getname_np"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_getschedparam"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_getspecific"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_gettid_np"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_join"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_key_create"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_key_delete"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_kill"
   },
   {
@@ -3369,19 +3342,15 @@
    "name" : "pthread_self"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_setname_np"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_setschedparam"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_setschedprio"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_setspecific"
   },
   {
@@ -3391,7 +3360,6 @@
    "name" : "pthread_sigmask64"
   },
   {
-   "binding" : "weak",
    "name" : "pthread_sigqueue"
   },
   {
@@ -4857,7 +4825,6 @@
    "name" : "__stack_chk_guard"
   },
   {
-   "binding" : "weak",
    "name" : "__system_property_area__"
   },
   {
@@ -4873,7 +4840,6 @@
    "name" : "daylight"
   },
   {
-   "binding" : "weak",
    "name" : "environ"
   },
   {
@@ -4928,7 +4894,144 @@
    "name" : "tzname"
   }
  ],
- "enum_types" : [],
+ "enum_types" :
+ [
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "PropertyAction::kPropertyFind"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "PropertyAction::kPropertySet"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "PropertyAction::kPropertyGetReadOnly"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "PropertyAction::kPropertyGetReadWrite"
+    }
+   ],
+   "linker_set_key" : "_ZTI14PropertyAction",
+   "name" : "PropertyAction",
+   "referenced_type" : "_ZTI14PropertyAction",
+   "self_type" : "_ZTI14PropertyAction",
+   "size" : 4,
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_trace.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANDROID_LOG_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_LOG_DEFAULT"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANDROID_LOG_VERBOSE"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANDROID_LOG_DEBUG"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANDROID_LOG_INFO"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "ANDROID_LOG_WARN"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "ANDROID_LOG_ERROR"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "ANDROID_LOG_FATAL"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "ANDROID_LOG_SILENT"
+    }
+   ],
+   "linker_set_key" : "_ZTI19android_LogPriority",
+   "name" : "android_LogPriority",
+   "referenced_type" : "_ZTI19android_LogPriority",
+   "self_type" : "_ZTI19android_LogPriority",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/android/log.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "LOG_ID_MIN"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "LOG_ID_MAIN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "LOG_ID_RADIO"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "LOG_ID_EVENTS"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "LOG_ID_SYSTEM"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "LOG_ID_CRASH"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "LOG_ID_STATS"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "LOG_ID_SECURITY"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "LOG_ID_KERNEL"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "LOG_ID_MAX"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "LOG_ID_DEFAULT"
+    }
+   ],
+   "linker_set_key" : "_ZTI6log_id",
+   "name" : "log_id",
+   "referenced_type" : "_ZTI6log_id",
+   "self_type" : "_ZTI6log_id",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/android/log.h",
+   "underlying_type" : "_ZTIj"
+  }
+ ],
  "function_types" :
  [
   {
@@ -4947,7 +5050,7 @@
    "referenced_type" : "_ZTIFvPK9prop_infoPvE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvPK9prop_infoPvE",
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/contexts_pre_split.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/contexts_pre_split.h"
   },
   {
    "alignment" : 4,
@@ -4971,7 +5074,7 @@
    "referenced_type" : "_ZTIFvPvPKcS1_jE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvPvPKcS1_jE",
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/system_properties.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/system_properties.h"
   }
  ],
  "functions" : [],
@@ -4985,7 +5088,7 @@
    "referenced_type" : "_ZTIKN7android10properties8TrieNodeE",
    "self_type" : "_ZTIRKN7android10properties8TrieNodeE",
    "size" : 4,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -4994,7 +5097,7 @@
    "referenced_type" : "_ZTIN7android10properties20PropertyInfoAreaFileE",
    "self_type" : "_ZTIRN7android10properties20PropertyInfoAreaFileE",
    "size" : 4,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   }
  ],
  "pointer_types" :
@@ -5006,7 +5109,7 @@
    "referenced_type" : "_ZTI10PrefixNode",
    "self_type" : "_ZTIP10PrefixNode",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/contexts_split.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/contexts_split.h"
   },
   {
    "alignment" : 4,
@@ -5015,7 +5118,16 @@
    "referenced_type" : "_ZTI11ContextNode",
    "self_type" : "_ZTIP11ContextNode",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/context_node.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/context_node.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP12SyspropTrace",
+   "name" : "SyspropTrace *",
+   "referenced_type" : "_ZTI12SyspropTrace",
+   "self_type" : "_ZTIP12SyspropTrace",
+   "size" : 4,
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_trace.h"
   },
   {
    "alignment" : 4,
@@ -5024,7 +5136,7 @@
    "referenced_type" : "_ZTI13ContextsSplit",
    "self_type" : "_ZTIP13ContextsSplit",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/contexts_split.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/contexts_split.h"
   },
   {
    "alignment" : 4,
@@ -5033,7 +5145,7 @@
    "referenced_type" : "_ZTI15ContextListNode",
    "self_type" : "_ZTIP15ContextListNode",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/contexts_split.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/contexts_split.h"
   },
   {
    "alignment" : 4,
@@ -5042,7 +5154,7 @@
    "referenced_type" : "_ZTI16ContextsPreSplit",
    "self_type" : "_ZTIP16ContextsPreSplit",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/contexts_pre_split.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/contexts_pre_split.h"
   },
   {
    "alignment" : 4,
@@ -5051,7 +5163,7 @@
    "referenced_type" : "_ZTI16SystemProperties",
    "self_type" : "_ZTIP16SystemProperties",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/system_properties.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/system_properties.h"
   },
   {
    "alignment" : 4,
@@ -5060,7 +5172,7 @@
    "referenced_type" : "_ZTI18ContextsSerialized",
    "self_type" : "_ZTIP18ContextsSerialized",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/contexts_serialized.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/contexts_serialized.h"
   },
   {
    "alignment" : 4,
@@ -5069,7 +5181,7 @@
    "referenced_type" : "_ZTI7prop_bt",
    "self_type" : "_ZTIP7prop_bt",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_area.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_area.h"
   },
   {
    "alignment" : 4,
@@ -5078,7 +5190,7 @@
    "referenced_type" : "_ZTI8Contexts",
    "self_type" : "_ZTIP8Contexts",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/contexts.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/contexts.h"
   },
   {
    "alignment" : 4,
@@ -5087,7 +5199,7 @@
    "referenced_type" : "_ZTI9prop_area",
    "self_type" : "_ZTIP9prop_area",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_area.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_area.h"
   },
   {
    "alignment" : 4,
@@ -5096,7 +5208,7 @@
    "referenced_type" : "_ZTI9prop_info",
    "self_type" : "_ZTIP9prop_info",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_area.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_area.h"
   },
   {
    "alignment" : 4,
@@ -5105,7 +5217,7 @@
    "referenced_type" : "_ZTIFvPK9prop_infoPvE",
    "self_type" : "_ZTIPFvPK9prop_infoPvE",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/contexts_pre_split.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/contexts_pre_split.h"
   },
   {
    "alignment" : 4,
@@ -5114,7 +5226,7 @@
    "referenced_type" : "_ZTIFvPvPKcS1_jE",
    "self_type" : "_ZTIPFvPvPKcS1_jE",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/system_properties.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/system_properties.h"
   },
   {
    "alignment" : 4,
@@ -5123,7 +5235,7 @@
    "referenced_type" : "_ZTIK11ContextNode",
    "self_type" : "_ZTIPK11ContextNode",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/context_node.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/context_node.h"
   },
   {
    "alignment" : 4,
@@ -5132,7 +5244,7 @@
    "referenced_type" : "_ZTIK8timespec",
    "self_type" : "_ZTIPK8timespec",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/system_properties.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/system_properties.h"
   },
   {
    "alignment" : 4,
@@ -5141,7 +5253,7 @@
    "referenced_type" : "_ZTIK9prop_area",
    "self_type" : "_ZTIPK9prop_area",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_area.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_area.h"
   },
   {
    "alignment" : 4,
@@ -5150,7 +5262,7 @@
    "referenced_type" : "_ZTIK9prop_info",
    "self_type" : "_ZTIPK9prop_info",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_info.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_info.h"
   },
   {
    "alignment" : 4,
@@ -5159,7 +5271,7 @@
    "referenced_type" : "_ZTIKN7android10properties13PropertyEntryE",
    "self_type" : "_ZTIPKN7android10properties13PropertyEntryE",
    "size" : 4,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -5168,7 +5280,7 @@
    "referenced_type" : "_ZTIKN7android10properties14SerializedDataE",
    "self_type" : "_ZTIPKN7android10properties14SerializedDataE",
    "size" : 4,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -5177,7 +5289,7 @@
    "referenced_type" : "_ZTIKN7android10properties16PropertyInfoAreaE",
    "self_type" : "_ZTIPKN7android10properties16PropertyInfoAreaE",
    "size" : 4,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -5186,7 +5298,7 @@
    "referenced_type" : "_ZTIKN7android10properties16TrieNodeInternalE",
    "self_type" : "_ZTIPKN7android10properties16TrieNodeInternalE",
    "size" : 4,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -5195,7 +5307,7 @@
    "referenced_type" : "_ZTIKN7android10properties20PropertyInfoAreaFileE",
    "self_type" : "_ZTIPKN7android10properties20PropertyInfoAreaFileE",
    "size" : 4,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -5204,7 +5316,7 @@
    "referenced_type" : "_ZTIKN7android10properties22PropertyInfoAreaHeaderE",
    "self_type" : "_ZTIPKN7android10properties22PropertyInfoAreaHeaderE",
    "size" : 4,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -5213,7 +5325,7 @@
    "referenced_type" : "_ZTIKN7android10properties8TrieNodeE",
    "self_type" : "_ZTIPKN7android10properties8TrieNodeE",
    "size" : 4,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -5222,7 +5334,7 @@
    "referenced_type" : "_ZTIKc",
    "self_type" : "_ZTIPKc",
    "size" : 4,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/logging/liblog/include/android/log.h"
   },
   {
    "alignment" : 4,
@@ -5231,7 +5343,7 @@
    "referenced_type" : "_ZTIKj",
    "self_type" : "_ZTIPKj",
    "size" : 4,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -5240,7 +5352,7 @@
    "referenced_type" : "_ZTIN7android10properties20PropertyInfoAreaFileE",
    "self_type" : "_ZTIPN7android10properties20PropertyInfoAreaFileE",
    "size" : 4,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -5249,7 +5361,7 @@
    "referenced_type" : "_ZTIN7android10properties8TrieNodeE",
    "self_type" : "_ZTIPN7android10properties8TrieNodeE",
    "size" : 4,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -5258,7 +5370,7 @@
    "referenced_type" : "_ZTIP9prop_area",
    "self_type" : "_ZTIPP9prop_area",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_area.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_area.h"
   },
   {
    "alignment" : 4,
@@ -5267,7 +5379,7 @@
    "referenced_type" : "_ZTIPKc",
    "self_type" : "_ZTIPPKc",
    "size" : 4,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -5276,7 +5388,7 @@
    "referenced_type" : "_ZTIU7_Atomicj",
    "self_type" : "_ZTIPU7_Atomicj",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_area.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_area.h"
   },
   {
    "alignment" : 4,
@@ -5285,7 +5397,7 @@
    "referenced_type" : "_ZTIb",
    "self_type" : "_ZTIPb",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/context_node.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/context_node.h"
   },
   {
    "alignment" : 4,
@@ -5294,7 +5406,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIPc",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_area.h"
+   "source_file" : "bionic/libc/async_safe/include/async_safe/log.h"
   },
   {
    "alignment" : 4,
@@ -5303,7 +5415,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIPj",
    "size" : 4,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -5312,7 +5424,7 @@
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIPv",
    "size" : 4,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   }
  ],
  "qualified_types" :
@@ -5324,7 +5436,7 @@
    "name" : "char const[0]",
    "referenced_type" : "_ZTIA0_c",
    "self_type" : "_ZTIA0_Kc",
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -5334,7 +5446,7 @@
    "referenced_type" : "_ZTI11ContextNode",
    "self_type" : "_ZTIK11ContextNode",
    "size" : 24,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/context_node.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/context_node.h"
   },
   {
    "alignment" : 4,
@@ -5344,7 +5456,7 @@
    "referenced_type" : "_ZTI8timespec",
    "self_type" : "_ZTIK8timespec",
    "size" : 8,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/system_properties.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/system_properties.h"
   },
   {
    "alignment" : 4,
@@ -5354,7 +5466,7 @@
    "referenced_type" : "_ZTI9prop_area",
    "self_type" : "_ZTIK9prop_area",
    "size" : 128,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_area.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_area.h"
   },
   {
    "alignment" : 4,
@@ -5364,7 +5476,7 @@
    "referenced_type" : "_ZTI9prop_info",
    "self_type" : "_ZTIK9prop_info",
    "size" : 96,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_info.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_info.h"
   },
   {
    "alignment" : 4,
@@ -5374,7 +5486,7 @@
    "referenced_type" : "_ZTIN7android10properties13PropertyEntryE",
    "self_type" : "_ZTIKN7android10properties13PropertyEntryE",
    "size" : 16,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 1,
@@ -5383,7 +5495,7 @@
    "name" : "const android::properties::SerializedData",
    "referenced_type" : "_ZTIN7android10properties14SerializedDataE",
    "self_type" : "_ZTIKN7android10properties14SerializedDataE",
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 1,
@@ -5392,7 +5504,7 @@
    "name" : "const android::properties::PropertyInfoArea",
    "referenced_type" : "_ZTIN7android10properties16PropertyInfoAreaE",
    "self_type" : "_ZTIKN7android10properties16PropertyInfoAreaE",
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -5402,7 +5514,7 @@
    "referenced_type" : "_ZTIN7android10properties16TrieNodeInternalE",
    "self_type" : "_ZTIKN7android10properties16TrieNodeInternalE",
    "size" : 28,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -5412,7 +5524,7 @@
    "referenced_type" : "_ZTIN7android10properties20PropertyInfoAreaFileE",
    "self_type" : "_ZTIKN7android10properties20PropertyInfoAreaFileE",
    "size" : 8,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -5422,7 +5534,7 @@
    "referenced_type" : "_ZTIN7android10properties22PropertyInfoAreaHeaderE",
    "self_type" : "_ZTIKN7android10properties22PropertyInfoAreaHeaderE",
    "size" : 24,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -5432,7 +5544,7 @@
    "referenced_type" : "_ZTIN7android10properties8TrieNodeE",
    "self_type" : "_ZTIKN7android10properties8TrieNodeE",
    "size" : 8,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -5442,7 +5554,7 @@
    "referenced_type" : "_ZTIP7prop_bt",
    "self_type" : "_ZTIKP7prop_bt",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_area.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_area.h"
   },
   {
    "alignment" : 4,
@@ -5452,7 +5564,7 @@
    "referenced_type" : "_ZTIPj",
    "self_type" : "_ZTIKPj",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_area.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_area.h"
   },
   {
    "alignment" : 1,
@@ -5462,7 +5574,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIKc",
    "size" : 1,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/logging/liblog/include/android/log.h"
   },
   {
    "alignment" : 4,
@@ -5472,7 +5584,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIKi",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/system_properties.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/system_properties.h"
   },
   {
    "alignment" : 4,
@@ -5482,7 +5594,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIKj",
    "size" : 4,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   }
  ],
  "record_types" :
@@ -5527,7 +5639,49 @@
    "referenced_type" : "_ZTI11ContextNode",
    "self_type" : "_ZTI11ContextNode",
    "size" : 24,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/context_node.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/context_node.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "prop_name_",
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "access" : "private",
+     "field_name" : "prop_value_",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "access" : "private",
+     "field_name" : "prop_info_",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIPK9prop_info"
+    },
+    {
+     "access" : "private",
+     "field_name" : "prop_action_",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTI14PropertyAction"
+    },
+    {
+     "access" : "private",
+     "field_name" : "output_trace_",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "linker_set_key" : "_ZTI12SyspropTrace",
+   "name" : "SyspropTrace",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTI12SyspropTrace",
+   "self_type" : "_ZTI12SyspropTrace",
+   "size" : 20,
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_trace.h"
   },
   {
    "alignment" : 4,
@@ -5540,25 +5694,25 @@
    "fields" :
    [
     {
-     "access" : "private",
+     "access" : "protected",
      "field_name" : "prefixes_",
      "field_offset" : 32,
      "referenced_type" : "_ZTIP10PrefixNode"
     },
     {
-     "access" : "private",
+     "access" : "protected",
      "field_name" : "contexts_",
      "field_offset" : 64,
      "referenced_type" : "_ZTIP15ContextListNode"
     },
     {
-     "access" : "private",
+     "access" : "protected",
      "field_name" : "serial_prop_area_",
      "field_offset" : 96,
      "referenced_type" : "_ZTIP9prop_area"
     },
     {
-     "access" : "private",
+     "access" : "protected",
      "field_name" : "filename_",
      "field_offset" : 128,
      "referenced_type" : "_ZTIPKc"
@@ -5570,7 +5724,7 @@
    "referenced_type" : "_ZTI13ContextsSplit",
    "self_type" : "_ZTI13ContextsSplit",
    "size" : 20,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/contexts_split.h",
+   "source_file" : "bionic/libc/system_properties/include/system_properties/contexts_split.h",
    "vtable_components" :
    [
     {
@@ -5631,7 +5785,7 @@
    "referenced_type" : "_ZTI16ContextsPreSplit",
    "self_type" : "_ZTI16ContextsPreSplit",
    "size" : 8,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/contexts_pre_split.h",
+   "source_file" : "bionic/libc/system_properties/include/system_properties/contexts_pre_split.h",
    "vtable_components" :
    [
     {
@@ -5703,7 +5857,7 @@
    "referenced_type" : "_ZTI16SystemProperties",
    "self_type" : "_ZTI16SystemProperties",
    "size" : 1064,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/system_properties.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/system_properties.h"
   },
   {
    "alignment" : 4,
@@ -5758,7 +5912,7 @@
    "referenced_type" : "_ZTI18ContextsSerialized",
    "self_type" : "_ZTI18ContextsSerialized",
    "size" : 32,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/contexts_serialized.h",
+   "source_file" : "bionic/libc/system_properties/include/system_properties/contexts_serialized.h",
    "vtable_components" :
    [
     {
@@ -5801,6 +5955,52 @@
    "fields" :
    [
     {
+     "field_name" : "struct_size",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "buffer_id",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "priority",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "tag",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "file",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "line",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "message",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "linker_set_key" : "_ZTI21__android_log_message",
+   "name" : "__android_log_message",
+   "referenced_type" : "_ZTI21__android_log_message",
+   "self_type" : "_ZTI21__android_log_message",
+   "size" : 28,
+   "source_file" : "system/logging/liblog/include/android/log.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
      "field_name" : "namelen",
      "referenced_type" : "_ZTIj"
     },
@@ -5835,7 +6035,7 @@
    "referenced_type" : "_ZTI7prop_bt",
    "self_type" : "_ZTI7prop_bt",
    "size" : 20,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_area.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_area.h"
   },
   {
    "alignment" : 4,
@@ -5845,7 +6045,7 @@
    "referenced_type" : "_ZTI8Contexts",
    "self_type" : "_ZTI8Contexts",
    "size" : 4,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/contexts.h",
+   "source_file" : "bionic/libc/system_properties/include/system_properties/contexts.h",
    "vtable_components" :
    [
     {
@@ -5935,7 +6135,7 @@
    "referenced_type" : "_ZTI9prop_area",
    "self_type" : "_ZTI9prop_area",
    "size" : 128,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_area.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_area.h"
   },
   {
    "alignment" : 4,
@@ -5960,7 +6160,7 @@
    "referenced_type" : "_ZTI9prop_info",
    "self_type" : "_ZTI9prop_info",
    "size" : 96,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_info.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_info.h"
   },
   {
    "alignment" : 4,
@@ -5991,7 +6191,7 @@
    "referenced_type" : "_ZTIN7android10properties13PropertyEntryE",
    "self_type" : "_ZTIN7android10properties13PropertyEntryE",
    "size" : 16,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 1,
@@ -6008,7 +6208,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android10properties14SerializedDataE",
    "self_type" : "_ZTIN7android10properties14SerializedDataE",
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 1,
@@ -6024,7 +6224,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android10properties16PropertyInfoAreaE",
    "self_type" : "_ZTIN7android10properties16PropertyInfoAreaE",
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -6070,7 +6270,7 @@
    "referenced_type" : "_ZTIN7android10properties16TrieNodeInternalE",
    "self_type" : "_ZTIN7android10properties16TrieNodeInternalE",
    "size" : 28,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -6094,7 +6294,7 @@
    "referenced_type" : "_ZTIN7android10properties20PropertyInfoAreaFileE",
    "self_type" : "_ZTIN7android10properties20PropertyInfoAreaFileE",
    "size" : 8,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -6135,7 +6335,7 @@
    "referenced_type" : "_ZTIN7android10properties22PropertyInfoAreaHeaderE",
    "self_type" : "_ZTIN7android10properties22PropertyInfoAreaHeaderE",
    "size" : 24,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -6159,7 +6359,7 @@
    "referenced_type" : "_ZTIN7android10properties8TrieNodeE",
    "self_type" : "_ZTIN7android10properties8TrieNodeE",
    "size" : 8,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   },
   {
    "alignment" : 4,
@@ -6181,7 +6381,7 @@
    "referenced_type" : "_ZTIN9prop_infoUt_E",
    "self_type" : "_ZTIN9prop_infoUt_E",
    "size" : 92,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_info.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_info.h"
   },
   {
    "alignment" : 4,
@@ -6203,7 +6403,7 @@
    "referenced_type" : "_ZTIN9prop_infoUt_Ut_E",
    "self_type" : "_ZTIN9prop_infoUt_Ut_E",
    "size" : 60,
-   "source_file" : "/bionic/libc/system_properties/include/system_properties/prop_info.h"
+   "source_file" : "bionic/libc/system_properties/include/system_properties/prop_info.h"
   }
  ],
  "rvalue_reference_types" :
@@ -6215,7 +6415,7 @@
    "referenced_type" : "_ZTIN7android10properties20PropertyInfoAreaFileE",
    "self_type" : "_ZTION7android10properties20PropertyInfoAreaFileE",
    "size" : 4,
-   "source_file" : "/system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
+   "source_file" : "system/core/property_service/libpropertyinfoparser/include/property_info_parser/property_info_parser.h"
   }
  ]
 }

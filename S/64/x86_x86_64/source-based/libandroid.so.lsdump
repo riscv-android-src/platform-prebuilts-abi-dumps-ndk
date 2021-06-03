@@ -95,6 +95,16 @@
    "size" : 4
   },
   {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIh",
+   "name" : "unsigned char",
+   "referenced_type" : "_ZTIh",
+   "self_type" : "_ZTIh",
+   "size" : 1
+  },
+  {
    "alignment" : 4,
    "is_integral" : true,
    "linker_set_key" : "_ZTIi",
@@ -856,6 +866,9 @@
    "name" : "AStorageManager_unmountObb"
   },
   {
+   "name" : "ASurfaceControl_acquire"
+  },
+  {
    "name" : "ASurfaceControl_create"
   },
   {
@@ -928,10 +941,16 @@
    "name" : "ASurfaceTransaction_setBufferDataSpace"
   },
   {
+   "name" : "ASurfaceTransaction_setBufferTransform"
+  },
+  {
    "name" : "ASurfaceTransaction_setBufferTransparency"
   },
   {
    "name" : "ASurfaceTransaction_setColor"
+  },
+  {
+   "name" : "ASurfaceTransaction_setCrop"
   },
   {
    "name" : "ASurfaceTransaction_setDamageRegion"
@@ -940,10 +959,13 @@
    "name" : "ASurfaceTransaction_setDesiredPresentTime"
   },
   {
+   "name" : "ASurfaceTransaction_setEnableBackPressure"
+  },
+  {
    "name" : "ASurfaceTransaction_setFrameRate"
   },
   {
-   "name" : "ASurfaceTransaction_setFrameRateWithSeamlessness"
+   "name" : "ASurfaceTransaction_setFrameRateWithChangeStrategy"
   },
   {
    "name" : "ASurfaceTransaction_setGeometry"
@@ -955,7 +977,16 @@
    "name" : "ASurfaceTransaction_setHdrMetadata_smpte2086"
   },
   {
+   "name" : "ASurfaceTransaction_setOnCommit"
+  },
+  {
    "name" : "ASurfaceTransaction_setOnComplete"
+  },
+  {
+   "name" : "ASurfaceTransaction_setPosition"
+  },
+  {
+   "name" : "ASurfaceTransaction_setScale"
   },
   {
    "name" : "ASurfaceTransaction_setVisibility"
@@ -977,6 +1008,9 @@
   },
   {
    "name" : "AThermal_getCurrentThermalStatus"
+  },
+  {
+   "name" : "AThermal_getThermalHeadroom"
   },
   {
    "name" : "AThermal_registerThermalStatusListener"
@@ -1009,6 +1043,12 @@
    "name" : "android_getaddrinfofornetwork"
   },
   {
+   "name" : "android_getprocdns"
+  },
+  {
+   "name" : "android_getprocnetwork"
+  },
+  {
    "name" : "android_res_cancel"
   },
   {
@@ -1019,6 +1059,9 @@
   },
   {
    "name" : "android_res_nsend"
+  },
+  {
+   "name" : "android_setprocdns"
   },
   {
    "name" : "android_setprocnetwork"
@@ -1339,7 +1382,7 @@
     }
    ],
    "linker_set_key" : "_ZTI25$NATIVE_WINDOW_API_CAMERA",
-   "name" : "(anonymous enum at frameworks/native/libs/nativewindow/include/system/window.h:263:1)",
+   "name" : "(anonymous enum at frameworks/native/libs/nativewindow/include/system/window.h:265:1)",
    "referenced_type" : "_ZTI25$NATIVE_WINDOW_API_CAMERA",
    "self_type" : "_ZTI25$NATIVE_WINDOW_API_CAMERA",
    "size" : 4,
@@ -1461,7 +1504,7 @@
     }
    ],
    "linker_set_key" : "_ZTI26$NATIVE_WINDOW_FRAMEBUFFER",
-   "name" : "(anonymous enum at frameworks/native/libs/nativewindow/include/system/window.h:321:1)",
+   "name" : "(anonymous enum at frameworks/native/libs/nativewindow/include/system/window.h:323:1)",
    "referenced_type" : "_ZTI26$NATIVE_WINDOW_FRAMEBUFFER",
    "self_type" : "_ZTI26$NATIVE_WINDOW_FRAMEBUFFER",
    "size" : 4,
@@ -1856,7 +1899,15 @@
     },
     {
      "enum_field_value" : 48,
-     "name" : "NATIVE_WINDOW_SET_FRAME_TIMELINE_VSYNC"
+     "name" : "NATIVE_WINDOW_SET_FRAME_TIMELINE_INFO"
+    },
+    {
+     "enum_field_value" : 49,
+     "name" : "NATIVE_WINDOW_GET_EXTRA_BUFFER_COUNT"
+    },
+    {
+     "enum_field_value" : 50,
+     "name" : "NATIVE_WINDOW_GET_LAST_QUEUED_BUFFER2"
     }
    ],
    "linker_set_key" : "_ZTI31$NATIVE_WINDOW_ALLOCATE_BUFFERS",
@@ -1897,7 +1948,7 @@
     }
    ],
    "linker_set_key" : "_ZTI31$NATIVE_WINDOW_TRANSFORM_FLIP_H",
-   "name" : "(anonymous enum at frameworks/native/libs/nativewindow/include/system/window.h:284:1)",
+   "name" : "(anonymous enum at frameworks/native/libs/nativewindow/include/system/window.h:286:1)",
    "referenced_type" : "_ZTI31$NATIVE_WINDOW_TRANSFORM_FLIP_H",
    "self_type" : "_ZTI31$NATIVE_WINDOW_TRANSFORM_FLIP_H",
    "size" : 4,
@@ -1926,7 +1977,7 @@
     }
    ],
    "linker_set_key" : "_ZTI34$NATIVE_WINDOW_SCALING_MODE_FREEZE",
-   "name" : "(anonymous enum at frameworks/native/libs/nativewindow/include/system/window.h:302:1)",
+   "name" : "(anonymous enum at frameworks/native/libs/nativewindow/include/system/window.h:304:1)",
    "referenced_type" : "_ZTI34$NATIVE_WINDOW_SCALING_MODE_FREEZE",
    "self_type" : "_ZTI34$NATIVE_WINDOW_SCALING_MODE_FREEZE",
    "size" : 4,
@@ -2008,6 +2059,27 @@
    "enum_fields" :
    [
     {
+     "enum_field_value" : 0,
+     "name" : "ANATIVEWINDOW_CHANGE_FRAME_RATE_ONLY_IF_SEAMLESS"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANATIVEWINDOW_CHANGE_FRAME_RATE_ALWAYS"
+    }
+   ],
+   "linker_set_key" : "_ZTI37ANativeWindow_ChangeFrameRateStrategy",
+   "name" : "ANativeWindow_ChangeFrameRateStrategy",
+   "referenced_type" : "_ZTI37ANativeWindow_ChangeFrameRateStrategy",
+   "self_type" : "_ZTI37ANativeWindow_ChangeFrameRateStrategy",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
      "enum_field_value" : 5,
      "name" : "AHARDWAREBUFFER_FORMAT_B8G8R8A8_UNORM"
     },
@@ -2062,6 +2134,23 @@
    "self_type" : "_ZTI38$AHARDWAREBUFFER_FORMAT_B8G8R8A8_UNORM",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 100,
+     "name" : "ANATIVEWINDOW_FRAME_RATE_EXACT"
+    }
+   ],
+   "linker_set_key" : "_ZTI44ANativeWindow_FrameRateCompatibilityInternal",
+   "name" : "ANativeWindow_FrameRateCompatibilityInternal",
+   "referenced_type" : "_ZTI44ANativeWindow_FrameRateCompatibilityInternal",
+   "self_type" : "_ZTI44ANativeWindow_FrameRateCompatibilityInternal",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/apex/window.h",
    "underlying_type" : "_ZTIj"
   }
  ],
