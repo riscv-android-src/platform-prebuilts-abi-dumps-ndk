@@ -298,20 +298,20 @@
   },
   {
    "alignment" : 2,
-   "linker_set_key" : "_ZTIA34_Ds",
-   "name" : "char16_t [34]",
-   "referenced_type" : "_ZTIDs",
-   "self_type" : "_ZTIA34_Ds",
-   "size" : 68,
-   "source_file" : "system/core/libutils/include/utils/String16.h"
-  },
-  {
-   "alignment" : 2,
    "linker_set_key" : "_ZTIA36_Ds",
    "name" : "char16_t [36]",
    "referenced_type" : "_ZTIDs",
    "self_type" : "_ZTIA36_Ds",
    "size" : 72,
+   "source_file" : "system/core/libutils/include/utils/String16.h"
+  },
+  {
+   "alignment" : 2,
+   "linker_set_key" : "_ZTIA39_Ds",
+   "name" : "char16_t [39]",
+   "referenced_type" : "_ZTIDs",
+   "self_type" : "_ZTIA39_Ds",
+   "size" : 78,
    "source_file" : "system/core/libutils/include/utils/String16.h"
   },
   {
@@ -13192,6 +13192,23 @@
    "enum_fields" :
    [
     {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::IsIterable<android::IBinder>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINS_7IBinderEE6$valueE",
+   "name" : "android::internal::details::IsIterable<IBinder>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:131:5)",
+   "referenced_type" : "_ZTIN7android8internal7details10IsIterableINS_7IBinderEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details10IsIterableINS_7IBinderEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
      "enum_field_value" : 1,
      "name" : "android::internal::details::IsIterable<std::__1::vector<aidl::android::hardware::graphics::common::PlaneLayoutComponent, std::__1::allocator<aidl::android::hardware::graphics::common::PlaneLayoutComponent>>>::value"
     }
@@ -13200,6 +13217,40 @@
    "name" : "android::internal::details::IsIterable<vector<PlaneLayoutComponent, allocator<PlaneLayoutComponent>>>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:131:5)",
    "referenced_type" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS3_9allocatorISA_EEEEE6$valueE",
    "self_type" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS3_9allocatorISA_EEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::internal::details::IsIterable<std::__1::vector<std::__1::optional<std::__1::basic_string<char>>, std::__1::allocator<std::__1::optional<std::__1::basic_string<char>>>>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEE6$valueE",
+   "name" : "android::internal::details::IsIterable<vector<optional<basic_string<char>>, allocator<optional<basic_string<char>>>>>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:131:5)",
+   "referenced_type" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::internal::details::IsIterable<std::__1::vector<android::content::AttributionSourceState, std::__1::allocator<android::content::AttributionSourceState>>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEE6$valueE",
+   "name" : "android::internal::details::IsIterable<vector<AttributionSourceState, allocator<AttributionSourceState>>>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:131:5)",
+   "referenced_type" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEE6$valueE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -13277,6 +13328,23 @@
    "enum_fields" :
    [
     {
+     "enum_field_value" : 1,
+     "name" : "android::internal::details::IsPointerLike<android::sp<android::IBinder>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_2spINS_7IBinderEEEE6$valueE",
+   "name" : "android::internal::details::IsPointerLike<sp<IBinder>>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:118:5)",
+   "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeINS_2spINS_7IBinderEEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details13IsPointerLikeINS_2spINS_7IBinderEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
      "enum_field_value" : 0,
      "name" : "android::internal::details::IsPointerLike<android::media::InterpolatorType>::value"
     }
@@ -13329,6 +13397,40 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "android::internal::details::IsPointerLike<android::IBinder>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_7IBinderEE6$valueE",
+   "name" : "android::internal::details::IsPointerLike<IBinder>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:118:5)",
+   "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeINS_7IBinderEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details13IsPointerLikeINS_7IBinderEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::IsPointerLike<android::content::AttributionSourceState>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_7content22AttributionSourceStateEE6$valueE",
+   "name" : "android::internal::details::IsPointerLike<AttributionSourceState>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:118:5)",
+   "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeINS_7content22AttributionSourceStateEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details13IsPointerLikeINS_7content22AttributionSourceStateEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "android::internal::details::IsPointerLike<std::__1::vector<aidl::android::hardware::graphics::common::PlaneLayoutComponent, std::__1::allocator<aidl::android::hardware::graphics::common::PlaneLayoutComponent>>>::value"
     }
    ],
@@ -13336,6 +13438,40 @@
    "name" : "android::internal::details::IsPointerLike<vector<PlaneLayoutComponent, allocator<PlaneLayoutComponent>>>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:118:5)",
    "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS3_9allocatorISA_EEEEE6$valueE",
    "self_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS3_9allocatorISA_EEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::IsPointerLike<std::__1::vector<std::__1::optional<std::__1::basic_string<char>>, std::__1::allocator<std::__1::optional<std::__1::basic_string<char>>>>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEE6$valueE",
+   "name" : "android::internal::details::IsPointerLike<vector<optional<basic_string<char>>, allocator<optional<basic_string<char>>>>>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:118:5)",
+   "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::IsPointerLike<std::__1::vector<android::content::AttributionSourceState, std::__1::allocator<android::content::AttributionSourceState>>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEE6$valueE",
+   "name" : "android::internal::details::IsPointerLike<vector<AttributionSourceState, allocator<AttributionSourceState>>>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:118:5)",
+   "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEE6$valueE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -13370,6 +13506,23 @@
    "name" : "android::internal::details::IsPointerLike<optional<basic_string<char>>>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:118:5)",
    "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__18optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEEE6$valueE",
    "self_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__18optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::internal::details::IsPointerLike<std::__1::optional<std::__1::vector<std::__1::optional<std::__1::basic_string<char>>, std::__1::allocator<std::__1::optional<std::__1::basic_string<char>>>>>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEEE6$valueE",
+   "name" : "android::internal::details::IsPointerLike<optional<vector<optional<basic_string<char>>, allocator<optional<basic_string<char>>>>>>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:118:5)",
+   "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEEE6$valueE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -13448,6 +13601,23 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "android::internal::details::ToEmptyString<android::sp<android::IBinder>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details13ToEmptyStringINS_2spINS_7IBinderEEEE6$valueE",
+   "name" : "android::internal::details::ToEmptyString<sp<IBinder>>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:153:5)",
+   "referenced_type" : "_ZTIN7android8internal7details13ToEmptyStringINS_2spINS_7IBinderEEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details13ToEmptyStringINS_2spINS_7IBinderEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "android::internal::details::ToEmptyString<android::media::InterpolatorType>::value"
     }
    ],
@@ -13499,6 +13669,40 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "android::internal::details::ToEmptyString<android::IBinder>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details13ToEmptyStringINS_7IBinderEE6$valueE",
+   "name" : "android::internal::details::ToEmptyString<IBinder>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:153:5)",
+   "referenced_type" : "_ZTIN7android8internal7details13ToEmptyStringINS_7IBinderEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details13ToEmptyStringINS_7IBinderEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::ToEmptyString<android::content::AttributionSourceState>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details13ToEmptyStringINS_7content22AttributionSourceStateEE6$valueE",
+   "name" : "android::internal::details::ToEmptyString<AttributionSourceState>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:153:5)",
+   "referenced_type" : "_ZTIN7android8internal7details13ToEmptyStringINS_7content22AttributionSourceStateEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details13ToEmptyStringINS_7content22AttributionSourceStateEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "android::internal::details::ToEmptyString<std::__1::basic_string<char>>::value"
     }
    ],
@@ -13533,6 +13737,40 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "android::internal::details::ToEmptyString<std::__1::vector<std::__1::optional<std::__1::basic_string<char>>, std::__1::allocator<std::__1::optional<std::__1::basic_string<char>>>>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEE6$valueE",
+   "name" : "android::internal::details::ToEmptyString<vector<optional<basic_string<char>>, allocator<optional<basic_string<char>>>>>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:153:5)",
+   "referenced_type" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::ToEmptyString<std::__1::vector<android::content::AttributionSourceState, std::__1::allocator<android::content::AttributionSourceState>>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEE6$valueE",
+   "name" : "android::internal::details::ToEmptyString<vector<AttributionSourceState, allocator<AttributionSourceState>>>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:153:5)",
+   "referenced_type" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "android::internal::details::ToEmptyString<std::__1::vector<float, std::__1::allocator<float>>>::value"
     }
    ],
@@ -13557,6 +13795,23 @@
    "name" : "android::internal::details::ToEmptyString<optional<basic_string<char>>>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:153:5)",
    "referenced_type" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__18optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEEE6$valueE",
    "self_type" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__18optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::ToEmptyString<std::__1::optional<std::__1::vector<std::__1::optional<std::__1::basic_string<char>>, std::__1::allocator<std::__1::optional<std::__1::basic_string<char>>>>>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEEE6$valueE",
+   "name" : "android::internal::details::ToEmptyString<optional<vector<optional<basic_string<char>>, allocator<optional<basic_string<char>>>>>>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:153:5)",
+   "referenced_type" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEEE6$valueE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -13754,6 +14009,40 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "android::internal::details::HasToStringMethod<android::IBinder>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINS_7IBinderEE6$valueE",
+   "name" : "android::internal::details::HasToStringMethod<IBinder>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:77:5)",
+   "referenced_type" : "_ZTIN7android8internal7details17HasToStringMethodINS_7IBinderEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details17HasToStringMethodINS_7IBinderEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::internal::details::HasToStringMethod<android::content::AttributionSourceState>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINS_7content22AttributionSourceStateEE6$valueE",
+   "name" : "android::internal::details::HasToStringMethod<AttributionSourceState>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:77:5)",
+   "referenced_type" : "_ZTIN7android8internal7details17HasToStringMethodINS_7content22AttributionSourceStateEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details17HasToStringMethodINS_7content22AttributionSourceStateEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "android::internal::details::HasToStringMethod<std::__1::vector<aidl::android::hardware::graphics::common::PlaneLayoutComponent, std::__1::allocator<aidl::android::hardware::graphics::common::PlaneLayoutComponent>>>::value"
     }
    ],
@@ -13761,6 +14050,40 @@
    "name" : "android::internal::details::HasToStringMethod<vector<PlaneLayoutComponent, allocator<PlaneLayoutComponent>>>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:77:5)",
    "referenced_type" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS3_9allocatorISA_EEEEE6$valueE",
    "self_type" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS3_9allocatorISA_EEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::HasToStringMethod<std::__1::vector<std::__1::optional<std::__1::basic_string<char>>, std::__1::allocator<std::__1::optional<std::__1::basic_string<char>>>>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEE6$valueE",
+   "name" : "android::internal::details::HasToStringMethod<vector<optional<basic_string<char>>, allocator<optional<basic_string<char>>>>>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:77:5)",
+   "referenced_type" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::HasToStringMethod<std::__1::vector<android::content::AttributionSourceState, std::__1::allocator<android::content::AttributionSourceState>>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEE6$valueE",
+   "name" : "android::internal::details::HasToStringMethod<vector<AttributionSourceState, allocator<AttributionSourceState>>>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:77:5)",
+   "referenced_type" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEE6$valueE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -13822,6 +14145,23 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "android::internal::details::HasToStringFunction<android::IBinder>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINS_7IBinderEE6$valueE",
+   "name" : "android::internal::details::HasToStringFunction<IBinder>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:89:5)",
+   "referenced_type" : "_ZTIN7android8internal7details19HasToStringFunctionINS_7IBinderEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details19HasToStringFunctionINS_7IBinderEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "android::internal::details::HasToStringFunction<std::__1::vector<aidl::android::hardware::graphics::common::PlaneLayoutComponent, std::__1::allocator<aidl::android::hardware::graphics::common::PlaneLayoutComponent>>>::value"
     }
    ],
@@ -13829,6 +14169,40 @@
    "name" : "android::internal::details::HasToStringFunction<vector<PlaneLayoutComponent, allocator<PlaneLayoutComponent>>>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:89:5)",
    "referenced_type" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS3_9allocatorISA_EEEEE6$valueE",
    "self_type" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS3_9allocatorISA_EEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::HasToStringFunction<std::__1::vector<std::__1::optional<std::__1::basic_string<char>>, std::__1::allocator<std::__1::optional<std::__1::basic_string<char>>>>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEE6$valueE",
+   "name" : "android::internal::details::HasToStringFunction<vector<optional<basic_string<char>>, allocator<optional<basic_string<char>>>>>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:89:5)",
+   "referenced_type" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEE6$valueE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::HasToStringFunction<std::__1::vector<android::content::AttributionSourceState, std::__1::allocator<android::content::AttributionSourceState>>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEE6$valueE",
+   "name" : "android::internal::details::HasToStringFunction<vector<AttributionSourceState, allocator<AttributionSourceState>>>::(anonymous enum at frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h:89:5)",
+   "referenced_type" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEE6$valueE",
+   "self_type" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEE6$valueE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -27301,19 +27675,19 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIRA34_KDs",
-   "name" : "char16_t const (&)[34]",
-   "referenced_type" : "_ZTIA34_KDs",
-   "self_type" : "_ZTIRA34_KDs",
+   "linker_set_key" : "_ZTIRA36_KDs",
+   "name" : "char16_t const (&)[36]",
+   "referenced_type" : "_ZTIA36_KDs",
+   "self_type" : "_ZTIRA36_KDs",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/String16.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIRA36_KDs",
-   "name" : "char16_t const (&)[36]",
-   "referenced_type" : "_ZTIA36_KDs",
-   "self_type" : "_ZTIRA36_KDs",
+   "linker_set_key" : "_ZTIRA39_KDs",
+   "name" : "char16_t const (&)[39]",
+   "referenced_type" : "_ZTIA39_KDs",
+   "self_type" : "_ZTIRA39_KDs",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/String16.h"
   },
@@ -28003,12 +28377,30 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android7IBinderE",
+   "name" : "const android::IBinder &",
+   "referenced_type" : "_ZTIKN7android7IBinderE",
+   "self_type" : "_ZTIRKN7android7IBinderE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRKN7android7String8E",
    "name" : "const android::String8 &",
    "referenced_type" : "_ZTIKN7android7String8E",
    "self_type" : "_ZTIRKN7android7String8E",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/String8.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android7content22AttributionSourceStateE",
+   "name" : "const android::content::AttributionSourceState &",
+   "referenced_type" : "_ZTIKN7android7content22AttributionSourceStateE",
+   "self_type" : "_ZTIRKN7android7content22AttributionSourceStateE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
    "alignment" : 4,
@@ -28030,19 +28422,19 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIRKN7android8String1610StaticDataILj34EEE",
-   "name" : "const android::String16::StaticData<34> &",
-   "referenced_type" : "_ZTIKN7android8String1610StaticDataILj34EEE",
-   "self_type" : "_ZTIRKN7android8String1610StaticDataILj34EEE",
+   "linker_set_key" : "_ZTIRKN7android8String1610StaticDataILj36EEE",
+   "name" : "const android::String16::StaticData<36> &",
+   "referenced_type" : "_ZTIKN7android8String1610StaticDataILj36EEE",
+   "self_type" : "_ZTIRKN7android8String1610StaticDataILj36EEE",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/String16.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIRKN7android8String1610StaticDataILj36EEE",
-   "name" : "const android::String16::StaticData<36> &",
-   "referenced_type" : "_ZTIKN7android8String1610StaticDataILj36EEE",
-   "self_type" : "_ZTIRKN7android8String1610StaticDataILj36EEE",
+   "linker_set_key" : "_ZTIRKN7android8String1610StaticDataILj39EEE",
+   "name" : "const android::String16::StaticData<39> &",
+   "referenced_type" : "_ZTIKN7android8String1610StaticDataILj39EEE",
+   "self_type" : "_ZTIRKN7android8String1610StaticDataILj39EEE",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/String16.h"
   },
@@ -28325,12 +28717,30 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIRKNSt3__16vectorIN7android7content22AttributionSourceStateENS_9allocatorIS3_EEEE",
+   "name" : "const std::vector<android::content::AttributionSourceState, std::allocator<android::content::AttributionSourceState>> &",
+   "referenced_type" : "_ZTIKNSt3__16vectorIN7android7content22AttributionSourceStateENS_9allocatorIS3_EEEE",
+   "self_type" : "_ZTIRKNSt3__16vectorIN7android7content22AttributionSourceStateENS_9allocatorIS3_EEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIRKNSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE",
    "name" : "const std::vector<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *>> *)>, std::allocator<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *>> *)>>> &",
    "referenced_type" : "_ZTIKNSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE",
    "self_type" : "_ZTIRKNSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE",
    "size" : 4,
    "source_file" : "system/libhidl/base/include/hidl/HidlInternal.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKNSt3__16vectorINS_8optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEE",
+   "name" : "const std::vector<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>>> &",
+   "referenced_type" : "_ZTIKNSt3__16vectorINS_8optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEE",
+   "self_type" : "_ZTIRKNSt3__16vectorINS_8optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
    "alignment" : 4,
@@ -28430,6 +28840,15 @@
    "self_type" : "_ZTIRKNSt3__18optionalINS_6vectorIDsNS_9allocatorIDsEEEEEE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKNSt3__18optionalINS_6vectorINS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEEEE",
+   "name" : "const std::optional<std::vector<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>> &",
+   "referenced_type" : "_ZTIKNSt3__18optionalINS_6vectorINS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEEEE",
+   "self_type" : "_ZTIRKNSt3__18optionalINS_6vectorINS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
    "alignment" : 4,
@@ -29069,6 +29488,15 @@
    "self_type" : "_ZTIRN7android6binder6StatusE",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/include/binder/Status.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRN7android7IBinderE",
+   "name" : "android::IBinder &",
+   "referenced_type" : "_ZTIN7android7IBinderE",
+   "self_type" : "_ZTIRN7android7IBinderE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
   },
   {
    "alignment" : 4,
@@ -34970,6 +35398,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android2spINS_7IBinderEEE",
+   "name" : "const android::sp<android::IBinder> *",
+   "referenced_type" : "_ZTIKN7android2spINS_7IBinderEEE",
+   "self_type" : "_ZTIPKN7android2spINS_7IBinderEEE",
+   "size" : 4,
+   "source_file" : "system/core/libutils/include/utils/StrongPointer.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPKN7android2spINS_7ICryptoEEE",
    "name" : "const android::sp<android::ICrypto> *",
    "referenced_type" : "_ZTIKN7android2spINS_7ICryptoEEE",
@@ -36356,19 +36793,19 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPN7android14StaticString16ILj34EEE",
-   "name" : "android::StaticString16<34> *",
-   "referenced_type" : "_ZTIN7android14StaticString16ILj34EEE",
-   "self_type" : "_ZTIPN7android14StaticString16ILj34EEE",
+   "linker_set_key" : "_ZTIPN7android14StaticString16ILj36EEE",
+   "name" : "android::StaticString16<36> *",
+   "referenced_type" : "_ZTIN7android14StaticString16ILj36EEE",
+   "self_type" : "_ZTIPN7android14StaticString16ILj36EEE",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/String16.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPN7android14StaticString16ILj36EEE",
-   "name" : "android::StaticString16<36> *",
-   "referenced_type" : "_ZTIN7android14StaticString16ILj36EEE",
-   "self_type" : "_ZTIPN7android14StaticString16ILj36EEE",
+   "linker_set_key" : "_ZTIPN7android14StaticString16ILj39EEE",
+   "name" : "android::StaticString16<39> *",
+   "referenced_type" : "_ZTIN7android14StaticString16ILj39EEE",
+   "self_type" : "_ZTIPN7android14StaticString16ILj39EEE",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/String16.h"
   },
@@ -37949,19 +38386,19 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPN7android8String1610StaticDataILj34EEE",
-   "name" : "android::String16::StaticData<34> *",
-   "referenced_type" : "_ZTIN7android8String1610StaticDataILj34EEE",
-   "self_type" : "_ZTIPN7android8String1610StaticDataILj34EEE",
+   "linker_set_key" : "_ZTIPN7android8String1610StaticDataILj36EEE",
+   "name" : "android::String16::StaticData<36> *",
+   "referenced_type" : "_ZTIN7android8String1610StaticDataILj36EEE",
+   "self_type" : "_ZTIPN7android8String1610StaticDataILj36EEE",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/String16.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPN7android8String1610StaticDataILj36EEE",
-   "name" : "android::String16::StaticData<36> *",
-   "referenced_type" : "_ZTIN7android8String1610StaticDataILj36EEE",
-   "self_type" : "_ZTIPN7android8String1610StaticDataILj36EEE",
+   "linker_set_key" : "_ZTIPN7android8String1610StaticDataILj39EEE",
+   "name" : "android::String16::StaticData<39> *",
+   "referenced_type" : "_ZTIN7android8String1610StaticDataILj39EEE",
+   "self_type" : "_ZTIPN7android8String1610StaticDataILj39EEE",
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/String16.h"
   },
@@ -38933,21 +39370,21 @@
   {
    "alignment" : 2,
    "is_const" : true,
-   "linker_set_key" : "_ZTIA34_KDs",
-   "name" : "char16_t const[34]",
-   "referenced_type" : "_ZTIA34_Ds",
-   "self_type" : "_ZTIA34_KDs",
-   "size" : 68,
-   "source_file" : "system/core/libutils/include/utils/String16.h"
-  },
-  {
-   "alignment" : 2,
-   "is_const" : true,
    "linker_set_key" : "_ZTIA36_KDs",
    "name" : "char16_t const[36]",
    "referenced_type" : "_ZTIA36_Ds",
    "self_type" : "_ZTIA36_KDs",
    "size" : 72,
+   "source_file" : "system/core/libutils/include/utils/String16.h"
+  },
+  {
+   "alignment" : 2,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIA39_KDs",
+   "name" : "char16_t const[39]",
+   "referenced_type" : "_ZTIA39_Ds",
+   "self_type" : "_ZTIA39_KDs",
+   "size" : 78,
    "source_file" : "system/core/libutils/include/utils/String16.h"
   },
   {
@@ -40825,6 +41262,16 @@
   {
    "alignment" : 4,
    "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android7IBinderE",
+   "name" : "const android::IBinder",
+   "referenced_type" : "_ZTIN7android7IBinderE",
+   "self_type" : "_ZTIKN7android7IBinderE",
+   "size" : 12,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
    "linker_set_key" : "_ZTIKN7android7RefBaseE",
    "name" : "const android::RefBase",
    "referenced_type" : "_ZTIN7android7RefBaseE",
@@ -40851,6 +41298,16 @@
    "self_type" : "_ZTIKN7android7SurfaceE",
    "size" : 6180,
    "source_file" : "frameworks/native/libs/gui/include/gui/Surface.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android7content22AttributionSourceStateE",
+   "name" : "const android::content::AttributionSourceState",
+   "referenced_type" : "_ZTIN7android7content22AttributionSourceStateE",
+   "self_type" : "_ZTIKN7android7content22AttributionSourceStateE",
+   "size" : 76,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
    "alignment" : 4,
@@ -40885,21 +41342,21 @@
   {
    "alignment" : 4,
    "is_const" : true,
-   "linker_set_key" : "_ZTIKN7android8String1610StaticDataILj34EEE",
-   "name" : "const android::String16::StaticData<34>",
-   "referenced_type" : "_ZTIN7android8String1610StaticDataILj34EEE",
-   "self_type" : "_ZTIKN7android8String1610StaticDataILj34EEE",
-   "size" : 72,
-   "source_file" : "system/core/libutils/include/utils/String16.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
    "linker_set_key" : "_ZTIKN7android8String1610StaticDataILj36EEE",
    "name" : "const android::String16::StaticData<36>",
    "referenced_type" : "_ZTIN7android8String1610StaticDataILj36EEE",
    "self_type" : "_ZTIKN7android8String1610StaticDataILj36EEE",
    "size" : 76,
+   "source_file" : "system/core/libutils/include/utils/String16.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android8String1610StaticDataILj39EEE",
+   "name" : "const android::String16::StaticData<39>",
+   "referenced_type" : "_ZTIN7android8String1610StaticDataILj39EEE",
+   "self_type" : "_ZTIKN7android8String1610StaticDataILj39EEE",
+   "size" : 84,
    "source_file" : "system/core/libutils/include/utils/String16.h"
   },
   {
@@ -41883,12 +42340,32 @@
   {
    "alignment" : 4,
    "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__16vectorIN7android7content22AttributionSourceStateENS_9allocatorIS3_EEEE",
+   "name" : "const std::vector<android::content::AttributionSourceState, std::allocator<android::content::AttributionSourceState>>",
+   "referenced_type" : "_ZTINSt3__16vectorIN7android7content22AttributionSourceStateENS_9allocatorIS3_EEEE",
+   "self_type" : "_ZTIKNSt3__16vectorIN7android7content22AttributionSourceStateENS_9allocatorIS3_EEEE",
+   "size" : 12,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE",
    "name" : "const std::vector<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *>> *)>, std::allocator<std::function<void (InstrumentationEvent, const char *, const char *, const char *, const char *, vector<void *, allocator<void *>> *)>>>",
    "referenced_type" : "_ZTINSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE",
    "self_type" : "_ZTIKNSt3__16vectorINS_8functionIFvN7android8hardware7details16HidlInstrumentor20InstrumentationEventEPKcS8_S8_S8_PNS0_IPvNS_9allocatorIS9_EEEEEEENSA_ISF_EEEE",
    "size" : 12,
    "source_file" : "system/libhidl/base/include/hidl/HidlInternal.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__16vectorINS_8optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEE",
+   "name" : "const std::vector<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>",
+   "referenced_type" : "_ZTINSt3__16vectorINS_8optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEE",
+   "self_type" : "_ZTIKNSt3__16vectorINS_8optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEE",
+   "size" : 12,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
    "alignment" : 4,
@@ -41999,6 +42476,16 @@
    "self_type" : "_ZTIKNSt3__18optionalINS_6vectorIDsNS_9allocatorIDsEEEEEE",
    "size" : 16,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_parcel_utils.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__18optionalINS_6vectorINS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEEEE",
+   "name" : "const std::optional<std::vector<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>>",
+   "referenced_type" : "_ZTINSt3__18optionalINS_6vectorINS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEEEE",
+   "self_type" : "_ZTIKNSt3__18optionalINS_6vectorINS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEEEE",
+   "size" : 16,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
    "alignment" : 4,
@@ -51652,7 +52139,7 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android19IMediaPlayerService19createMediaRecorderERKNS_5media10permission8IdentityE"
+     "mangled_component_name" : "_ZN7android19IMediaPlayerService19createMediaRecorderERKNS_7content22AttributionSourceStateE"
     },
     {
      "is_pure" : true,
@@ -51660,7 +52147,7 @@
     },
     {
      "is_pure" : true,
-     "mangled_component_name" : "_ZN7android19IMediaPlayerService6createERKNS_2spINS_18IMediaPlayerClientEEE15audio_session_tRKNS_5media10permission8IdentityE"
+     "mangled_component_name" : "_ZN7android19IMediaPlayerService6createERKNS_2spINS_18IMediaPlayerClientEEE15audio_session_tRKNS_7content22AttributionSourceStateE"
     },
     {
      "is_pure" : true,
@@ -55253,15 +55740,15 @@
      "access" : "private",
      "field_name" : "mData",
      "field_offset" : 32,
-     "referenced_type" : "_ZTIKN7android8String1610StaticDataILj34EEE"
+     "referenced_type" : "_ZTIKN7android8String1610StaticDataILj36EEE"
     }
    ],
-   "linker_set_key" : "_ZTIN7android14StaticString16ILj34EEE",
-   "name" : "android::StaticString16<34>",
+   "linker_set_key" : "_ZTIN7android14StaticString16ILj36EEE",
+   "name" : "android::StaticString16<36>",
    "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android14StaticString16ILj34EEE",
-   "self_type" : "_ZTIN7android14StaticString16ILj34EEE",
-   "size" : 76,
+   "referenced_type" : "_ZTIN7android14StaticString16ILj36EEE",
+   "self_type" : "_ZTIN7android14StaticString16ILj36EEE",
+   "size" : 80,
    "source_file" : "system/core/libutils/include/utils/String16.h"
   },
   {
@@ -55278,15 +55765,15 @@
      "access" : "private",
      "field_name" : "mData",
      "field_offset" : 32,
-     "referenced_type" : "_ZTIKN7android8String1610StaticDataILj36EEE"
+     "referenced_type" : "_ZTIKN7android8String1610StaticDataILj39EEE"
     }
    ],
-   "linker_set_key" : "_ZTIN7android14StaticString16ILj36EEE",
-   "name" : "android::StaticString16<36>",
+   "linker_set_key" : "_ZTIN7android14StaticString16ILj39EEE",
+   "name" : "android::StaticString16<39>",
    "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android14StaticString16ILj36EEE",
-   "self_type" : "_ZTIN7android14StaticString16ILj36EEE",
-   "size" : 80,
+   "referenced_type" : "_ZTIN7android14StaticString16ILj39EEE",
+   "self_type" : "_ZTIN7android14StaticString16ILj39EEE",
+   "size" : 88,
    "source_file" : "system/core/libutils/include/utils/String16.h"
   },
   {
@@ -66530,14 +67017,14 @@
     {
      "field_name" : "data",
      "field_offset" : 32,
-     "referenced_type" : "_ZTIA34_Ds"
+     "referenced_type" : "_ZTIA36_Ds"
     }
    ],
-   "linker_set_key" : "_ZTIN7android8String1610StaticDataILj34EEE",
-   "name" : "android::String16::StaticData<34>",
-   "referenced_type" : "_ZTIN7android8String1610StaticDataILj34EEE",
-   "self_type" : "_ZTIN7android8String1610StaticDataILj34EEE",
-   "size" : 72,
+   "linker_set_key" : "_ZTIN7android8String1610StaticDataILj36EEE",
+   "name" : "android::String16::StaticData<36>",
+   "referenced_type" : "_ZTIN7android8String1610StaticDataILj36EEE",
+   "self_type" : "_ZTIN7android8String1610StaticDataILj36EEE",
+   "size" : 76,
    "source_file" : "system/core/libutils/include/utils/String16.h"
   },
   {
@@ -66551,14 +67038,14 @@
     {
      "field_name" : "data",
      "field_offset" : 32,
-     "referenced_type" : "_ZTIA36_Ds"
+     "referenced_type" : "_ZTIA39_Ds"
     }
    ],
-   "linker_set_key" : "_ZTIN7android8String1610StaticDataILj36EEE",
-   "name" : "android::String16::StaticData<36>",
-   "referenced_type" : "_ZTIN7android8String1610StaticDataILj36EEE",
-   "self_type" : "_ZTIN7android8String1610StaticDataILj36EEE",
-   "size" : 76,
+   "linker_set_key" : "_ZTIN7android8String1610StaticDataILj39EEE",
+   "name" : "android::String16::StaticData<39>",
+   "referenced_type" : "_ZTIN7android8String1610StaticDataILj39EEE",
+   "self_type" : "_ZTIN7android8String1610StaticDataILj39EEE",
+   "size" : 84,
    "source_file" : "system/core/libutils/include/utils/String16.h"
   },
   {
@@ -69241,6 +69728,17 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINS_7IBinderEEE",
+   "name" : "android::internal::details::IsIterable<android::IBinder>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details10IsIterableINS_7IBinderEEE",
+   "self_type" : "_ZTIN7android8internal7details10IsIterableINS_7IBinderEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" : [ "_ZTIN7android7IBinderE" ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS3_9allocatorISA_EEEEEE",
    "name" : "android::internal::details::IsIterable<std::vector<aidl::android::hardware::graphics::common::PlaneLayoutComponent, std::allocator<aidl::android::hardware::graphics::common::PlaneLayoutComponent>>>",
    "record_kind" : "class",
@@ -69251,6 +69749,34 @@
    "template_args" :
    [
     "_ZTINSt3__16vectorIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS_9allocatorIS6_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEE",
+   "name" : "android::internal::details::IsIterable<std::vector<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEE",
+   "self_type" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorINS_8optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEEE",
+   "name" : "android::internal::details::IsIterable<std::vector<android::content::AttributionSourceState, std::allocator<android::content::AttributionSourceState>>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEEE",
+   "self_type" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN7android7content22AttributionSourceStateENS_9allocatorIS3_EEEE"
    ]
   },
   {
@@ -69299,6 +69825,17 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_2spINS_7IBinderEEEEE",
+   "name" : "android::internal::details::IsPointerLike<android::sp<android::IBinder>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeINS_2spINS_7IBinderEEEEE",
+   "self_type" : "_ZTIN7android8internal7details13IsPointerLikeINS_2spINS_7IBinderEEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" : [ "_ZTIN7android2spINS_7IBinderEEE" ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_5media16InterpolatorTypeEEE",
    "name" : "android::internal::details::IsPointerLike<android::media::InterpolatorType>",
    "record_kind" : "class",
@@ -69332,6 +69869,28 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_7IBinderEEE",
+   "name" : "android::internal::details::IsPointerLike<android::IBinder>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeINS_7IBinderEEE",
+   "self_type" : "_ZTIN7android8internal7details13IsPointerLikeINS_7IBinderEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" : [ "_ZTIN7android7IBinderE" ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_7content22AttributionSourceStateEEE",
+   "name" : "android::internal::details::IsPointerLike<android::content::AttributionSourceState>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeINS_7content22AttributionSourceStateEEE",
+   "self_type" : "_ZTIN7android8internal7details13IsPointerLikeINS_7content22AttributionSourceStateEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" : [ "_ZTIN7android7content22AttributionSourceStateE" ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS3_9allocatorISA_EEEEEE",
    "name" : "android::internal::details::IsPointerLike<std::vector<aidl::android::hardware::graphics::common::PlaneLayoutComponent, std::allocator<aidl::android::hardware::graphics::common::PlaneLayoutComponent>>>",
    "record_kind" : "class",
@@ -69342,6 +69901,34 @@
    "template_args" :
    [
     "_ZTINSt3__16vectorIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS_9allocatorIS6_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEE",
+   "name" : "android::internal::details::IsPointerLike<std::vector<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEE",
+   "self_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorINS_8optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEEE",
+   "name" : "android::internal::details::IsPointerLike<std::vector<android::content::AttributionSourceState, std::allocator<android::content::AttributionSourceState>>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEEE",
+   "self_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN7android7content22AttributionSourceStateENS_9allocatorIS3_EEEE"
    ]
   },
   {
@@ -69367,6 +69954,20 @@
    "template_args" :
    [
     "_ZTINSt3__18optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEEEE",
+   "name" : "android::internal::details::IsPointerLike<std::optional<std::vector<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEEEE",
+   "self_type" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__18optionalINS_6vectorINS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEEEE"
    ]
   },
   {
@@ -69415,6 +70016,17 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details13ToEmptyStringINS_2spINS_7IBinderEEEEE",
+   "name" : "android::internal::details::ToEmptyString<android::sp<android::IBinder>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details13ToEmptyStringINS_2spINS_7IBinderEEEEE",
+   "self_type" : "_ZTIN7android8internal7details13ToEmptyStringINS_2spINS_7IBinderEEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" : [ "_ZTIN7android2spINS_7IBinderEEE" ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details13ToEmptyStringINS_5media16InterpolatorTypeEEE",
    "name" : "android::internal::details::ToEmptyString<android::media::InterpolatorType>",
    "record_kind" : "class",
@@ -69448,6 +70060,28 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details13ToEmptyStringINS_7IBinderEEE",
+   "name" : "android::internal::details::ToEmptyString<android::IBinder>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details13ToEmptyStringINS_7IBinderEEE",
+   "self_type" : "_ZTIN7android8internal7details13ToEmptyStringINS_7IBinderEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" : [ "_ZTIN7android7IBinderE" ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details13ToEmptyStringINS_7content22AttributionSourceStateEEE",
+   "name" : "android::internal::details::ToEmptyString<android::content::AttributionSourceState>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details13ToEmptyStringINS_7content22AttributionSourceStateEEE",
+   "self_type" : "_ZTIN7android8internal7details13ToEmptyStringINS_7content22AttributionSourceStateEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" : [ "_ZTIN7android7content22AttributionSourceStateE" ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEE",
    "name" : "android::internal::details::ToEmptyString<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>",
    "record_kind" : "class",
@@ -69473,6 +70107,34 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEE",
+   "name" : "android::internal::details::ToEmptyString<std::vector<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEE",
+   "self_type" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorINS_8optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEEE",
+   "name" : "android::internal::details::ToEmptyString<std::vector<android::content::AttributionSourceState, std::allocator<android::content::AttributionSourceState>>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEEE",
+   "self_type" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN7android7content22AttributionSourceStateENS_9allocatorIS3_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__16vectorIfNS3_9allocatorIfEEEEEE",
    "name" : "android::internal::details::ToEmptyString<std::vector<float, std::allocator<float>>>",
    "record_kind" : "class",
@@ -69494,6 +70156,20 @@
    "template_args" :
    [
     "_ZTINSt3__18optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEEEE",
+   "name" : "android::internal::details::ToEmptyString<std::optional<std::vector<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEEEE",
+   "self_type" : "_ZTIN7android8internal7details13ToEmptyStringINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__18optionalINS_6vectorINS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEEEE"
    ]
   },
   {
@@ -69619,6 +70295,28 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINS_7IBinderEEE",
+   "name" : "android::internal::details::HasToStringMethod<android::IBinder>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details17HasToStringMethodINS_7IBinderEEE",
+   "self_type" : "_ZTIN7android8internal7details17HasToStringMethodINS_7IBinderEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" : [ "_ZTIN7android7IBinderE" ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINS_7content22AttributionSourceStateEEE",
+   "name" : "android::internal::details::HasToStringMethod<android::content::AttributionSourceState>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details17HasToStringMethodINS_7content22AttributionSourceStateEEE",
+   "self_type" : "_ZTIN7android8internal7details17HasToStringMethodINS_7content22AttributionSourceStateEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" : [ "_ZTIN7android7content22AttributionSourceStateE" ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS3_9allocatorISA_EEEEEE",
    "name" : "android::internal::details::HasToStringMethod<std::vector<aidl::android::hardware::graphics::common::PlaneLayoutComponent, std::allocator<aidl::android::hardware::graphics::common::PlaneLayoutComponent>>>",
    "record_kind" : "class",
@@ -69629,6 +70327,34 @@
    "template_args" :
    [
     "_ZTINSt3__16vectorIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS_9allocatorIS6_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEE",
+   "name" : "android::internal::details::HasToStringMethod<std::vector<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEE",
+   "self_type" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorINS_8optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEEE",
+   "name" : "android::internal::details::HasToStringMethod<std::vector<android::content::AttributionSourceState, std::allocator<android::content::AttributionSourceState>>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEEE",
+   "self_type" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN7android7content22AttributionSourceStateENS_9allocatorIS3_EEEE"
    ]
   },
   {
@@ -69794,6 +70520,54 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_2spINS_7IBinderEEENSt3__110shared_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::sp<android::IBinder>, std::shared_ptr>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINS_2spINS_7IBinderEEENSt3__110shared_ptrEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINS_2spINS_7IBinderEEENSt3__110shared_ptrEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" : [ "_ZTIN7android2spINS_7IBinderEEE" ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_2spINS_7IBinderEEENSt3__18optionalEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::sp<android::IBinder>, std::optional>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINS_2spINS_7IBinderEEENSt3__18optionalEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINS_2spINS_7IBinderEEENSt3__18optionalEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" : [ "_ZTIN7android2spINS_7IBinderEEE" ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_2spINS_7IBinderEEES3_EE",
+   "name" : "android::internal::details::IsInstantiationOf<android::sp<android::IBinder>, android::sp>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINS_2spINS_7IBinderEEES3_EE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINS_2spINS_7IBinderEEES3_EE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" : [ "_ZTIN7android2spINS_7IBinderEEE" ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media16InterpolatorTypeENS_2spEEE",
    "name" : "android::internal::details::IsInstantiationOf<android::media::InterpolatorType, android::sp>",
    "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media16InterpolatorTypeENS_2spEEE",
@@ -69938,6 +70712,102 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_7IBinderENS_2spEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::IBinder, android::sp>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINS_7IBinderENS_2spEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINS_7IBinderENS_2spEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" : [ "_ZTIN7android7IBinderE" ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_7IBinderENSt3__110shared_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::IBinder, std::shared_ptr>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINS_7IBinderENSt3__110shared_ptrEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINS_7IBinderENSt3__110shared_ptrEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" : [ "_ZTIN7android7IBinderE" ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_7IBinderENSt3__18optionalEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::IBinder, std::optional>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINS_7IBinderENSt3__18optionalEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINS_7IBinderENSt3__18optionalEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" : [ "_ZTIN7android7IBinderE" ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_7content22AttributionSourceStateENS_2spEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::content::AttributionSourceState, android::sp>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINS_7content22AttributionSourceStateENS_2spEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINS_7content22AttributionSourceStateENS_2spEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" : [ "_ZTIN7android7content22AttributionSourceStateE" ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_7content22AttributionSourceStateENSt3__110shared_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::content::AttributionSourceState, std::shared_ptr>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINS_7content22AttributionSourceStateENSt3__110shared_ptrEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINS_7content22AttributionSourceStateENSt3__110shared_ptrEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" : [ "_ZTIN7android7content22AttributionSourceStateE" ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_7content22AttributionSourceStateENSt3__18optionalEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::content::AttributionSourceState, std::optional>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINS_7content22AttributionSourceStateENSt3__18optionalEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINS_7content22AttributionSourceStateENSt3__18optionalEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" : [ "_ZTIN7android7content22AttributionSourceStateE" ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS3_9allocatorISA_EEEENS3_10shared_ptrEEE",
    "name" : "android::internal::details::IsInstantiationOf<std::vector<aidl::android::hardware::graphics::common::PlaneLayoutComponent, std::allocator<aidl::android::hardware::graphics::common::PlaneLayoutComponent>>, std::shared_ptr>",
    "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS3_9allocatorISA_EEEENS3_10shared_ptrEEE",
@@ -69985,6 +70855,120 @@
    "template_args" :
    [
     "_ZTINSt3__16vectorIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS_9allocatorIS6_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEENS3_10shared_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<std::vector<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>, std::shared_ptr>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEENS3_10shared_ptrEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEENS3_10shared_ptrEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorINS_8optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEENS_2spEEE",
+   "name" : "android::internal::details::IsInstantiationOf<std::vector<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>, android::sp>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEENS_2spEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEENS_2spEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorINS_8optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEES5_EE",
+   "name" : "android::internal::details::IsInstantiationOf<std::vector<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>, std::optional>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEES5_EE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEES5_EE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorINS_8optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEENS3_10shared_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<std::vector<android::content::AttributionSourceState, std::allocator<android::content::AttributionSourceState>>, std::shared_ptr>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEENS3_10shared_ptrEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEENS3_10shared_ptrEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN7android7content22AttributionSourceStateENS_9allocatorIS3_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEENS3_8optionalEEE",
+   "name" : "android::internal::details::IsInstantiationOf<std::vector<android::content::AttributionSourceState, std::allocator<android::content::AttributionSourceState>>, std::optional>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEENS3_8optionalEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEENS3_8optionalEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN7android7content22AttributionSourceStateENS_9allocatorIS3_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEENS_2spEEE",
+   "name" : "android::internal::details::IsInstantiationOf<std::vector<android::content::AttributionSourceState, std::allocator<android::content::AttributionSourceState>>, android::sp>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEENS_2spEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEENS_2spEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN7android7content22AttributionSourceStateENS_9allocatorIS3_EEEE"
    ]
   },
   {
@@ -70100,6 +71084,63 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEENS3_10shared_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<std::optional<std::vector<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>>, std::shared_ptr>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEENS3_10shared_ptrEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEENS3_10shared_ptrEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__18optionalINS_6vectorINS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEENS_2spEEE",
+   "name" : "android::internal::details::IsInstantiationOf<std::optional<std::vector<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>>, android::sp>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEENS_2spEEE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEENS_2spEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__18optionalINS_6vectorINS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb1EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEES4_EE",
+   "name" : "android::internal::details::IsInstantiationOf<std::optional<std::vector<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>>, std::optional>",
+   "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEES4_EE",
+   "self_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__18optionalINS3_6vectorINS4_INS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEES4_EE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__18optionalINS_6vectorINS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__18optionalINS_5media18InterpolatorConfigEEENS3_10shared_ptrEEE",
    "name" : "android::internal::details::IsInstantiationOf<std::optional<android::media::InterpolatorConfig>, std::shared_ptr>",
    "referenced_type" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__18optionalINS_5media18InterpolatorConfigEEENS3_10shared_ptrEEE",
@@ -70164,6 +71205,17 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINS_7IBinderEEE",
+   "name" : "android::internal::details::HasToStringFunction<android::IBinder>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details19HasToStringFunctionINS_7IBinderEEE",
+   "self_type" : "_ZTIN7android8internal7details19HasToStringFunctionINS_7IBinderEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" : [ "_ZTIN7android7IBinderE" ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS3_9allocatorISA_EEEEEE",
    "name" : "android::internal::details::HasToStringFunction<std::vector<aidl::android::hardware::graphics::common::PlaneLayoutComponent, std::allocator<aidl::android::hardware::graphics::common::PlaneLayoutComponent>>>",
    "record_kind" : "class",
@@ -70174,6 +71226,34 @@
    "template_args" :
    [
     "_ZTINSt3__16vectorIN4aidl7android8hardware8graphics6common20PlaneLayoutComponentENS_9allocatorIS6_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEE",
+   "name" : "android::internal::details::HasToStringFunction<std::vector<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::optional<std::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEE",
+   "self_type" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorINS3_8optionalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEENS9_ISC_EEEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorINS_8optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEEE",
+   "name" : "android::internal::details::HasToStringFunction<std::vector<android::content::AttributionSourceState, std::allocator<android::content::AttributionSourceState>>>",
+   "record_kind" : "class",
+   "referenced_type" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEEE",
+   "self_type" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorINS_7content22AttributionSourceStateENS3_9allocatorIS6_EEEEEE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN7android7content22AttributionSourceStateENS_9allocatorIS3_EEEE"
    ]
   },
   {
